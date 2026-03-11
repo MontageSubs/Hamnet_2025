@@ -1,0 +1,1433 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,70,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,1.5,1,2,5,5,15,1
+Style: Eng,Arial,40,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,1.5,1,2,5,5,15,1
+Style: Lyrics,Microsoft YaHei,70,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,-1,0,0,100,100,0,0,1,1.5,1,2,5,5,15,1
+Style: LyricsEng,Arial,40,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,1,0,0,100,100,0,0,1,1.5,1,2,5,5,15,1
+Style: Screen,Microsoft YaHei,60,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,0,0,2,5,5,0,1
+Style: Note,Microsoft YaHei,60,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,1.5,1,2,5,5,0,1
+Style: Credit,Microsoft YaHei,60,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,0,0,2,5,5,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:18.35,0:00:24.30,Screen,,0,0,0,,{\an2}（环球影业）
+Dialogue: 0,0:00:31.62,0:00:38.83,Screen,,0,0,0,,{\an2}（焦点影业）
+Dialogue: 0,0:00:43.78,0:00:45.96,Screen,,0,0,0,,{\an2}（安培林娱乐）
+Dialogue: 0,0:00:47.17,0:00:50.43,Screen,,0,0,0,,{\an8}出品公司\N焦点影业
+Dialogue: 0,0:00:51.19,0:00:54.35,Screen,,0,0,0,,{\an8}制作公司\N赫拉影业\N尼尔街制作公司\N安培林娱乐
+Dialogue: 0,0:00:55.14,0:00:58.35,Screen,,0,0,0,,{\an8}联合制作\N暗影之书
+Dialogue: 0,0:00:58.94,0:01:00.34,Screen,,0,0,0,,{\an8}字幕译制\N蒙太奇字幕组
+Dialogue: 0,0:01:00.95,0:01:04.19,Screen,,0,0,0,,{\an8}《哈姆奈特》
+Dialogue: 0,0:01:06.93,0:01:12.60,Screen,,0,0,0,,{\an8}（因为“哈姆奈特”与“哈姆雷特”事实上是同一名字）
+Dialogue: 0,0:01:12.61,0:01:17.58,Screen,,0,0,0,,{\an8}（在16世纪末至17世纪初的斯特拉特福档案中可以互换使用）
+Dialogue: 0,0:01:17.60,0:01:20.25,Screen,,0,0,0,,{\an8}（-- 《哈姆奈特之死与〈哈姆雷特〉的渊源》）
+Dialogue: 0,0:01:20.27,0:01:23.04,Note,,0,0,0,,{\an8}【出自著名莎士比亚学者斯蒂芬·格林布拉特】
+Dialogue: 0,0:02:57.61,0:02:59.41,Default,,0,0,0,,你来了\NThere you go.
+Dialogue: 0,0:03:01.83,0:03:05.03,Default,,0,0,0,,吃吧 你是饿坏了吧\NThere. You were hungry.
+Dialogue: 0,0:03:24.54,0:03:25.81,Default,,0,0,0,,乖孩子\NThat's it.
+Dialogue: 0,0:03:25.97,0:03:27.93,Default,,0,0,0,,（拉丁语）吾必开辟一径
+Dialogue: 0,0:03:27.95,0:03:30.79,Default,,0,0,0,,（拉丁语）自当以血汗砥砺前行
+Dialogue: 0,0:03:30.80,0:03:33.10,Default,,0,0,0,,（拉丁语）终有一日 名震四方
+Dialogue: 0,0:03:33.12,0:03:35.94,Default,,0,0,0,,（拉丁语）人间必以我为传奇
+Dialogue: 0,0:03:37.37,0:03:39.33,Default,,0,0,0,,（拉丁语）吾必开辟一径
+Dialogue: 0,0:03:39.35,0:03:41.65,Default,,0,0,0,,（拉丁语）终有一日 名震四方
+Dialogue: 0,0:03:41.66,0:03:44.48,Default,,0,0,0,,（拉丁语）人间必以我为传奇
+Dialogue: 0,0:03:44.77,0:03:46.73,Default,,0,0,0,,（拉丁语）吾必开辟一径
+Dialogue: 0,0:03:46.75,0:03:49.59,Default,,0,0,0,,（拉丁语）自当以血汗砥砺前行
+Dialogue: 0,0:03:49.60,0:03:51.90,Default,,0,0,0,,（拉丁语）终有一日 名震四方
+Dialogue: 0,0:03:51.92,0:03:54.74,Default,,0,0,0,,（拉丁语）人间必以我为传奇
+Dialogue: 0,0:03:55.67,0:03:57.63,Default,,0,0,0,,（拉丁语）吾必开辟一径
+Dialogue: 0,0:03:57.65,0:04:00.49,Default,,0,0,0,,（拉丁语）自当以血汗砥砺前行
+Dialogue: 0,0:04:00.50,0:04:02.80,Default,,0,0,0,,（拉丁语）终有一日 名震四方
+Dialogue: 0,0:04:02.82,0:04:05.64,Default,,0,0,0,,（拉丁语）人间必以我为传奇
+Dialogue: 0,0:04:06.67,0:04:08.63,Default,,0,0,0,,（拉丁语）吾必开辟一径
+Dialogue: 0,0:04:08.65,0:04:11.49,Default,,0,0,0,,（拉丁语）自当以血汗砥砺前行
+Dialogue: 0,0:04:11.50,0:04:13.80,Default,,0,0,0,,（拉丁语）终有一日 名震四方
+Dialogue: 0,0:04:13.82,0:04:16.57,Default,,0,0,0,,（拉丁语）人间必以我为传奇
+Dialogue: 0,0:04:16.59,0:04:18.19,Default,,0,0,0,,继续念\NRepeat.
+Dialogue: 0,0:04:46.63,0:04:48.46,Default,,0,0,0,,你好\NGood day, sir.
+Dialogue: 0,0:04:48.58,0:04:50.12,Default,,0,0,0,,姑娘好\NGood day to you.
+Dialogue: 0,0:04:50.70,0:04:53.00,Default,,0,0,0,,你到休兰农场来做什么？\NWhat brings you to Hewlands?
+Dialogue: 0,0:04:53.02,0:04:54.68,Default,,0,0,0,,来这里教孩子们\NI'm tutoring the boys here.
+Dialogue: 0,0:04:54.70,0:04:56.70,Default,,0,0,0,,教拉丁的先生啊\NThe Latin tutor.
+Dialogue: 0,0:04:56.93,0:04:58.98,Default,,0,0,0,,我听说过你\NI've heard of you.
+Dialogue: 0,0:05:05.35,0:05:07.66,Default,,0,0,0,,那你来这园里干什么？\NWhat brought you into the garden?
+Dialogue: 0,0:05:09.44,0:05:11.22,Default,,0,0,0,,呃...\NUh...
+Dialogue: 0,0:05:12.38,0:05:14.76,Default,,0,0,0,,我就随口问问 教书先生\NIt's just a question, master tutor.
+Dialogue: 0,0:05:14.77,0:05:16.80,Default,,0,0,0,,嗯 我 那个...\NYes, I, uh...
+Dialogue: 0,0:05:17.87,0:05:21.04,Default,,0,0,0,,就是出来透透气 而且...\NI suppose the air was fresh out here, and...
+Dialogue: 0,0:05:21.05,0:05:24.32,Default,,0,0,0,,呃 我看到你带着只鸟\Nuh, I saw you with your bird.
+Dialogue: 0,0:05:24.61,0:05:26.91,Default,,0,0,0,,- 那是只鹰 - 哦\N- It's a hawk. - Ah.
+Dialogue: 0,0:05:29.26,0:05:31.08,Default,,0,0,0,,能上前看看吗？\NMay I?
+Dialogue: 0,0:05:44.68,0:05:46.85,Default,,0,0,0,,别凑太近\NDon't get too close.
+Dialogue: 0,0:05:47.67,0:05:49.54,Default,,0,0,0,,他不认识你\NHe doesn't know you.
+Dialogue: 0,0:05:56.02,0:05:57.42,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:05:58.53,0:06:00.87,Default,,0,0,0,,你好 小家伙\NHello, boy.
+Dialogue: 0,0:06:06.14,0:06:08.36,Default,,0,0,0,,啊 哈哈哈\NAh.
+Dialogue: 0,0:06:10.21,0:06:12.50,Default,,0,0,0,,他喜欢你\NHe likes you.
+Dialogue: 0,0:06:15.51,0:06:17.33,Default,,0,0,0,,你叫什么名字？\NWhat is your name?
+Dialogue: 0,0:06:19.06,0:06:20.56,Default,,0,0,0,,莫打听\NI shan't tell you.
+Dialogue: 0,0:06:23.21,0:06:25.04,Default,,0,0,0,,偏打听\NYou shall.
+Dialogue: 0,0:06:28.91,0:06:30.56,Default,,0,0,0,,我不说\NI shan't.
+Dialogue: 0,0:06:30.58,0:06:32.85,Default,,0,0,0,,- 你会说的 - 我不会\N- You shall. - I won't.
+Dialogue: 0,0:06:35.91,0:06:38.22,Default,,0,0,0,,等我亲你时你就会说了\NYou'll tell me when we kiss.
+Dialogue: 0,0:06:57.17,0:06:59.04,Default,,0,0,0,,你在干什么？\NWhat are you doing?
+Dialogue: 0,0:07:17.05,0:07:18.28,Default,,0,0,0,,安妮丝\NAgnes.
+Dialogue: 0,0:07:21.66,0:07:23.69,Default,,0,0,0,,我叫安妮丝\NMy name is Agnes.
+Dialogue: 0,0:07:24.78,0:07:26.82,Default,,0,0,0,,你家在哪里？\NWhere are you from?
+Dialogue: 0,0:07:30.81,0:07:32.98,Default,,0,0,0,,我说错话了吗？\NHave I said something?
+Dialogue: 0,0:07:33.16,0:07:34.73,Default,,0,0,0,,- 啊？ - 没有\N- Huh? - No.
+Dialogue: 0,0:07:35.67,0:07:37.66,Default,,0,0,0,,- 你不知道我是谁 - 等下 我想去你...\N- You don't know who I am. - Wait, I wish to see...
+Dialogue: 0,0:07:37.68,0:07:39.62,Default,,0,0,0,,你别再来找我了\NYou can't see me again.
+Dialogue: 0,0:07:40.54,0:07:41.54,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:07:48.06,0:07:50.19,Default,,0,0,0,,你去哪儿了？\NWhere have you been?
+Dialogue: 0,0:07:50.43,0:07:51.83,Default,,0,0,0,,我在地里帮巴塞洛缪\NI was in the field helping Bartholomew.
+Dialogue: 0,0:07:51.85,0:07:53.36,Default,,0,0,0,,小羊崽病了\NA newborn lamb is unwell.
+Dialogue: 0,0:07:53.61,0:07:55.74,Default,,0,0,0,,好... 我也去了地里\NWell, I... I went to the field.
+Dialogue: 0,0:07:55.76,0:07:57.39,Default,,0,0,0,,可没见到你\NI did not see you there.
+Dialogue: 0,0:07:57.74,0:08:01.53,Default,,0,0,0,,我确实在那儿 巴塞洛缪弟 你给她说说\NWell, I was there. Tell her, Bartholomew.
+Dialogue: 0,0:08:01.54,0:08:02.91,Default,,0,0,0,,她确实在那里\NShe was there.
+Dialogue: 0,0:08:03.16,0:08:05.19,Default,,0,0,0,,你见过新来的教拉丁那位先生吗？\NHave you seen the new Latin tutor?
+Dialogue: 0,0:08:05.21,0:08:06.71,Default,,0,0,0,,就是手套匠的儿子\NThe glover's son.
+Dialogue: 0,0:08:06.72,0:08:09.80,Default,,0,0,0,,孩子们说他上着上着课跑掉了 就再没回来\NThe boys said he just ran out, never returned.
+Dialogue: 0,0:08:09.82,0:08:11.19,Default,,0,0,0,,他是来教书还债的\NHe was supposed to give them lessons
+Dialogue: 0,0:08:11.20,0:08:13.10,Default,,0,0,0,,还他父亲的债\Nto pay off his father's debts.
+Dialogue: 0,0:08:13.24,0:08:14.33,Default,,0,0,0,,我没见过他\NI haven't seen him.
+Dialogue: 0,0:08:14.49,0:08:16.12,Default,,0,0,0,,也罢 早该料到\NWell, should've known better.
+Dialogue: 0,0:08:16.13,0:08:18.30,Default,,0,0,0,,父子都一个德行\NLike father, like son.
+Dialogue: 0,0:08:22.70,0:08:25.57,Default,,0,0,0,,你们俩可是咱们教区最美的姑娘\NYou know, I do believe you are the prettiest girls in the parish.
+Dialogue: 0,0:08:25.59,0:08:26.99,Default,,0,0,0,,- 是的 - 将来...\N- We are. - One day,
+Dialogue: 0,0:08:27.00,0:08:29.11,Default,,0,0,0,,会有许多人上门提亲 我会亲自把关\NI shall have my wits about me
+Dialogue: 0,0:08:29.12,0:08:31.01,Default,,0,0,0,,准把你们嫁个好人家\Nfor all the suitors that will come for you.
+Dialogue: 0,0:08:31.02,0:08:33.25,Default,,0,0,0,,安妮丝是大姐 还轮不到我们\NAgnes is the eldest. She'll marry first.
+Dialogue: 0,0:08:33.27,0:08:36.10,Default,,0,0,0,,她成天往树林里跑 像个流浪女\NShe will not if she keeps running off to the forest
+Dialogue: 0,0:08:36.11,0:08:37.78,Default,,0,0,0,,谁会娶她？\Nlike a gypsy.
+Dialogue: 0,0:09:07.95,0:09:08.98,Default,,0,0,0,,你去哪儿了?\NWhere have you been?
+Dialogue: 0,0:09:08.99,0:09:10.62,Default,,0,0,0,,我们等你等了好几个钟头\NWe were expecting you hours ago.
+Dialogue: 0,0:09:10.64,0:09:11.99,Default,,0,0,0,,- 我在... - 说啊\N- I was... - Well?
+Dialogue: 0,0:09:12.01,0:09:12.97,Default,,0,0,0,,我在忙活\NI was working.
+Dialogue: 0,0:09:12.98,0:09:14.08,Default,,0,0,0,,坐下\NSit.
+Dialogue: 0,0:09:14.53,0:09:15.53,Default,,0,0,0,,快坐下吧\NSit.
+Dialogue: 0,0:09:17.32,0:09:19.28,Default,,0,0,0,,饭菜都凉了\NYour supper's near cold.
+Dialogue: 0,0:09:20.72,0:09:22.05,Default,,0,0,0,,- 别闹 别闹 - 别抢\N- Uh, boys, boys! - Hey.
+Dialogue: 0,0:09:22.07,0:09:24.21,Default,,0,0,0,,- 住手 - 大家都有份 别抢\N- Stop. - There's enough for all.
+Dialogue: 0,0:09:24.34,0:09:26.11,Default,,0,0,0,,休兰农场那边教得怎么样？\NHow go the lessons at Hewlands?
+Dialogue: 0,0:09:26.12,0:09:27.86,Default,,0,0,0,,那些孩子不是读书的料\NThose boys are no scholars.
+Dialogue: 0,0:09:27.87,0:09:30.06,Default,,0,0,0,,- 我就纳闷 他们读书有啥用 - 嗯\N- I wonder at the notion of all that learning. - Hmm.
+Dialogue: 0,0:09:30.07,0:09:32.86,Default,,0,0,0,,注定务农的孩子学拉丁文？\NLatin for boys who will be naught but sheep farmers.
+Dialogue: 0,0:09:32.87,0:09:35.07,Default,,0,0,0,,- 为了摆谱吗？ - 不 不 不\N- It is the putting on of airs. - No, no, no!
+Dialogue: 0,0:09:35.09,0:09:37.27,Default,,0,0,0,,- 够了 - 都给你 吉尔伯特\N- That will do! - All right, Gilbert.
+Dialogue: 0,0:09:39.00,0:09:41.94,Default,,0,0,0,,听你妈的 都有份别争\NYou heard your mother. There's enough for all.
+Dialogue: 0,0:09:43.89,0:09:46.46,Default,,0,0,0,,你说休兰那帮孩子不好\NYou speak ill of the boys at Hewlands.
+Dialogue: 0,0:09:46.47,0:09:48.35,Default,,0,0,0,,“不是读书的料”\N"They're no scholars."
+Dialogue: 0,0:09:49.42,0:09:50.71,Default,,0,0,0,,可我告诉你\NBut I tell you something,
+Dialogue: 0,0:09:50.72,0:09:52.40,Default,,0,0,0,,他们将来比你更像个男子汉\Nthey'll ever be more of a man than you are.
+Dialogue: 0,0:09:52.42,0:09:55.12,Default,,0,0,0,,人家将来有正经活 可你没有\NThey are put to honest work, unlike you.
+Dialogue: 0,0:09:55.14,0:09:58.81,Default,,0,0,0,,你没出息 没手艺 只会摆谱\NUseless, tradeless, your fancy airs.
+Dialogue: 0,0:09:59.73,0:10:01.43,Default,,0,0,0,,读那么多书\NAll that education,
+Dialogue: 0,0:10:01.44,0:10:03.67,Default,,0,0,0,,一点用都没有\Nnot an ounce of sense.
+Dialogue: 0,0:10:04.61,0:10:06.10,Default,,0,0,0,,我这没出息的去教书\NI'm tutoring those boys to pay
+Dialogue: 0,0:10:06.11,0:10:08.38,Default,,0,0,0,,不就是替你还那户人家的债吗？\Nyour debts to that family, am I not?
+Dialogue: 0,0:10:08.97,0:10:11.53,Default,,0,0,0,,你欠休兰家那么多债\NYour immeasurable amount of debt to that family.
+Dialogue: 0,0:10:11.54,0:10:13.71,Default,,0,0,0,,要不是我... 住手\NI'm not... Stop!
+Dialogue: 0,0:10:18.37,0:10:19.80,Default,,0,0,0,,休兰那边其他人\NWhat of the rest of the family at Hewlands?
+Dialogue: 0,0:10:19.81,0:10:21.32,Default,,0,0,0,,你都见过吗？\NHave you met them?
+Dialogue: 0,0:10:22.13,0:10:23.26,Default,,0,0,0,,只见过那户的母亲\NThe mother only.
+Dialogue: 0,0:10:23.27,0:10:25.27,Default,,0,0,0,,- 那大女儿没见到吗？ - 没有\N- Not the eldest daughter? - No.
+Dialogue: 0,0:10:25.88,0:10:30.75,Default,,0,0,0,,大家都说 那姑娘是森林巫婆的后代 \NIt is said the girl is the child of a forest witch.
+Dialogue: 0,0:10:30.94,0:10:33.44,Default,,0,0,0,,我就见过 她独自走在山路上\NI've seen her, wandering the back roads alone
+Dialogue: 0,0:10:33.46,0:10:35.38,Default,,0,0,0,,臂上还有只鹰\Nwith a hawk on her arm.
+Dialogue: 0,0:10:35.74,0:10:37.60,Default,,0,0,0,,休兰那儿还有鹰？\NA hawk at Hewlands?
+Dialogue: 0,0:10:37.74,0:10:38.79,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:10:38.81,0:10:42.09,Default,,0,0,0,,传言说她每次进林都是一个人带着那只鹰\NThey say she takes him to the forest with her unaccompanied.
+Dialogue: 0,0:10:42.10,0:10:44.30,Default,,0,0,0,,你确定吗 伊莱莎？\NYeah, but are you certain, Eliza?
+Dialogue: 0,0:10:44.72,0:10:48.05,Default,,0,0,0,,那拿着鹰的是长女 不是仆人？\NThe eldest daughter keeps a hawk, not a servant girl?
+Dialogue: 0,0:10:48.07,0:10:50.14,Default,,0,0,0,,不是仆人 我确定\NYes. Yeah.
+Dialogue: 0,0:11:17.01,0:11:18.24,Default,,0,0,0,,安妮丝\NAgnes.
+Dialogue: 0,0:11:22.66,0:11:24.06,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:11:25.17,0:11:26.87,Default,,0,0,0,,你来这里做什么？\NWhat are you doing here?
+Dialogue: 0,0:11:26.88,0:11:28.58,Default,,0,0,0,,带了个东西给你\NBrought you this.
+Dialogue: 0,0:11:30.01,0:11:31.27,Default,,0,0,0,,这是什么？\NWhat is it?
+Dialogue: 0,0:11:31.37,0:11:33.01,Default,,0,0,0,,这是...\NIt's, uh...
+Dialogue: 0,0:11:33.58,0:11:35.72,Default,,0,0,0,,给你那只鸟的新手套\Nit's a new glove for your bird.
+Dialogue: 0,0:11:36.88,0:11:38.47,Default,,0,0,0,,我有手套\NI have a glove.
+Dialogue: 0,0:11:45.41,0:11:46.44,Default,,0,0,0,,安妮丝\NAgnes.
+Dialogue: 0,0:11:47.90,0:11:49.60,Default,,0,0,0,,安妮丝 别走\NAgnes, wait.
+Dialogue: 0,0:11:54.71,0:11:56.20,Default,,0,0,0,,我知道你是谁\NI know who you are.
+Dialogue: 0,0:11:56.32,0:11:57.82,Default,,0,0,0,,我是谁？\NWho am I?
+Dialogue: 0,0:11:57.83,0:12:00.56,Default,,0,0,0,,好吧...不算认识你 只是听过些传言...\NWell, I... I don't know you, but I've heard things...
+Dialogue: 0,0:12:00.57,0:12:02.68,Default,,0,0,0,,说我是森林巫婆的女儿？\NI'm the daughter of a forest witch?
+Dialogue: 0,0:12:02.69,0:12:03.89,Default,,0,0,0,,是啊 村里这么说 但我 我不在意...\NYes. People say that, but I-I don't care...
+Dialogue: 0,0:12:03.91,0:12:06.05,Default,,0,0,0,,我可是我母亲的女儿\NI am my mother's daughter.
+Dialogue: 0,0:12:06.79,0:12:09.31,Default,,0,0,0,,从她那儿学的本事多着呢\NI've learnt many things from her.
+Dialogue: 0,0:12:12.00,0:12:13.27,Default,,0,0,0,,你在看什么？\NWhat are you looking at?
+Dialogue: 0,0:12:13.28,0:12:14.61,Default,,0,0,0,,- 你 - 为什么？\N- You. - Why?
+Dialogue: 0,0:12:21.11,0:12:23.98,Default,,0,0,0,,- 因... - 你这教书的先生 不该能言善辩吗？\N- I... -I thought you were a man of words, master tutor.
+Dialogue: 0,0:12:23.99,0:12:25.99,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:12:26.01,0:12:27.73,Default,,0,0,0,,- 难道你不是吗？ - 只是...\N- Are you not? - Jus...
+Dialogue: 0,0:12:28.18,0:12:31.59,Default,,0,0,0,,我有时很难直接跟人说话\NSpeaking with people is sometimes difficult for me.
+Dialogue: 0,0:12:32.88,0:12:35.24,Default,,0,0,0,,好 那就讲个故事吧\NWell, tell me a story, then.
+Dialogue: 0,0:12:35.98,0:12:38.05,Default,,0,0,0,,- 讲故事？ - 对\N- A story? - Yes.
+Dialogue: 0,0:12:40.56,0:12:42.82,Default,,0,0,0,,你想听什么故事？\NWhat story would you like?
+Dialogue: 0,0:12:50.10,0:12:52.84,Default,,0,0,0,,讲个能打动你自己的故事\NSomething that moves you.
+Dialogue: 0,0:12:56.17,0:12:57.80,Default,,0,0,0,,好吧\NAll right.
+Dialogue: 0,0:12:59.77,0:13:02.97,Default,,0,0,0,,你知道俄耳甫斯和欧律狄刻的故事吗？\NDo you know the story of Orpheus and Eurydice?
+Dialogue: 0,0:13:02.98,0:13:04.68,Note,,0,0,0,,{\an8}【古希腊神话】
+Dialogue: 0,0:13:05.75,0:13:07.73,Default,,0,0,0,,俄耳甫斯这个男人\NOrpheus is...
+Dialogue: 0,0:13:07.75,0:13:10.04,Default,,0,0,0,,有着天赋异禀的音乐才能\Na man of music.
+Dialogue: 0,0:13:10.33,0:13:12.74,Default,,0,0,0,,他还有着天籁般的嗓音\NHe has this exquisite voice.
+Dialogue: 0,0:13:13.82,0:13:16.74,Default,,0,0,0,,他弹那种七弦里拉...\NHis playing of the kithara, which is a...
+Dialogue: 0,0:13:16.76,0:13:18.39,Default,,0,0,0,,是类似竖琴的乐器\Nis-is a harp-like lyre,
+Dialogue: 0,0:13:18.40,0:13:20.46,Default,,0,0,0,,声音美得不可思议\Nis so divine,
+Dialogue: 0,0:13:21.97,0:13:23.94,Default,,0,0,0,,连天上的鸟儿...\Nbirds, the...
+Dialogue: 0,0:13:25.09,0:13:27.51,Default,,0,0,0,,地上的走兽 甚至石头和树\Nthe beasts, e-even the stones and the trees,
+Dialogue: 0,0:13:27.52,0:13:32.24,Default,,0,0,0,,都能被他的音乐打动随之起舞\Nthey all moved to the rhythm of his music.
+Dialogue: 0,0:13:32.80,0:13:37.50,Default,,0,0,0,,后来 俄耳甫斯爱上了一位美丽的山林少女 叫欧律狄刻\NNow, Orpheus falls in love with this beautiful nymph, Eurydice.
+Dialogue: 0,0:13:37.51,0:13:40.53,Default,,0,0,0,,和山林少女刚结完婚\NSoon after their marriage,
+Dialogue: 0,0:13:40.54,0:13:42.25,Default,,0,0,0,,她就被毒蛇咬了\NEurydice's bitten by a viper
+Dialogue: 0,0:13:42.27,0:13:45.41,Default,,0,0,0,,毒素在她体内迅速扩散\Nand poison courses through her body,
+Dialogue: 0,0:13:45.42,0:13:47.18,Default,,0,0,0,,她就此身亡\Nand she's killed.
+Dialogue: 0,0:13:49.15,0:13:51.84,Default,,0,0,0,,俄耳甫斯悲痛欲绝\NAnd Orpheus, filled with grief,
+Dialogue: 0,0:13:51.85,0:13:54.89,Default,,0,0,0,,下到冥府想要将她带回\Njourneys to the underworld to take her back.
+Dialogue: 0,0:13:55.98,0:14:00.73,Default,,0,0,0,,他用琴声迷住了守门的三头犬刻耳柏洛斯\NHe charms this three-headed dog, Cerberus.
+Dialogue: 0,0:14:00.74,0:14:04.47,Default,,0,0,0,,甚至感动了冥王哈得斯\NHe beguiles Hades until finally...
+Dialogue: 0,0:14:05.25,0:14:07.16,Default,,0,0,0,,最终冥王同意了\N...he's allowed to take his love back with him
+Dialogue: 0,0:14:07.17,0:14:10.02,Default,,0,0,0,,允许把这名女子带回人间 但...\Nto the world of the living but...
+Dialogue: 0,0:14:11.68,0:14:13.05,Default,,0,0,0,,但有一个条件\N...under one condition.
+Dialogue: 0,0:14:13.06,0:14:14.60,Default,,0,0,0,,什么条件？\NWhat is it?
+Dialogue: 0,0:14:16.00,0:14:17.50,Default,,0,0,0,,这名女子必须跟在他身后\NShe must follow behind him,
+Dialogue: 0,0:14:17.51,0:14:20.44,Default,,0,0,0,,而他绝对不能回头看\Nand he must not turn around to look at her.
+Dialogue: 0,0:14:23.50,0:14:27.24,Default,,0,0,0,,现在 他们开始往人间走\NNow, as they begin their ascent,
+Dialogue: 0,0:14:27.76,0:14:31.56,Default,,0,0,0,,俄耳甫斯却听不见他妻子的脚步声\NOrpheus can't hear her footsteps, so he listens...
+Dialogue: 0,0:14:33.23,0:14:37.33,Default,,0,0,0,,于是他一直听 一直听 一直听\N...and listens and listens and listens.
+Dialogue: 0,0:14:39.26,0:14:43.19,Default,,0,0,0,,他只听见了自己的心跳\NBut all he can hear is the sound of his heartbeat.
+Dialogue: 0,0:14:49.85,0:14:52.06,Default,,0,0,0,,其余是一片寂静\NAnd the rest is silence.
+Dialogue: 0,0:14:56.21,0:14:59.68,Default,,0,0,0,,当他快到冥门出口时...\NAnd as he approaches the gates of the underworld...
+Dialogue: 0,0:15:03.83,0:15:06.27,Default,,0,0,0,,他忍不住了\N...he can't contain himself any longer.
+Dialogue: 0,0:15:06.29,0:15:09.44,Default,,0,0,0,,他回头去看妻子 然后妻子...\NHe turns around to look at her, and she is...
+Dialogue: 0,0:15:11.03,0:15:13.34,Default,,0,0,0,,永远被困在冥府里了\N...trapped in the underworld forever.
+Dialogue: 0,0:15:27.64,0:15:28.71,Default,,0,0,0,,嗯\NHmm.
+Dialogue: 0,0:15:29.54,0:15:31.28,Default,,0,0,0,,这是个好故事\NThat was a good story.
+Dialogue: 0,0:15:31.30,0:15:33.14,Default,,0,0,0,,你喜欢吗？\NDid you like it?
+Dialogue: 0,0:15:37.60,0:15:40.83,Default,,0,0,0,,汝 艾草 尚记否？\NRemember, mugwort, what you brought to pass,
+Dialogue: 0,0:15:37.60,0:15:43.75,Note,,0,0,0,,{\an8}【《九草咒》：古英语药咒 列九种草药以驱毒治疫】
+Dialogue: 0,0:15:40.84,0:15:43.59,Default,,0,0,0,,昔日所为 世间皆传\Nwhat you readied at Regenmeld.
+Dialogue: 0,0:15:43.75,0:15:47.04,Default,,0,0,0,,名曰艾 古株之首\NYou're called Una, the most ancient plant.
+Dialogue: 0,0:15:47.06,0:15:50.04,Default,,0,0,0,,能遏三祸 亦能遏三十祸\NYou defy three, you defy 30,
+Dialogue: 0,0:15:50.06,0:15:52.17,Default,,0,0,0,,能驱毒液 能散瘴气\Nyou defy venom, you defy air illness,
+Dialogue: 0,0:15:52.19,0:15:54.96,Default,,0,0,0,,能降瘟神而胜之\Nyou defy the horror that stalks the land.
+Dialogue: 0,0:15:55.09,0:15:58.06,Default,,0,0,0,,汝 车前草 草母也\NAnd you, waybread, plant mother,
+Dialogue: 0,0:15:58.08,0:16:00.92,Default,,0,0,0,,面立东方 心生刚毅\Nyou're open to the east yet mighty within.
+Dialogue: 0,0:16:00.94,0:16:04.83,Default,,0,0,0,,虽被车碾而不折 遭众踏而复起\NCarts creeped over you, women rode over you.
+Dialogue: 0,0:16:04.84,0:16:08.07,Default,,0,0,0,,刚柔并济 以疗世间疾苦\NYou withstood it all, and you pushed back.
+Dialogue: 0,0:16:08.35,0:16:11.16,Default,,0,0,0,,你真的了解一个人的一切吗？\NIs it true that you know everything about a person
+Dialogue: 0,0:16:11.30,0:16:13.30,Default,,0,0,0,,通过触摸这里？\Nby touching them here?
+Dialogue: 0,0:16:13.43,0:16:14.80,Default,,0,0,0,,并非全部\NNot everything.
+Dialogue: 0,0:16:14.93,0:16:16.94,Default,,0,0,0,,当你触摸我这里的时候 你看到了什么？\NWhen you touched me here, what did you see?
+Dialogue: 0,0:16:17.07,0:16:18.63,Default,,0,0,0,,我看到了一幅风景\NI saw a landscape.
+Dialogue: 0,0:16:18.77,0:16:20.90,Default,,0,0,0,,- 你看到了风景？ - 嗯\N- You saw a landscape? - Mm-hmm.
+Dialogue: 0,0:16:22.74,0:16:27.82,Default,,0,0,0,,太空、洞穴、悬崖顶、\NSpaces, caves, cliff tops,
+Dialogue: 0,0:16:27.95,0:16:31.35,Default,,0,0,0,,隧道和海洋\Ntunnels and oceans,
+Dialogue: 0,0:16:31.48,0:16:34.82,Default,,0,0,0,,这片深邃、黑暗、漆黑的虚空\Nthis deep, dark, black void,
+Dialogue: 0,0:16:34.96,0:16:37.85,Default,,0,0,0,,未被发现的国度\Nundiscovered countries.
+Dialogue: 0,0:17:03.02,0:17:05.19,Default,,0,0,0,,她开口说话了……\NShe speaks...
+Dialogue: 0,0:17:07.19,0:17:09.59,Default,,0,0,0,,她说话 她说话\NShe speaks, she speaks.
+Dialogue: 0,0:17:10.33,0:17:11.69,Default,,0,0,0,,但是 柔软的\NBut, soft,
+Dialogue: 0,0:17:11.82,0:17:15.07,Default,,0,0,0,,远处窗户透进来的是什么光线？\Nwhat light through yonder window breaks?
+Dialogue: 0,0:17:16.83,0:17:22.14,Default,,0,0,0,,那是东方 朱丽叶是太阳\NIt is the east, and Juliet is the sun.
+Dialogue: 0,0:17:22.97,0:17:26.41,Default,,0,0,0,,……然后杀戮……\N...and kill...
+Dialogue: 0,0:17:30.57,0:17:33.41,Default,,0,0,0,,嫉妒的月亮\N...the envious moon.
+Dialogue: 0,0:17:49.69,0:17:51.17,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:17:52.00,0:17:53.00,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:18:07.89,0:18:10.09,Default,,0,0,0,,我希望与你结为手牵手\NI wish to be handfasted to you.
+Dialogue: 0,0:18:10.22,0:18:13.09,Default,,0,0,0,,不 我……我必须与你结为伴侣\NNo, I... I must be handfasted to you.
+Dialogue: 0,0:18:13.22,0:18:14.75,Default,,0,0,0,,其他人都不行\NNo one else will do.
+Dialogue: 0,0:18:14.89,0:18:16.72,Default,,0,0,0,,我会和你的继母和你的哥哥谈谈\NI-I will speak with your stepmother and your brother,
+Dialogue: 0,0:18:16.86,0:18:19.09,Default,,0,0,0,,他们当然不会同意 但是……\Nand of course they will not agree, but...
+Dialogue: 0,0:18:21.19,0:18:24.60,Default,,0,0,0,,我不在乎 因为我根本不擅长等待\NI don't care because I have no talent for waiting.
+Dialogue: 0,0:18:26.77,0:18:29.44,Default,,0,0,0,,我无法忍受等待\NI cannot abide waiting.
+Dialogue: 0,0:18:30.31,0:18:31.50,Default,,0,0,0,,你父母呢？\NWhat about your parents?
+Dialogue: 0,0:18:31.64,0:18:33.44,Default,,0,0,0,,你的父母永远不会同意\NYour parents will never agree.
+Dialogue: 0,0:18:35.34,0:18:36.94,Default,,0,0,0,,跟我来\NFollow me.
+Dialogue: 0,0:19:21.78,0:19:24.32,Default,,0,0,0,,等等等等等、等等\NWait. Wait. W-Wait.
+Dialogue: 0,0:19:35.97,0:19:37.44,Default,,0,0,0,,不不！\N- No! - No!
+Dialogue: 0,0:19:48.05,0:19:49.52,Default,,0,0,0,,我的手套\NMy glove.
+Dialogue: 0,0:19:51.18,0:19:54.29,Default,,0,0,0,,这是我母亲的手套——嗯\N- This is my mother's glove. - Hmm.
+Dialogue: 0,0:19:55.03,0:19:57.56,Default,,0,0,0,,她从树林里走了出来……\NShe came out of the woods...
+Dialogue: 0,0:19:58.82,0:20:00.82,Default,,0,0,0,,就像她母亲一样\N...like her mother
+Dialogue: 0,0:20:00.96,0:20:03.23,Default,,0,0,0,,以及她的母亲\Nand her mother before her.
+Dialogue: 0,0:20:08.97,0:20:13.08,Default,,0,0,0,,我家里的女性能看到一些东西……\NThe women in my family see things...
+Dialogue: 0,0:20:13.21,0:20:15.07,Default,,0,0,0,,……而其他人却不这么认为\N...that others don't.
+Dialogue: 0,0:20:17.54,0:20:19.01,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,0:20:23.65,0:20:25.25,Default,,0,0,0,,罗文和年轻的艾格尼丝：记住 艾草\NROWAN and YOUNG AGNES: Remember, mugwort,
+Dialogue: 0,0:20:25.38,0:20:28.52,Default,,0,0,0,,你在雷根梅尔德促成的事 你准备的事\Nwhat you brought to pass, what you readied at Regenmeld.
+Dialogue: 0,0:20:28.66,0:20:31.69,Default,,0,0,0,,你的名字叫乌娜 是最古老的植物\NYou're called Una, the most ancient plant.
+Dialogue: 0,0:20:31.82,0:20:33.43,Default,,0,0,0,,你敢违抗三 你敢违抗三十\NYou defy three, you defy 30,
+Dialogue: 0,0:20:33.56,0:20:35.63,Default,,0,0,0,,你无惧毒液 你无惧空气传播疾病\Nyou defy venom, you defy air illness,
+Dialogue: 0,0:20:35.76,0:20:38.43,Default,,0,0,0,,你对抗着潜伏在这片土地上的恐怖\Nyou defy the horror that stalks the land.
+Dialogue: 0,0:20:39.37,0:20:41.50,Default,,0,0,0,,巴塞洛缪 它会痊愈的\NBartholomew, it will heal.
+Dialogue: 0,0:20:42.54,0:20:43.73,Default,,0,0,0,,会留下疤痕吗？\NWill it make a scar?
+Dialogue: 0,0:20:43.87,0:20:46.97,Default,,0,0,0,,有可能这并非坏事\NIt may. That's no bad thing.
+Dialogue: 0,0:20:47.11,0:20:48.71,Default,,0,0,0,,听\NListen.
+Dialogue: 0,0:20:50.08,0:20:51.91,Default,,0,0,0,,你听到了吗？\NDo you hear that?
+Dialogue: 0,0:20:54.75,0:20:58.26,Default,,0,0,0,,艾格尼丝 你一定要重视你的梦境\NYou must pay attention to your dreams, Agnes.
+Dialogue: 0,0:20:59.52,0:21:01.45,Default,,0,0,0,,他们会一直指引你\NThey will always guide you.
+Dialogue: 0,0:21:24.41,0:21:26.55,Default,,0,0,0,,您好您好\N- Good day. - Good day.
+Dialogue: 0,0:21:27.54,0:21:29.11,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:21:44.14,0:21:46.50,Default,,0,0,0,,艾格尼丝 呃……\NAgnes, what's, uh...
+Dialogue: 0,0:21:46.63,0:21:48.44,Default,,0,0,0,,发生了什么事？\Nwhat's happened?
+Dialogue: 0,0:21:48.57,0:21:51.98,Default,,0,0,0,,她母亲把她赶出了家门\NHer mother has banished her from their house.
+Dialogue: 0,0:21:52.11,0:21:53.54,Default,,0,0,0,,她不是我母亲\NShe's not my mother.
+Dialogue: 0,0:21:53.68,0:21:56.54,Default,,0,0,0,,房子是我哥哥巴塞洛缪的\NThe house belongs to my brother, Bartholomew.
+Dialogue: 0,0:21:56.67,0:21:58.81,Default,,0,0,0,,我选择离开\NI chose to leave.
+Dialogue: 0,0:21:59.81,0:22:01.18,Default,,0,0,0,,她怀孕了\NShe's with child.
+Dialogue: 0,0:22:01.31,0:22:02.51,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:22:02.65,0:22:04.28,Default,,0,0,0,,它说这是你的\NSays it's yours.
+Dialogue: 0,0:22:06.16,0:22:08.62,Default,,0,0,0,,是吗？你的？——呃……\N- Is it? Yours? - Uh...
+Dialogue: 0,0:22:09.63,0:22:12.29,Default,,0,0,0,,她肚子里的孩子 是你放进去的吗？\NThe child in her belly, did you put it there?
+Dialogue: 0,0:22:13.93,0:22:15.63,Default,,0,0,0,,我做了\NI did.
+Dialogue: 0,0:22:16.74,0:22:18.29,Default,,0,0,0,,母亲 我们已经结为盟约了我们绝不会允许这种事发生！\N- We are handfasted, Mother. - We will never allow it!
+Dialogue: 0,0:22:18.43,0:22:20.03,Default,,0,0,0,,- 这其中并无罪过- 恐怕你需要\N- There is no sin in it. - I'm afraid you will need
+Dialogue: 0,0:22:20.17,0:22:22.34,Default,,0,0,0,,——我们同意 而且我们会……——这没有错！\N- our consent, and we will... - There is no sin in it!
+Dialogue: 0,0:22:22.48,0:22:25.04,Default,,0,0,0,,——我们永远不会给！——好的！\N- ...we will never give it, ever! - All right!
+Dialogue: 0,0:22:26.94,0:22:28.34,Default,,0,0,0,,什么？\NWhat?
+Dialogue: 0,0:22:29.14,0:22:31.38,Default,,0,0,0,,你中了邪——不\N- You've been bewitched. - No.
+Dialogue: 0,0:22:35.99,0:22:40.06,Default,,0,0,0,,我宁愿你出海 也不愿你娶这个贱人\NI'd rather you went to sea than marry this wench.
+Dialogue: 0,0:22:40.19,0:22:41.59,Default,,0,0,0,,玛丽\NMary.
+Dialogue: 0,0:22:42.49,0:22:44.46,Default,,0,0,0,,没必要那样\NThere's no need for that.
+Dialogue: 0,0:22:44.60,0:22:47.96,Default,,0,0,0,,我毫不怀疑我们能够达成协议\NI have no doubt we can come to an arrangement.
+Dialogue: 0,0:22:48.09,0:22:50.40,Default,,0,0,0,,约翰嘘 女人\N-John. -Hush, woman.
+Dialogue: 0,0:22:52.24,0:22:54.23,Default,,0,0,0,,我相信你一定很渴望\NI am certain you are eager
+Dialogue: 0,0:22:54.36,0:22:56.90,Default,,0,0,0,,在婚礼仪式前见到你的妹妹\Nto see your sister before the altar.
+Dialogue: 0,0:22:58.04,0:23:00.14,Default,,0,0,0,,我确信你宁愿不想见到你的儿子\NI'm certain you'd rather not see your boy
+Dialogue: 0,0:23:00.28,0:23:01.71,Default,,0,0,0,,被拖到淫秽法庭\Ndragged before the bawdy court.
+Dialogue: 0,0:23:01.84,0:23:04.08,Default,,0,0,0,,没必要那样\NThere's no need for that.
+Dialogue: 0,0:23:04.22,0:23:06.68,Default,,0,0,0,,他们说他们已经结为手牵手结婚了\NThey said they are handfasted.
+Dialogue: 0,0:23:08.09,0:23:09.88,Default,,0,0,0,,只有我允许才行\NOnly if I say so.
+Dialogue: 0,0:23:10.02,0:23:12.19,Default,,0,0,0,,但为什么要嫁给一个面色苍白的学者呢？\NBut why marry a pasty-faced scholar?
+Dialogue: 0,0:23:12.32,0:23:14.02,Default,,0,0,0,,他有什么用？\NWhat use is he?
+Dialogue: 0,0:23:15.19,0:23:20.02,Default,,0,0,0,,他比我见过的任何男人都更有内涵\NHe's got more inside of him than any man I've ever met.
+Dialogue: 0,0:23:22.17,0:23:24.40,Default,,0,0,0,,一切都将改变\NEverything will change.
+Dialogue: 0,0:23:25.37,0:23:27.57,Default,,0,0,0,,你你会改变的\NYou. You will change.
+Dialogue: 0,0:23:27.70,0:23:28.93,Default,,0,0,0,,我已经开始改变了\NI'm already changing.
+Dialogue: 0,0:23:29.07,0:23:31.53,Default,,0,0,0,,里面太安静了\NIt's too quiet in there.
+Dialogue: 0,0:23:31.67,0:23:33.50,Default,,0,0,0,,在哪儿？\NIn where?
+Dialogue: 0,0:23:33.64,0:23:35.60,Default,,0,0,0,,那栋房子\NThat house.
+Dialogue: 0,0:23:35.74,0:23:39.64,Default,,0,0,0,,如果我们感到害怕或犹豫不决 妈妈会对我们说什么？\NWhat would our mother say to us if we were afraid or uncertain?
+Dialogue: 0,0:23:39.78,0:23:42.72,Default,,0,0,0,,敞开心扉去生活\NTo live with our hearts open.
+Dialogue: 0,0:23:44.52,0:23:47.72,Default,,0,0,0,,不要在黑暗中关闭它\NTo shut it not in the dark
+Dialogue: 0,0:23:47.85,0:23:49.72,Default,,0,0,0,,但要把它转向太阳\Nbut to turn it to the sun.
+Dialogue: 0,0:23:51.55,0:23:55.83,Default,,0,0,0,,他爱的是我本来的样子 而不是我应该成为的样子\NHe loves me for what I am, not what I ought to be.
+Dialogue: 0,0:23:57.57,0:23:59.73,Default,,0,0,0,,那你就嫁给他吧\NThen marry him you shall.
+Dialogue: 0,0:24:04.60,0:24:05.77,Default,,0,0,0,,谢谢\NThank you.
+Dialogue: 0,0:24:06.94,0:24:08.47,Default,,0,0,0,,记住 艾草……\NRemember, mugwort...
+Dialogue: 0,0:24:10.14,0:24:11.91,Default,,0,0,0,,跟我一起说跟我一起说\NSay it with me. Say it with me.
+Dialogue: 0,0:24:12.04,0:24:13.85,Default,,0,0,0,,你所促成的事\NWhat you brought to pass,
+Dialogue: 0,0:24:13.98,0:24:16.62,Default,,0,0,0,,你在Regenmeld准备了什么\Nwhat you readied at Regenmeld.
+Dialogue: 0,0:24:16.75,0:24:20.81,Default,,0,0,0,,你的名字叫乌娜 是最古老的植物\NYou are called Una, the most ancient plant.
+Dialogue: 0,0:24:22.96,0:24:27.69,Default,,0,0,0,,你敢违抗三 你敢违抗三十\NYou defy three, you defy 30,
+Dialogue: 0,0:24:27.83,0:24:32.43,Default,,0,0,0,,你无惧毒液 你无惧空气传播疾病\Nyou defy venom, you defy air illness,
+Dialogue: 0,0:24:32.56,0:24:35.57,Default,,0,0,0,,你对抗着潜伏在这片土地上的恐怖\Nyou defy the horror that stalks the land.
+Dialogue: 0,0:25:02.20,0:25:04.13,Default,,0,0,0,,看着我\NLook at me.
+Dialogue: 0,0:25:04.99,0:25:06.60,Default,,0,0,0,,看着我\NLook at me.
+Dialogue: 0,0:27:24.48,0:27:26.17,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,0:28:02.68,0:28:04.00,Default,,0,0,0,,啊\NAh.
+Dialogue: 0,0:28:12.45,0:28:14.05,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:28:20.02,0:28:21.66,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:29:16.19,0:29:17.54,Default,,0,0,0,,嘿\NHey.
+Dialogue: 0,0:29:19.76,0:29:21.72,Default,,0,0,0,,瞧瞧那火！\NLook at that. Look at the fire.
+Dialogue: 0,0:29:21.85,0:29:24.12,Default,,0,0,0,,嗯？那是什么？\NMmm, what's that?
+Dialogue: 0,0:29:24.26,0:29:26.22,Default,,0,0,0,,小狗拖进来了什么东西\NThe doggy dragged something in.
+Dialogue: 0,0:29:26.36,0:29:28.06,Default,,0,0,0,,有件事发生了\NThere's something.
+Dialogue: 0,0:29:28.19,0:29:30.63,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:29:31.90,0:29:33.43,Default,,0,0,0,,爸爸来了\NDaddy's coming.
+Dialogue: 0,0:29:33.57,0:29:34.77,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:29:57.42,0:30:00.46,Default,,0,0,0,,针脚需要更小一些\NStitches need to be smaller.
+Dialogue: 0,0:30:00.60,0:30:02.83,Default,,0,0,0,,M-小得多\NM-Much smaller.
+Dialogue: 0,0:30:04.30,0:30:05.59,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:30:10.13,0:30:11.53,Default,,0,0,0,,唔\NHmm.
+Dialogue: 0,0:30:12.51,0:30:14.11,Default,,0,0,0,,无用\NUseless.
+Dialogue: 0,0:30:18.31,0:30:20.94,Default,,0,0,0,,好了 现在……\NOkay, and now...
+Dialogue: 0,0:30:21.08,0:30:22.48,Default,,0,0,0,,更小\Nsmaller.
+Dialogue: 0,0:30:23.96,0:30:26.05,Default,,0,0,0,,你要去哪里？ —— 我要去\N- Where are you going? - I'm going.
+Dialogue: 0,0:30:26.18,0:30:28.16,Default,,0,0,0,,回去工作\NGet back to work.
+Dialogue: 0,0:30:41.60,0:30:43.20,Default,,0,0,0,,那是你最后一次打我了\NThat was the last time you will ever hit me.
+Dialogue: 0,0:30:43.33,0:30:44.84,Default,,0,0,0,,你明白吗？\NDo you understand?
+Dialogue: 0,0:30:44.97,0:30:47.21,Default,,0,0,0,,你明白了吗？！——明白了\N- Do you understand?! - Yes.
+Dialogue: 0,0:31:10.17,0:31:12.43,Default,,0,0,0,,亲爱的 你该回床上睡觉了\NMy love, you should come back to bed.
+Dialogue: 0,0:31:19.71,0:31:20.84,Default,,0,0,0,,你在写什么？\NWhat are you writing?
+Dialogue: 0,0:31:20.97,0:31:22.71,Default,,0,0,0,,没什么特别的\NNothing of note.
+Dialogue: 0,0:31:22.85,0:31:24.34,Default,,0,0,0,,这绝非小事\NIt's never nothing.
+Dialogue: 0,0:31:24.47,0:31:25.95,Default,,0,0,0,,我不知道\NI don't know.
+Dialogue: 0,0:31:26.08,0:31:29.45,Default,,0,0,0,,或许等它完工后 就会……\NPerhaps when it's finished, it will...
+Dialogue: 0,0:31:31.32,0:31:33.19,Default,,0,0,0,,或许等它完工之后吧\NPerhaps when it's finished.
+Dialogue: 0,0:31:33.32,0:31:34.72,Default,,0,0,0,,你为什么不把你写的东西读给我听？\NWhy don't you read me what you've written?
+Dialogue: 0,0:31:34.86,0:31:36.38,Default,,0,0,0,,A-艾格尼丝 不是——\NA-Agnes, it's not--
+Dialogue: 0,0:31:36.52,0:31:37.82,Default,,0,0,0,,它——它还没完成\NIt-It's not finished.
+Dialogue: 0,0:31:40.67,0:31:42.90,Default,,0,0,0,,还没结束\NIt's not finished.
+Dialogue: 0,0:31:52.70,0:31:55.24,Default,,0,0,0,,别这样 你会吵醒宝宝的\NStop it. You'll wake the baby.
+Dialogue: 0,0:31:57.27,0:31:58.41,Default,,0,0,0,,没关系\NIt's okay.
+Dialogue: 0,0:31:58.54,0:32:00.81,Default,,0,0,0,,不\NNo.
+Dialogue: 0,0:32:06.38,0:32:07.59,Default,,0,0,0,,对不起\NI'm sorry.
+Dialogue: 0,0:32:12.26,0:32:14.16,Default,,0,0,0,,我喝得太多了 呃……\NI've had too much, uh...
+Dialogue: 0,0:32:14.30,0:32:17.13,Default,,0,0,0,,艾格尼丝 我喝太多了\NAgnes, I've had too much to drink.
+Dialogue: 0,0:32:20.07,0:32:21.63,Default,,0,0,0,,我曾有过……\NI've had...
+Dialogue: 0,0:32:24.51,0:32:26.94,Default,,0,0,0,,我喝太多了\NI've had too much to drink.
+Dialogue: 0,0:32:35.72,0:32:37.48,Default,,0,0,0,,嘿\NHey.
+Dialogue: 0,0:32:38.96,0:32:41.59,Default,,0,0,0,,那是什么？\NWhat is it?
+Dialogue: 0,0:32:42.79,0:32:44.32,Default,,0,0,0,,把手给我\NGive me your hand.
+Dialogue: 0,0:32:44.46,0:32:46.49,Default,,0,0,0,,求求你 求求你 求求你 求求你\NPl-Pl-Please, please, please, please,
+Dialogue: 0,0:32:46.62,0:32:48.16,Default,,0,0,0,,求求你 求求你 求求你\Nplease, please, please, please.
+Dialogue: 0,0:32:48.30,0:32:49.97,Default,,0,0,0,,你害怕我会看到什么？请住口\N- What are you afraid I will see? - Please stop.
+Dialogue: 0,0:32:50.10,0:32:51.97,Default,,0,0,0,,我是一个暴力且危险的人\NThat I am a violent and dangerous man.
+Dialogue: 0,0:32:52.10,0:32:53.80,Default,,0,0,0,,不 你都不是那种人\NNo, you are none of those things.
+Dialogue: 0,0:32:53.93,0:32:55.80,Default,,0,0,0,,你怎么知道？——你是个好人你是个……\N- How do you know? - You're a good man. You're a...
+Dialogue: 0,0:32:57.11,0:32:59.37,Default,,0,0,0,,你是个好人\NYou are a good man.
+Dialogue: 0,0:33:00.57,0:33:02.80,Default,,0,0,0,,你是个好人\NYou're a good man.
+Dialogue: 0,0:33:06.78,0:33:09.32,Default,,0,0,0,,你是希望我们从未结婚吗？\NIs it that you wish that we never wed?
+Dialogue: 0,0:33:10.99,0:33:14.69,Default,,0,0,0,,你怎么能说出这样的话？\NHow could you say such a thing?
+Dialogue: 0,0:33:14.83,0:33:17.16,Default,,0,0,0,,你怎么能说出这样的话？\NHow could you say such a thing?
+Dialogue: 0,0:33:21.27,0:33:24.53,Default,,0,0,0,,你和苏珊娜是我活着的全部意义\NYou and Susanna are all that I live for.
+Dialogue: 0,0:33:24.67,0:33:26.30,Default,,0,0,0,,这就是我活着的意义\NAll that I live for.
+Dialogue: 0,0:33:26.43,0:33:28.70,Default,,0,0,0,,那它到底是什么？\NWhat is it, then?
+Dialogue: 0,0:33:33.67,0:33:35.48,Default,,0,0,0,,- 看着我- 住手！\N- Here. Look at me. - Just stop!
+Dialogue: 0,0:33:35.61,0:33:38.21,Default,,0,0,0,,停下 停下求求你 求求你 求求你 求求你 求求你\NStop, stop. Please, please, please, please, please, please.
+Dialogue: 0,0:33:38.35,0:33:39.88,Default,,0,0,0,,看着我\NLook at me.
+Dialogue: 0,0:33:40.02,0:33:42.65,Default,,0,0,0,,听着听着听着\NListen. Listen. Listen.
+Dialogue: 0,0:33:49.19,0:33:51.42,Default,,0,0,0,,我迷路了\NI'm lost.
+Dialogue: 0,0:33:54.63,0:33:56.80,Default,,0,0,0,,我丢了我的……\NI've lost my...
+Dialogue: 0,0:33:56.93,0:33:58.96,Default,,0,0,0,,我迷路了\NI've lost my way.
+Dialogue: 0,0:34:03.67,0:34:07.08,Default,,0,0,0,,我只是需要——呃 艾格尼丝 我只是需要工作\NI just need to-- uh, Agnes, I just need to work.
+Dialogue: 0,0:34:08.31,0:34:09.91,Default,,0,0,0,,他没睡着\NHe's not sleeping.
+Dialogue: 0,0:34:10.04,0:34:12.58,Default,,0,0,0,,他有没有对你发过脾气？——没有\NHas he ever lost his temper with you? -No.
+Dialogue: 0,0:34:12.71,0:34:14.88,Default,,0,0,0,,- 如果他举手…… - 不 他从来没有举手过\N- If he raises a hand... - No, he has never.
+Dialogue: 0,0:34:15.01,0:34:17.75,Default,,0,0,0,,他从来没有他是在生自己的气\NHe's never. He's angry with himself.
+Dialogue: 0,0:34:17.89,0:34:20.18,Default,,0,0,0,,他对自己感到厌恶\NHe's sick with himself.
+Dialogue: 0,0:34:20.32,0:34:21.88,Default,,0,0,0,,他是个好人\NHe's a good man.
+Dialogue: 0,0:34:22.02,0:34:22.89,Default,,0,0,0,,他是个好丈夫 也是个好父亲\NHe's a good husband, he's a good father,
+Dialogue: 0,0:34:23.03,0:34:24.76,Default,,0,0,0,,但他还需要更多\Nbut he n-needs more.
+Dialogue: 0,0:34:24.89,0:34:27.10,Default,,0,0,0,,除了家人和你 他还需要什么呢？\NWhat could he possibly need other than his family and you?
+Dialogue: 0,0:34:27.23,0:34:29.06,Default,,0,0,0,,他有你他需要去伦敦\N- He has you. - He needs to go to London.
+Dialogue: 0,0:34:29.20,0:34:31.43,Default,,0,0,0,,- 伦敦？ - 是的\N- London? - Yeah.
+Dialogue: 0,0:34:32.74,0:34:35.50,Default,,0,0,0,,为什么选择伦敦？——因为伦敦是全世界汇聚的地方\NWhy London? -Because London is where the whole world gathers.
+Dialogue: 0,0:34:35.64,0:34:37.51,Default,,0,0,0,,或许他可以把父亲的生意拓展到那里\NPerhaps he could extend his father's business there.
+Dialogue: 0,0:34:37.64,0:34:39.21,Default,,0,0,0,,哦 你又操之过急了谁知道他会是什么样的人呢……\N- Oh, you're being hasty again. - Who knows what he may be...
+Dialogue: 0,0:34:39.34,0:34:40.94,Default,,0,0,0,,我并非操之过急他还需要更多\NI'm not being hasty. He needs more.
+Dialogue: 0,0:34:41.07,0:34:42.01,Default,,0,0,0,,- 他需要一份正经工作- 他不属于这个世界\N- Well, he needs proper work. - He's not of this world.
+Dialogue: 0,0:34:42.14,0:34:43.84,Default,,0,0,0,,这个人需要一份正经工作\NThe man needs proper work.
+Dialogue: 0,0:34:43.98,0:34:45.45,Default,,0,0,0,,这个小镇上有什么？——他不可能就这么逃走\N- What's in this little town? - He can't just run away.
+Dialogue: 0,0:34:45.58,0:34:46.77,Default,,0,0,0,,这条小生命？这个小东西 它会……\NThis little life? This little thing, it'll...
+Dialogue: 0,0:34:46.91,0:34:48.11,Default,,0,0,0,,……碾碎他\N...crush him.
+Dialogue: 0,0:34:48.91,0:34:50.28,Default,,0,0,0,,他需要和父亲保持距离\NHe needs distance from his father.
+Dialogue: 0,0:34:50.42,0:34:51.81,Default,,0,0,0,,你会和他一起去伦敦吗？\NAnd you would go with him to London?
+Dialogue: 0,0:34:51.95,0:34:53.92,Default,,0,0,0,,不 我会等到他安顿下来\NNo, I'll wait until he's settled.
+Dialogue: 0,0:34:54.06,0:34:55.45,Default,,0,0,0,,很快我们就会有更多的人加入\NThere'll be more of us soon.
+Dialogue: 0,0:34:55.59,0:34:57.99,Default,,0,0,0,,——还要再要一个孩子？——是的到夏末的时候\N- Another child? - Yes. By summer's end.
+Dialogue: 0,0:34:58.12,0:35:01.26,Default,,0,0,0,,那么现在还不是把他送走的时候\NThen now is not the time to send him away.
+Dialogue: 0,0:35:01.39,0:35:03.23,Default,,0,0,0,,我会失去他\NI'll lose him.
+Dialogue: 0,0:35:03.36,0:35:04.76,Default,,0,0,0,,我感觉我快要失去他了\NI'm already losing him.
+Dialogue: 0,0:35:04.90,0:35:06.57,Default,,0,0,0,,如果你把他送走 你会失去他的\NYou'll lose him if you send him away.
+Dialogue: 0,0:35:06.70,0:35:09.76,Default,,0,0,0,,不 我知道 我知道我们的爱会让我们保持稳定\NNo, I know, I know that our love will keep us steady.
+Dialogue: 0,0:35:09.90,0:35:12.40,Default,,0,0,0,,拜托了您能跟他父亲谈谈吗？\NPlease. Will you speak to his father?
+Dialogue: 0,0:35:12.53,0:35:15.77,Default,,0,0,0,,如果你建议他去伦敦 他会听你的\NHe'll listen to you if you suggest him going to London.
+Dialogue: 0,0:35:16.71,0:35:18.25,Default,,0,0,0,,请\NPlease.
+Dialogue: 0,0:35:20.28,0:35:22.65,Default,,0,0,0,,我应该找个住处\NI should find lodgings.
+Dialogue: 0,0:35:22.78,0:35:24.95,Default,,0,0,0,,靠近河流 靠近制革厂\NBe near the river, close to the tanneries.
+Dialogue: 0,0:35:25.09,0:35:28.32,Default,,0,0,0,,但我听说河水水流湍急 很危险\NBut I'm told that the currents in the river are dangerous
+Dialogue: 0,0:35:28.46,0:35:30.49,Default,,0,0,0,,而且你必须雇佣一位经验丰富的船夫\Nand that you must engage an experienced boatman
+Dialogue: 0,0:35:30.63,0:35:32.49,Default,,0,0,0,,每次你过马路 我都会这么做\Nevery time you cross, and I'll be certain to do that
+Dialogue: 0,0:35:32.62,0:35:34.66,Default,,0,0,0,,我保证 每次都是如此\Nevery time, I promise.
+Dialogue: 0,0:35:35.86,0:35:37.43,Default,,0,0,0,,我会想念你和苏珊娜\NAnd I will think of you and Susanna
+Dialogue: 0,0:35:37.56,0:35:38.89,Default,,0,0,0,,随着时间的流逝\Nwith every passing moment.
+Dialogue: 0,0:35:39.03,0:35:40.30,Default,,0,0,0,,我会在伦敦帮我们找住处\NAnd I will find us lodgings in London,
+Dialogue: 0,0:35:40.44,0:35:42.26,Default,,0,0,0,,我们终将再次团聚\Nand we shall all be together again.
+Dialogue: 0,0:35:48.04,0:35:49.98,Default,,0,0,0,,你还是不知道是男孩还是女孩吗？\NDo you still not know if it's a boy or a girl?
+Dialogue: 0,0:35:50.11,0:35:51.54,Default,,0,0,0,,不\NNo.
+Dialogue: 0,0:35:51.67,0:35:53.21,Default,,0,0,0,,不知道为什么\NDon't know why.
+Dialogue: 0,0:35:54.18,0:35:56.18,Default,,0,0,0,,你不是说过你永远都会有两个孩子吗？\NHave you not said that you would always have two children?
+Dialogue: 0,0:35:56.31,0:35:57.85,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:35:57.99,0:36:00.15,Default,,0,0,0,,临终前 我的床边有两个孩子\NTwo children at my deathbed.
+Dialogue: 0,0:36:00.29,0:36:03.72,Default,,0,0,0,,那么 这是第二个\NWell, then, here is the second.
+Dialogue: 0,0:36:13.73,0:36:16.00,Default,,0,0,0,,我们不会说再见——不\N- We won't say goodbye. - No.
+Dialogue: 0,0:36:21.84,0:36:24.07,Default,,0,0,0,,走——走\NGet-- Go.
+Dialogue: 0,0:36:59.18,0:37:01.38,Default,,0,0,0,,你要去哪儿？ —— 不 我只是……\N- You going somewhere? - No, I'm just...
+Dialogue: 0,0:37:01.52,0:37:02.71,Default,,0,0,0,,是的 我要去湖边……\NYes, I'm going to the lake...
+Dialogue: 0,0:37:02.85,0:37:04.88,Default,,0,0,0,,你不会去森林\NYou're not going to the forest.
+Dialogue: 0,0:37:08.33,0:37:10.49,Default,,0,0,0,,我必须这么做——不 你不能这么做吉尔伯特！\N- I must. - No, you must not. Gilbert!
+Dialogue: 0,0:37:10.63,0:37:13.43,Default,,0,0,0,,你……你必须让我去那里\NYou... you have to let me go there.
+Dialogue: 0,0:37:13.56,0:37:15.56,Default,,0,0,0,,让我去那里！——艾格尼丝小姐\N- Let me go there! - Miss Agnes.
+Dialogue: 0,0:37:15.70,0:37:18.10,Default,,0,0,0,,你必须放我走！河水决堤了！\N- You must let me go! - The river has burst its banks!
+Dialogue: 0,0:37:18.24,0:37:19.93,Default,,0,0,0,,- 没办法…… - 让我来！\N- There is no way... - Let me!
+Dialogue: 0,0:37:20.07,0:37:21.44,Default,,0,0,0,,根本没办法进森林——让我进去！不！\NThere's no way to get to the forest. -Let me! No!
+Dialogue: 0,0:37:21.57,0:37:23.20,Default,,0,0,0,,我们已经为你准备好了一切——我的宝贝！\NWe have everything ready for you. -My baby!
+Dialogue: 0,0:37:23.34,0:37:24.94,Default,,0,0,0,,不 我的宝贝\NNo, my-my baby.
+Dialogue: 0,0:37:40.36,0:37:41.62,Default,,0,0,0,,我不能\NI can't.
+Dialogue: 0,0:37:45.05,0:37:47.56,Default,,0,0,0,,我不会在这个房子里生孩子\NI will not have my baby in this house.
+Dialogue: 0,0:37:47.69,0:37:49.06,Default,,0,0,0,,在我家不行\NNot in this house.
+Dialogue: 0,0:37:49.20,0:37:50.73,Default,,0,0,0,,不\NNo.
+Dialogue: 0,0:37:53.77,0:37:55.16,Default,,0,0,0,,河流\NThe river.
+Dialogue: 0,0:37:55.30,0:37:56.14,Default,,0,0,0,,嘘 嘘 嘘 嘘嘘不 不 不 不\N- Hush, hush, hush, hush. Hush. - No, no, no, no.
+Dialogue: 0,0:37:56.27,0:37:57.90,Default,,0,0,0,,他谈到了那条河\NHe spoke about the river.
+Dialogue: 0,0:37:58.04,0:38:00.60,Default,,0,0,0,,这条河很危险他可能会被水流冲走！\NThe river is dangerous. He may be swept downstream!
+Dialogue: 0,0:38:02.24,0:38:05.08,Default,,0,0,0,,艾格尼丝艾格尼丝艾格尼丝\NAgnes. Agnes. Agnes.
+Dialogue: 0,0:38:05.22,0:38:07.74,Default,,0,0,0,,艾格尼丝 他一切都好\NAgnes, all is well with him.
+Dialogue: 0,0:38:07.88,0:38:09.29,Default,,0,0,0,,你不记得他最后一封信了吗？\NDo you not recall his last letter?
+Dialogue: 0,0:38:09.42,0:38:10.61,Default,,0,0,0,,停止尖叫\NStop the screaming.
+Dialogue: 0,0:38:10.75,0:38:11.75,Default,,0,0,0,,你会吵醒全镇的人\NYou'll wake the whole town.
+Dialogue: 0,0:38:11.88,0:38:12.99,Default,,0,0,0,,他听起来……\NHe sound...
+Dialogue: 0,0:38:13.12,0:38:14.65,Default,,0,0,0,,他的声音听起来不一样了\NHe sounded different.
+Dialogue: 0,0:38:14.79,0:38:16.92,Default,,0,0,0,,不 他给我们带来了好消息\NNo, he had good news for us.
+Dialogue: 0,0:38:17.05,0:38:18.33,Default,,0,0,0,,剧院 剧院\N- The theater. - Theater.
+Dialogue: 0,0:38:18.46,0:38:20.46,Default,,0,0,0,,他与球员们签有合同\NHe has a contract with the players
+Dialogue: 0,0:38:20.59,0:38:21.62,Default,,0,0,0,,为剧院制作手套\Nto make gloves for the theater.
+Dialogue: 0,0:38:21.76,0:38:23.16,Default,,0,0,0,,为了手套为了手套\NFor the gloves. For the gloves.
+Dialogue: 0,0:38:24.46,0:38:26.10,Default,,0,0,0,,艾格尼丝 安静点\NAgnes, hush now.
+Dialogue: 0,0:38:26.23,0:38:27.46,Default,,0,0,0,,嘘 嘘 嘘\NHush. Hush. Hush.
+Dialogue: 0,0:38:27.60,0:38:28.84,Default,,0,0,0,,向下冲向下冲\NBear down. Bear down.
+Dialogue: 0,0:38:33.48,0:38:35.20,Default,,0,0,0,,啊！哦！\NAh! Ooh!
+Dialogue: 0,0:38:35.34,0:38:36.81,Default,,0,0,0,,——找到了——是个男孩\N- There we go. -It's a boy.
+Dialogue: 0,0:38:36.94,0:38:39.05,Default,,0,0,0,,好了\NThere we go.
+Dialogue: 0,0:38:39.18,0:38:42.12,Default,,0,0,0,,好孩子好孩子\NGood boy. Good boy.
+Dialogue: 0,0:38:45.62,0:38:47.15,Default,,0,0,0,,是个男孩\NIt's a boy.
+Dialogue: 0,0:38:51.00,0:38:52.76,Default,,0,0,0,,是个男孩\NIt's a boy.
+Dialogue: 0,0:38:54.33,0:38:55.79,Default,,0,0,0,,我的孩子\NMy boy.
+Dialogue: 0,0:38:58.37,0:38:59.83,Default,,0,0,0,,谢谢\NThank you.
+Dialogue: 0,0:39:14.15,0:39:16.18,Default,,0,0,0,,这是什么？发生了什么事？\NWhat is it? What's happening?
+Dialogue: 0,0:39:16.31,0:39:18.18,Default,,0,0,0,,她要重新开始了\NShe's starting again.
+Dialogue: 0,0:39:18.32,0:39:20.35,Default,,0,0,0,,- 你怀的是双胞胎 我的女儿- 来吧 伊莱扎\N- You're having twins, my girl. -Come on, Eliza.
+Dialogue: 0,0:39:20.49,0:39:22.83,Default,,0,0,0,,快点\NHere. Quickly.
+Dialogue: 0,0:39:22.96,0:39:23.99,Default,,0,0,0,,带走他\NTake him.
+Dialogue: 0,0:39:29.33,0:39:30.56,Default,,0,0,0,,不 不\NNo, no.
+Dialogue: 0,0:39:30.70,0:39:32.43,Default,,0,0,0,,两个人站在我的床边 等待我的死亡\NTwo standing at my deathbed.
+Dialogue: 0,0:39:34.57,0:39:36.40,Default,,0,0,0,,我一直相信会是这样……\NI always believed that it would be...
+Dialogue: 0,0:39:36.54,0:39:39.00,Default,,0,0,0,,他们会成为我的孩子\Nthat they would be my children.
+Dialogue: 0,0:39:40.14,0:39:41.37,Default,,0,0,0,,现在……\NAnd now...
+Dialogue: 0,0:39:41.51,0:39:43.25,Default,,0,0,0,,现在我明白了 那个人会是你\Nnow I see it will be you.
+Dialogue: 0,0:39:43.38,0:39:44.51,Default,,0,0,0,,我们需要扶你到凳子上去\NWe need to get you to the stool.
+Dialogue: 0,0:39:44.65,0:39:46.14,Default,,0,0,0,,它来了它就在这里\NIt's coming. It's here.
+Dialogue: 0,0:39:46.28,0:39:48.02,Default,,0,0,0,,不——快起来快起来起来 起来\N- No. - Come on. Come on up. Up, up.
+Dialogue: 0,0:39:48.15,0:39:49.91,Default,,0,0,0,,我不能……我……\NI can't... I...
+Dialogue: 0,0:39:50.05,0:39:51.35,Default,,0,0,0,,我不能\NI can't.
+Dialogue: 0,0:39:51.49,0:39:53.32,Default,,0,0,0,,走吧我真不该那样……\N- Go. - I should never have...
+Dialogue: 0,0:39:53.45,0:39:55.05,Default,,0,0,0,,我不能……\NI can't...
+Dialogue: 0,0:39:57.39,0:39:59.06,Default,,0,0,0,,我去不了\NI can't make it.
+Dialogue: 0,0:39:59.20,0:40:00.76,Default,,0,0,0,,我错了我错了\NI got it wrong. I got it wrong.
+Dialogue: 0,0:40:00.89,0:40:02.79,Default,,0,0,0,,我得到了它...\NI got it...
+Dialogue: 0,0:40:02.93,0:40:05.26,Default,,0,0,0,,他……他不在\NHe... He's not here.
+Dialogue: 0,0:40:05.39,0:40:07.63,Default,,0,0,0,,他……他不在\NHe's... He's not here.
+Dialogue: 0,0:40:07.76,0:40:10.94,Default,,0,0,0,,艾格尼丝 你可以……\NAgnes, you can...
+Dialogue: 0,0:40:11.08,0:40:12.94,Default,,0,0,0,,你必须这样做\Nand you must.
+Dialogue: 0,0:40:13.08,0:40:15.11,Default,,0,0,0,,我不能\NI cannot.
+Dialogue: 0,0:40:16.85,0:40:17.91,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,0:40:19.21,0:40:20.95,Default,,0,0,0,,你可以...\NYou can...
+Dialogue: 0,0:40:21.09,0:40:22.85,Default,,0,0,0,,你会的\Nand you will.
+Dialogue: 0,0:40:23.75,0:40:28.95,Default,,0,0,0,,你丈夫就出生在这个房间里\NYour husband was born here in this room.
+Dialogue: 0,0:40:29.09,0:40:33.09,Default,,0,0,0,,他在那里 在窗边 吸入了第一口空气\NHe took his first breath there by the window.
+Dialogue: 0,0:40:33.92,0:40:35.80,Default,,0,0,0,,请\NPlease.
+Dialogue: 0,0:40:37.90,0:40:39.73,Default,,0,0,0,,请放过这个孩子\NPlease let this child live.
+Dialogue: 0,0:40:39.86,0:40:42.60,Default,,0,0,0,,放过这个孩子吧求求你们了\NLet this child live. Please.
+Dialogue: 0,0:40:42.73,0:40:44.27,Default,,0,0,0,,你会让他……\NWill you let him...
+Dialogue: 0,0:40:44.40,0:40:47.47,Default,,0,0,0,,让他回来和他的孩子在一起吧\NLet him come back and be with his child.
+Dialogue: 0,0:40:47.60,0:40:49.10,Default,,0,0,0,,请\NPlease.
+Dialogue: 0,0:40:49.24,0:40:52.15,Default,,0,0,0,,愿他永远对我抱有善意\NLet him think kindly of me always.
+Dialogue: 0,0:40:52.28,0:40:53.41,Default,,0,0,0,,记住账号\NRemember me.
+Dialogue: 0,0:40:54.92,0:40:56.45,Default,,0,0,0,,妈妈\NMama.
+Dialogue: 0,0:40:57.25,0:40:58.39,Default,,0,0,0,,妈妈\NMama.
+Dialogue: 0,0:40:58.52,0:41:00.32,Default,,0,0,0,,妈妈？\NMum?
+Dialogue: 0,0:41:07.22,0:41:08.66,Default,,0,0,0,,太弱了\NJust too weak.
+Dialogue: 0,0:41:08.79,0:41:10.82,Default,,0,0,0,,她太痛苦了\NShe was in too much pain.
+Dialogue: 0,0:41:10.96,0:41:12.17,Default,,0,0,0,,我的意思是 可怜的女人\NI mean, poor woman.
+Dialogue: 0,0:41:12.30,0:41:14.43,Default,,0,0,0,,她变得越来越虚弱\NShe just got weaker and weaker.
+Dialogue: 0,0:41:14.56,0:41:16.16,Default,,0,0,0,,我的意思是 有时候事情就是这样\NI mean, that's just the way of it sometimes.
+Dialogue: 0,0:41:16.30,0:41:18.23,Default,,0,0,0,,她——她一定知道末日将至\NShe-she must have known the end was nigh.
+Dialogue: 0,0:41:18.37,0:41:20.80,Default,,0,0,0,,最好不要在孩子们面前提起她\NBest not speak of her to the children.
+Dialogue: 0,0:41:20.94,0:41:23.95,Default,,0,0,0,,换个母亲更安全\NSafer with a different mother.
+Dialogue: 0,0:41:24.08,0:41:26.15,Default,,0,0,0,,还这么年轻\NSo young.
+Dialogue: 0,0:41:26.28,0:41:27.78,Default,,0,0,0,,他们可能不记得她了\NThey may not remember her.
+Dialogue: 0,0:41:29.08,0:41:30.98,Default,,0,0,0,,妈妈！——艾格尼丝艾格尼丝\N- Mum! - Agnes. Agnes.
+Dialogue: 0,0:41:31.11,0:41:33.19,Default,,0,0,0,,妈妈 不要！ 不 不要艾格尼丝\N- Mama, no! - No, no. Agnes.
+Dialogue: 0,0:41:33.32,0:41:34.69,Default,,0,0,0,,孩子孩子\NChild. Child.
+Dialogue: 0,0:41:34.82,0:41:36.72,Default,,0,0,0,,妈妈 不要！不 不 不不——不\N- Mummy, no! - No, no, no. Ch-Ch-Ch-- No.
+Dialogue: 0,0:41:36.85,0:41:38.05,Default,,0,0,0,,不 不\N- No! - No.
+Dialogue: 0,0:41:38.19,0:41:40.16,Default,,0,0,0,,不 让我见见她！不 不！\N- No, let me see her! - No, no!
+Dialogue: 0,0:41:40.30,0:41:41.96,Default,,0,0,0,,让我见见她！ 不！\N- Let me see her! - No!
+Dialogue: 0,0:41:42.10,0:41:43.73,Default,,0,0,0,,不 妈妈！\NNo, Mama!
+Dialogue: 0,0:41:43.86,0:41:45.49,Default,,0,0,0,,艾格尼丝——不！\N- Agnes. - No!
+Dialogue: 0,0:41:46.46,0:41:49.37,Default,,0,0,0,,妈妈我想要 我想要我的妈妈\NMum. I want, I want my mum.
+Dialogue: 0,0:41:50.64,0:41:51.77,Default,,0,0,0,,我想要我的……\NI want my...
+Dialogue: 0,0:42:18.33,0:42:20.24,Default,,0,0,0,,哦！来了！是个女孩！\NOh! Here we go! It's a girl!
+Dialogue: 0,0:42:20.37,0:42:22.50,Default,,0,0,0,,是个女孩她……\NIt's a girl. She's...
+Dialogue: 0,0:42:22.64,0:42:25.17,Default,,0,0,0,,等等……\NIt's... Wait.
+Dialogue: 0,0:42:29.38,0:42:30.51,Default,,0,0,0,,快点 快点\NCome on. Come on.
+Dialogue: 0,0:42:30.65,0:42:32.58,Default,,0,0,0,,她为什么不哭？\NWhy is she not crying?
+Dialogue: 0,0:42:34.71,0:42:36.01,Default,,0,0,0,,她为什么不哭？\NWhy is she not crying?
+Dialogue: 0,0:42:36.15,0:42:38.25,Default,,0,0,0,,她已经不在人世了\NShe lives not.
+Dialogue: 0,0:42:38.39,0:42:40.05,Default,,0,0,0,,把她给我吧\NLet me have her.
+Dialogue: 0,0:42:40.19,0:42:41.19,Default,,0,0,0,,你不应该看她 那样会带来厄运\NYou should not look upon her. It's bad luck.
+Dialogue: 0,0:42:41.32,0:42:42.69,Default,,0,0,0,,把她给我\NGive her to me.
+Dialogue: 0,0:42:42.83,0:42:43.92,Default,,0,0,0,,我会确保它得到体面的安葬\NI'll make sure it gets a decent burial.
+Dialogue: 0,0:42:44.05,0:42:45.93,Default,,0,0,0,,把我的孩子还给我！\NGive me my child!
+Dialogue: 0,0:42:48.73,0:42:50.63,Default,,0,0,0,,我的孩子\NMy child.
+Dialogue: 0,0:42:53.36,0:42:57.10,Default,,0,0,0,,艾格尼丝 你生了个男孩\NAgnes, you have a baby boy.
+Dialogue: 0,0:42:58.91,0:43:01.91,Default,,0,0,0,,让我把他带到你面前 你来喂他\NLet me bring him to you, and you may feed him.
+Dialogue: 0,0:43:03.68,0:43:05.91,Default,,0,0,0,,女孩已经升入天堂了\NThe girl has gone to heaven.
+Dialogue: 0,0:43:08.59,0:43:10.88,Default,,0,0,0,,她并没有上天堂\NShe's not gone to heaven.
+Dialogue: 0,0:43:12.58,0:43:15.52,Default,,0,0,0,,母亲去世的那晚 我许下了一个誓言\NI made a vow the night my mother died.
+Dialogue: 0,0:43:16.89,0:43:20.16,Default,,0,0,0,,我会去你们的教堂 但我不会在那里说一个字\NI will go to your church, but I shan't say a word there.
+Dialogue: 0,0:44:00.07,0:44:02.40,Default,,0,0,0,,是的是的\NYes. Yes.
+Dialogue: 0,0:44:11.45,0:44:13.54,Default,,0,0,0,,你会活下去\NYou will live.
+Dialogue: 0,0:44:15.42,0:44:17.38,Default,,0,0,0,,你会活下去\NYou will live.
+Dialogue: 0,0:44:18.32,0:44:23.19,Default,,0,0,0,,我会确保没有任何东西能把你带走\NI will make sure nothing ever takes you away.
+Dialogue: 0,0:44:44.54,0:44:46.82,Default,,0,0,0,,我实在找不到\NI actually couldn't find it.
+Dialogue: 0,0:44:55.69,0:44:57.12,Default,,0,0,0,,唔\NHmm.
+Dialogue: 0,0:44:59.99,0:45:01.46,Default,,0,0,0,,这里\NHere.
+Dialogue: 0,0:45:02.46,0:45:03.83,Default,,0,0,0,,完美的\NPerfect.
+Dialogue: 0,0:45:04.66,0:45:06.49,Default,,0,0,0,,我找到我的帽子了\NI found my hat.
+Dialogue: 0,0:45:13.17,0:45:15.37,Default,,0,0,0,,好的是的\NOkay. Yes.
+Dialogue: 0,0:45:20.08,0:45:22.28,Default,,0,0,0,,好 就站在那边站在那边\NOkay, take that side. Take that side.
+Dialogue: 0,0:45:22.42,0:45:23.72,Default,,0,0,0,,是的\NYeah.
+Dialogue: 0,0:45:23.85,0:45:27.05,Default,,0,0,0,,把它放在这附近\NAnd put it around here.
+Dialogue: 0,0:45:27.95,0:45:29.52,Default,,0,0,0,,完美的\NPerfect.
+Dialogue: 0,0:45:32.90,0:45:35.19,Default,,0,0,0,,哦 对不起让我来帮你吧\N- Ooh. Sorry. - Let me help you.
+Dialogue: 0,0:45:41.13,0:45:43.14,Default,,0,0,0,,它顺着我的脸流下来了\NIt's down my face.
+Dialogue: 0,0:45:50.74,0:45:53.71,Default,,0,0,0,,我是哈姆内特 我是哈姆内特\N- I'm Hamnet. - I'm Hamnet.
+Dialogue: 0,0:45:54.78,0:45:58.42,Default,,0,0,0,,我是朱迪思 我是朱迪思\N- I'm Judith. - I'm Judith.
+Dialogue: 0,0:45:59.92,0:46:01.79,Default,,0,0,0,,这栋房子里不许跑步\NThere will be no running in this house.
+Dialogue: 0,0:46:01.93,0:46:05.59,Default,,0,0,0,,请各位举止得体……\NConduct yourselves, please, as...
+Dialogue: 0,0:46:05.73,0:46:08.09,Default,,0,0,0,,女士们和先生们\Ngentlewomen and gentlemen.
+Dialogue: 0,0:46:10.53,0:46:12.30,Default,,0,0,0,,你要去哪里？\NWhere are you going?
+Dialogue: 0,0:46:12.43,0:46:14.90,Default,,0,0,0,,是啊 他……他来了 他来了\NYeah. He's-he's coming. He's coming.
+Dialogue: 0,0:46:18.20,0:46:19.26,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:46:19.40,0:46:20.84,Default,,0,0,0,,你好\NHello.
+Dialogue: 0,0:46:20.98,0:46:22.98,Default,,0,0,0,,我们都知道他们交换过衣服\NWe all know they've swapped clothes.
+Dialogue: 0,0:46:23.11,0:46:25.01,Default,,0,0,0,,我们还要假装不知道多久？\NHow long are we going to pretend we don't?
+Dialogue: 0,0:46:25.14,0:46:27.08,Default,,0,0,0,,只要他们还认为自己是一样的 我们就会一直假装\NWe'll pretend for as long as they think they're the same.
+Dialogue: 0,0:46:29.39,0:46:30.95,Default,,0,0,0,,你好\NHi.
+Dialogue: 0,0:46:35.92,0:46:37.66,Default,,0,0,0,,父亲 您能帮我研读这段希腊文吗？\NFather, will you help me with the Greek passage
+Dialogue: 0,0:46:37.79,0:46:39.49,Default,,0,0,0,,昨天课上讲的？\Nfrom yesterday's lesson?
+Dialogue: 0,0:46:39.62,0:46:41.79,Default,,0,0,0,,哈姆内特 我还以为你已经学会了呢\NHamnet, I thought you'd already learnt it.
+Dialogue: 0,0:46:41.93,0:46:44.63,Default,,0,0,0,,我没带 因为我把入门教材落在学校了\NI didn't because I left my primer at school.
+Dialogue: 0,0:46:44.77,0:46:46.03,Default,,0,0,0,,哈姆内特\NWell, Hamnet,
+Dialogue: 0,0:46:46.17,0:46:47.66,Default,,0,0,0,,你需要认真对待学业\Nyou need to take your studies seriously.
+Dialogue: 0,0:46:47.80,0:46:49.03,Default,,0,0,0,,如果你不……你又怎能指望进步呢？\NHow do you expect to improve if you're not...
+Dialogue: 0,0:46:59.17,0:47:00.54,Default,,0,0,0,,你们这些坏家伙\NYou rascals.
+Dialogue: 0,0:47:00.68,0:47:03.02,Default,,0,0,0,,- 我们骗了你吗？ - 当然骗了\N- Did we trick you? - Of course you did.
+Dialogue: 0,0:47:03.15,0:47:05.18,Default,,0,0,0,,你又跟我换了身份来骗我\NYou swapped places to hoodwink me again.
+Dialogue: 0,0:47:09.29,0:47:10.49,Default,,0,0,0,,苏珊娜 过来一下\NSusanna, come here.
+Dialogue: 0,0:47:10.63,0:47:12.59,Default,,0,0,0,,过来\NCome here.
+Dialogue: 0,0:47:15.73,0:47:16.90,Default,,0,0,0,,现在 你还记得那件事吗？\NNow, do you remember the thing
+Dialogue: 0,0:47:17.03,0:47:18.56,Default,,0,0,0,,我们原本打算为你母亲做什么？\Nwe were going to do for your mother?
+Dialogue: 0,0:47:18.70,0:47:20.19,Default,,0,0,0,,是啊——你还记得吗？你准备好了吗？——是的\NYeah. -You remember? You ready to do it? -Yeah.
+Dialogue: 0,0:47:20.33,0:47:22.20,Default,,0,0,0,,好的快出去\NOkay. Go outside quickly.
+Dialogue: 0,0:47:22.34,0:47:25.40,Default,,0,0,0,,走 走 走 走 走 走 走 走 走 走 走 走\NGo, go, go, go, go, go, go, go, go, go, go, go.
+Dialogue: 0,0:47:26.67,0:47:28.30,Default,,0,0,0,,- 朝那边走一步…… - 等等\N- Just step toward... - Wait.
+Dialogue: 0,0:47:28.44,0:47:30.54,Default,,0,0,0,,一——向右走迈步\NOne st-- Come to your right. Step.
+Dialogue: 0,0:47:30.67,0:47:32.98,Default,,0,0,0,,再走一步\NStep. One more.
+Dialogue: 0,0:47:33.11,0:47:34.54,Default,,0,0,0,,还有一个\NOne more.
+Dialogue: 0,0:47:42.09,0:47:45.06,Default,,0,0,0,,我们三人何时再见面？\NWhen shall we three meet again?
+Dialogue: 0,0:47:45.19,0:47:48.59,Default,,0,0,0,,雷雨交加？\NIn thunder, lightning or in rain?
+Dialogue: 0,0:47:48.73,0:47:51.60,Default,,0,0,0,,当喧嚣散去 当战斗的胜负已分！\NWhen hurly-burly's done, when the battle's lost and won!
+Dialogue: 0,0:47:53.17,0:47:57.17,Default,,0,0,0,,那将是日落之时\NThat will be ere at set of sun.
+Dialogue: 0,0:47:57.30,0:47:59.34,Default,,0,0,0,,- 地点在哪？ - 在荒原上\N- Where the place? - Upon the heath.
+Dialogue: 0,0:48:00.67,0:48:01.67,Default,,0,0,0,,去见艾格尼丝\NThere to meet with Agnes.
+Dialogue: 0,0:48:01.81,0:48:03.58,Default,,0,0,0,,我来了 格雷马尔金\NI come, Graymalkin.
+Dialogue: 0,0:48:03.71,0:48:05.37,Default,,0,0,0,,牧场呼唤\NPaddock calls.
+Dialogue: 0,0:48:05.51,0:48:06.92,Default,,0,0,0,,匿名！\NAnon!
+Dialogue: 0,0:48:07.05,0:48:08.84,Default,,0,0,0,,公平即丑陋 丑陋即公平\NFair is foul and foul is fair.
+Dialogue: 0,0:48:08.98,0:48:12.48,Default,,0,0,0,,公平即丑陋 丑陋即公平公平即丑陋 丑陋即公平\NFair is foul and foul is fair. Fair is foul and foul is fair.
+Dialogue: 0,0:48:12.61,0:48:14.42,Default,,0,0,0,,公平即丑陋 丑陋即公平\NFair is foul and foul is fair.
+Dialogue: 0,0:48:14.56,0:48:15.55,Default,,0,0,0,,悬停在……\NHover through the...
+Dialogue: 0,0:48:18.02,0:48:19.09,Default,,0,0,0,,做得好！\NWell done!
+Dialogue: 0,0:48:19.22,0:48:21.46,Default,,0,0,0,,太棒了！\NThat was amazing!
+Dialogue: 0,0:48:21.60,0:48:23.80,Default,,0,0,0,,挖深一些 然后把所有东西都移到一边\NDig it deep, and then you move all of it to the side,
+Dialogue: 0,0:48:23.93,0:48:25.76,Default,,0,0,0,,然后把它放在这里\Nand then you put it down here.
+Dialogue: 0,0:48:25.90,0:48:28.77,Default,,0,0,0,,对吧？然后把四周的土也填上\NRight? And then you get the soil around the sides,
+Dialogue: 0,0:48:28.90,0:48:30.97,Default,,0,0,0,,然后你再轻轻拍拍它\Nand then you pat it more.
+Dialogue: 0,0:48:32.17,0:48:34.77,Default,,0,0,0,,然后你就会看到类似这样的片段\NAnd then you get bits like that.
+Dialogue: 0,0:48:39.08,0:48:41.62,Default,,0,0,0,,然后把它揉搓在手上\NAnd you rub it in your hands.
+Dialogue: 0,0:48:41.75,0:48:44.01,Default,,0,0,0,,哇哦然后又回来了！\NWhoa. And then back!
+Dialogue: 0,0:48:44.15,0:48:45.51,Default,,0,0,0,,这样做\NDo this.
+Dialogue: 0,0:48:45.65,0:48:47.92,Default,,0,0,0,,当你这样做的时候 画圈\NAnd when you're doing this, circle.
+Dialogue: 0,0:48:48.06,0:48:49.89,Default,,0,0,0,,对 就是这样\NYeah, like that.
+Dialogue: 0,0:48:50.02,0:48:51.38,Default,,0,0,0,,准备好？\NReady?
+Dialogue: 0,0:48:51.52,0:48:53.29,Default,,0,0,0,,前进后退\NForward. And back.
+Dialogue: 0,0:48:53.42,0:48:55.43,Default,,0,0,0,,现在 格挡 格挡 格挡\NNow, parry, parry, parry.
+Dialogue: 0,0:48:56.63,0:48:59.09,Default,,0,0,0,,很好又一次\NGood. Again.
+Dialogue: 0,0:49:00.76,0:49:02.30,Default,,0,0,0,,现在 做完这个之后 我要做这个\NNow, after that one, I'm gonna do this,
+Dialogue: 0,0:49:02.43,0:49:03.73,Default,,0,0,0,,然后你赶紧让开\Nand you get out of the way.
+Dialogue: 0,0:49:03.86,0:49:05.97,Default,,0,0,0,,准备好了吗？围成一圈挥舞你的剑\NReady? Circle off. Spin your sword.
+Dialogue: 0,0:49:06.10,0:49:07.30,Default,,0,0,0,,不\NNo.
+Dialogue: 0,0:49:07.44,0:49:09.78,Default,,0,0,0,,画圈 旋转你的剑\NCircle, spin your sword.
+Dialogue: 0,0:49:09.91,0:49:11.81,Default,,0,0,0,,现在 请上前来\NNow, come forward.
+Dialogue: 0,0:49:11.95,0:49:13.58,Default,,0,0,0,,然后回去\NAnd go back.
+Dialogue: 0,0:49:13.72,0:49:15.78,Default,,0,0,0,,一二三\NOne, two three.
+Dialogue: 0,0:49:15.92,0:49:16.98,Default,,0,0,0,,让开！\NOut of the way!
+Dialogue: 0,0:49:17.12,0:49:18.55,Default,,0,0,0,,非常好再次强调\NVery good. Again.
+Dialogue: 0,0:49:18.68,0:49:19.92,Default,,0,0,0,,朱迪思 这个叫什么名字？\NJudith, what's this one called?
+Dialogue: 0,0:49:20.06,0:49:21.45,Default,,0,0,0,,百里香百里香——迷迭香\N-Thyme. Thyme. - Rosemary.
+Dialogue: 0,0:49:21.59,0:49:22.46,Default,,0,0,0,,百里香百里香百里香——百里香百里香\N-Thyme. Thyme. Thyme. - Thyme. Thyme.
+Dialogue: 0,0:49:24.82,0:49:26.86,Default,,0,0,0,,- 我搞混了 - 没关系\N- I got it mixed up. - That's okay.
+Dialogue: 0,0:49:26.99,0:49:29.30,Default,,0,0,0,,这个...\NThis one...
+Dialogue: 0,0:49:29.43,0:49:31.59,Default,,0,0,0,,-那是迷迭香-是的\N-Now, that's rosemary. -Yeah.
+Dialogue: 0,0:49:31.73,0:49:33.33,Default,,0,0,0,,迷迭香有什么用途？\NAnd what is rosemary for?
+Dialogue: 0,0:49:33.47,0:49:35.46,Default,,0,0,0,,把它放进苹果里——苹果\N- Putting it in apples. -Apples.
+Dialogue: 0,0:49:35.60,0:49:37.07,Default,,0,0,0,,不迷迭香是做什么用的？\NNo. Rosemary's for?
+Dialogue: 0,0:49:37.21,0:49:38.30,Default,,0,0,0,,回忆\NRemembering.
+Dialogue: 0,0:49:38.44,0:49:40.08,Default,,0,0,0,,回忆\NRemembering.
+Dialogue: 0,0:50:19.75,0:50:22.98,Default,,0,0,0,,现在 你要把这些都揉进手里\NNow, you're to rub all this in your hands.
+Dialogue: 0,0:50:25.61,0:50:27.82,Default,,0,0,0,,你吹了一小口愿望\NYou blow a little wish.
+Dialogue: 0,0:50:29.96,0:50:32.09,Default,,0,0,0,,祝他一路顺风\NTo wish him on his way.
+Dialogue: 0,0:50:32.23,0:50:35.20,Default,,0,0,0,,是吗？这是你和他之间的秘密\NYeah? And it's your secret with him.
+Dialogue: 0,0:50:42.84,0:50:44.91,Default,,0,0,0,,你看到他了吗？\NDid you see him?
+Dialogue: 0,0:50:45.04,0:50:47.50,Default,,0,0,0,,你没看到他在天上吗？\NDid you not see him in the sky?
+Dialogue: 0,0:50:47.64,0:50:49.84,Default,,0,0,0,,好的 再来一次\NAll right, do it again.
+Dialogue: 0,0:50:49.98,0:50:51.68,Default,,0,0,0,,再许个愿吧\NMake another wish.
+Dialogue: 0,0:50:54.54,0:50:56.01,Default,,0,0,0,,看 就在上面\NLook. Right up there.
+Dialogue: 0,0:50:56.91,0:50:59.18,Default,,0,0,0,,你看 他就在那儿你看到他了吗？\NLook, just there. Did you see him?
+Dialogue: 0,0:51:00.42,0:51:04.75,Default,,0,0,0,,他把你的所有愿望都珍藏在他那颗小小的心里\NAnd he's got all your wishes tucked in his little heart.
+Dialogue: 0,0:51:04.89,0:51:07.23,Default,,0,0,0,,所以 每当你想要缅怀他的时候\NSo any time that you want to remember him,
+Dialogue: 0,0:51:07.36,0:51:09.73,Default,,0,0,0,,你只需要去……\Nyou just have to go...
+Dialogue: 0,0:51:11.06,0:51:13.43,Default,,0,0,0,,你要去哪里？\NWhere are you going?
+Dialogue: 0,0:51:13.56,0:51:16.67,Default,,0,0,0,,咦？我一定要抓住你！\NHuh? I'm gonna catch you!
+Dialogue: 0,0:51:16.81,0:51:18.50,Default,,0,0,0,,我一定会抓住你的！\NI'm gonna catch you!
+Dialogue: 0,0:51:23.21,0:51:24.74,Default,,0,0,0,,父亲？\NFather?
+Dialogue: 0,0:51:29.38,0:51:31.11,Default,,0,0,0,,一切都好吗？\NIs all well?
+Dialogue: 0,0:51:31.25,0:51:32.62,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:51:36.39,0:51:39.45,Default,,0,0,0,,听着 我希望你远离你爷爷\NListen, I want you to stay away from your grandfather.
+Dialogue: 0,0:51:39.59,0:51:42.26,Default,,0,0,0,,他不会打你的姐妹 但我担心的是你\NHe'll not hit your sisters, but it's you that I worry for,
+Dialogue: 0,0:51:42.39,0:51:44.30,Default,,0,0,0,,我需要知道 当我不在你身边的时候 你也能安全无虞\Nand I need to know that you'll be safe when I'm not here.
+Dialogue: 0,0:51:44.43,0:51:46.96,Default,,0,0,0,,你要再回伦敦吗？\NYou're going back to London again?
+Dialogue: 0,0:51:47.10,0:51:48.36,Default,,0,0,0,,是的 明天\NYes, tomorrow.
+Dialogue: 0,0:51:48.50,0:51:50.07,Default,,0,0,0,,明天？\NTomorrow?
+Dialogue: 0,0:51:50.20,0:51:51.77,Default,,0,0,0,,没关系\NIt's all right.
+Dialogue: 0,0:51:53.01,0:51:54.81,Default,,0,0,0,,这次我们跟你一起去吗？\NWill we go with you this time?
+Dialogue: 0,0:51:54.94,0:51:56.54,Default,,0,0,0,,不 还没有\NNo, not yet.
+Dialogue: 0,0:51:59.62,0:52:00.97,Default,,0,0,0,,嘿\NHey.
+Dialogue: 0,0:52:04.12,0:52:05.62,Default,,0,0,0,,我会想念你\NI'll miss you.
+Dialogue: 0,0:52:06.65,0:52:09.42,Default,,0,0,0,,但我必须走了 你明白吗？我……\NBut I have to go, you understand? I...
+Dialogue: 0,0:52:10.22,0:52:11.66,Default,,0,0,0,,我知道\NI know.
+Dialogue: 0,0:52:12.52,0:52:14.09,Default,,0,0,0,,我明白\NI understand.
+Dialogue: 0,0:52:15.29,0:52:16.40,Default,,0,0,0,,那挺好的\NThat's good.
+Dialogue: 0,0:52:18.06,0:52:20.23,Default,,0,0,0,,因为我需要你照顾好你的母亲和姐妹们\N'Cause I need you to look after your mother and your sisters.
+Dialogue: 0,0:52:20.36,0:52:22.00,Default,,0,0,0,,你会这么做吗？\NWill you do that?
+Dialogue: 0,0:52:22.13,0:52:23.33,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:52:23.47,0:52:24.97,Default,,0,0,0,,你会勇敢吗？——是的\N- Will you be brave? - Yes.
+Dialogue: 0,0:52:25.11,0:52:26.67,Default,,0,0,0,,是的？\NYes?
+Dialogue: 0,0:52:26.80,0:52:28.81,Default,,0,0,0,,你会勇敢吗？——是的\N- Will you be brave? - Yes.
+Dialogue: 0,0:52:28.95,0:52:30.47,Default,,0,0,0,,你敢吗？！\NWill you be brave?!
+Dialogue: 0,0:52:30.61,0:52:32.71,Default,,0,0,0,,啊？！是的！是的 我会勇敢的！\N- Huh?! - Yes! Yes, I'll be brave!
+Dialogue: 0,0:52:32.84,0:52:36.15,Default,,0,0,0,,我会勇敢的我会勇敢的\NI'll be brave. I'll be brave.
+Dialogue: 0,0:52:38.25,0:52:41.16,Default,,0,0,0,,我在伦敦看过房子了\NI've looked at houses for us in London.
+Dialogue: 0,0:52:43.79,0:52:46.29,Default,,0,0,0,,秋天来了——嗯\N-Autumn is coming. - Mm.
+Dialogue: 0,0:52:47.79,0:52:50.02,Default,,0,0,0,,孩子们会生病\NAnd the children will fall ill.
+Dialogue: 0,0:52:51.80,0:52:54.50,Default,,0,0,0,,朱迪思 她还不够坚强\NJudith, she's still not strong enough.
+Dialogue: 0,0:52:54.64,0:52:58.17,Default,,0,0,0,,她经常感到胸闷\NShe often gets congestion in her chest.
+Dialogue: 0,0:52:58.31,0:53:00.81,Default,,0,0,0,,伦敦的空气……\NAnd the air in London is...
+Dialogue: 0,0:53:00.94,0:53:02.01,Default,,0,0,0,,我们不能\NWe can't.
+Dialogue: 0,0:53:02.14,0:53:05.04,Default,,0,0,0,,但不久的将来 我们会实现这个愿望\NBut one day soon, we will.
+Dialogue: 0,0:53:06.48,0:53:08.91,Default,,0,0,0,,我们将和你们一起去伦敦\NWe will come to London with you.
+Dialogue: 0,0:53:10.18,0:53:11.82,Default,,0,0,0,,不 你不会的\NNo, you won't.
+Dialogue: 0,0:53:11.96,0:53:14.25,Default,,0,0,0,,你永远不会来\NYou'll never come.
+Dialogue: 0,0:53:15.32,0:53:18.56,Default,,0,0,0,,你一直盼望着盛夏的酷暑过去……\NYou've waited for the heat of summer to pass...
+Dialogue: 0,0:53:20.20,0:53:22.39,Default,,0,0,0,,秋季的干燥\N...the dryness of autumn,
+Dialogue: 0,0:53:22.53,0:53:25.67,Default,,0,0,0,,雪和寒冷\Nthe snow and the cold.
+Dialogue: 0,0:53:26.67,0:53:30.10,Default,,0,0,0,,你不相信朱迪丝能在伦敦活着离开\NYou do not believe that Judith will ever survive London.
+Dialogue: 0,0:53:31.33,0:53:34.84,Default,,0,0,0,,你会竭尽全力让那个孩子活下去\NYou'd do anything in your power to keep that child alive.
+Dialogue: 0,0:53:34.97,0:53:36.88,Default,,0,0,0,,难道这不是母亲应该做的吗？\NIsn't that what a mother is supposed to do?
+Dialogue: 0,0:53:37.01,0:53:39.17,Default,,0,0,0,,当然是这样\NOf course it is.
+Dialogue: 0,0:53:39.31,0:53:40.68,Default,,0,0,0,,所以...\NSo...
+Dialogue: 0,0:53:43.88,0:53:49.62,Default,,0,0,0,,我决定在斯特拉特福德以外的地方找块地\N...I've decided to look for land outside Stratford.
+Dialogue: 0,0:53:50.96,0:53:53.49,Default,,0,0,0,,你应该带着孩子们住在那里\NThat's where you should live with the children.
+Dialogue: 0,0:53:55.53,0:53:56.93,Default,,0,0,0,,- 谢谢 - 嗯\N- Thank you. - Mm-hmm.
+Dialogue: 0,0:54:00.97,0:54:02.69,Default,,0,0,0,,哦！\NOoh!
+Dialogue: 0,0:54:02.83,0:54:04.14,Default,,0,0,0,,她在哪儿？啊！\NWhere is she? Ah!
+Dialogue: 0,0:54:09.11,0:54:12.01,Default,,0,0,0,,哈姆内特他就在那里\NHamnet. There he is.
+Dialogue: 0,0:54:15.38,0:54:16.98,Default,,0,0,0,,过来\NCome here.
+Dialogue: 0,0:54:22.05,0:54:24.46,Default,,0,0,0,,我爱你我爱你我爱你\NI love you. I love you. I love you.
+Dialogue: 0,0:54:26.06,0:54:28.46,Default,,0,0,0,,好的爱你\NAll right. Love you.
+Dialogue: 0,0:54:30.23,0:54:32.13,Default,,0,0,0,,来吧——我爱你\N- Come on. - Love you.
+Dialogue: 0,0:54:33.39,0:54:35.64,Default,,0,0,0,,爱你\NLove you.
+Dialogue: 0,0:54:35.77,0:54:37.31,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:54:39.57,0:54:41.77,Default,,0,0,0,,好的 过来\NAll right. Come here.
+Dialogue: 0,0:54:42.81,0:54:45.58,Default,,0,0,0,,- 记住我跟你说过的话 好吗？ - 好的\N- Remember what I told you, okay? - Okay.
+Dialogue: 0,0:54:47.15,0:54:48.81,Default,,0,0,0,,好孩子\NGood boy.
+Dialogue: 0,0:54:50.88,0:54:52.75,Default,,0,0,0,,再见再见\N- Bye. - Bye.
+Dialogue: 0,0:54:57.13,0:54:58.89,Default,,0,0,0,,再见再见\N- Bye. - Bye.
+Dialogue: 0,0:55:00.89,0:55:03.46,Default,,0,0,0,,再见再见\N- Bye. - Bye.
+Dialogue: 0,0:55:22.41,0:55:24.14,Default,,0,0,0,,哈姆内特？\NHamnet?
+Dialogue: 0,0:55:26.29,0:55:28.52,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,0:55:33.12,0:55:35.69,Default,,0,0,0,,过来 过来\NCome on. Come here.
+Dialogue: 0,0:55:40.43,0:55:42.16,Default,,0,0,0,,把你的手牌给我看看\NShow me your hand.
+Dialogue: 0,0:55:43.54,0:55:45.64,Default,,0,0,0,,什么？你看到了什么？\NWhat? What do you see?
+Dialogue: 0,0:55:46.47,0:55:48.54,Default,,0,0,0,,我看见你\NI see you.
+Dialogue: 0,0:55:49.68,0:55:52.34,Default,,0,0,0,,长大了\NGrown.
+Dialogue: 0,0:55:52.48,0:55:54.85,Default,,0,0,0,,而且非常强壮\NAnd very strong.
+Dialogue: 0,0:55:56.08,0:55:59.15,Default,,0,0,0,,我看到你在伦敦和你父亲一起工作\NAnd I see you in London working with your father.
+Dialogue: 0,0:56:01.59,0:56:03.12,Default,,0,0,0,,- 在剧院吗？ - 是的\N- In the theater? - Yes.
+Dialogue: 0,0:56:03.26,0:56:04.95,Default,,0,0,0,,在剧院\NAt the playhouse.
+Dialogue: 0,0:56:07.53,0:56:09.06,Default,,0,0,0,,我将要做什么？\NWhat will I be doing?
+Dialogue: 0,0:56:09.20,0:56:11.22,Default,,0,0,0,,哈姆内特 你想做什么？\NWhat do you wish to do, Hamnet?
+Dialogue: 0,0:56:11.36,0:56:15.26,Default,,0,0,0,,我应该是一名持剑的玩家\NI should be one of the players with a sword.
+Dialogue: 0,0:56:15.40,0:56:17.00,Default,,0,0,0,,一把剑？\NA sword?
+Dialogue: 0,0:56:17.14,0:56:18.87,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,0:56:19.01,0:56:22.01,Default,,0,0,0,,我将用它与对方的剑进行碰撞\NAnd I shall clash it against the sword of the other player.
+Dialogue: 0,0:56:22.14,0:56:24.21,Default,,0,0,0,,给我看看\NShow me.
+Dialogue: 0,0:56:24.35,0:56:26.14,Default,,0,0,0,,将会有一场恶战\NThere'll be a terrible fight,
+Dialogue: 0,0:56:26.28,0:56:30.84,Default,,0,0,0,,所有观看的人都会吓得魂飞魄散\Nand everybody watching will be frightened out of their wits.
+Dialogue: 0,0:56:30.98,0:56:33.09,Default,,0,0,0,,谁将获胜？\NAnd who will win?
+Dialogue: 0,0:56:33.22,0:56:34.71,Default,,0,0,0,,我当然会\NI shall, of course.
+Dialogue: 0,0:56:34.85,0:56:36.85,Default,,0,0,0,,当然应该\NOf course you shall.
+Dialogue: 0,0:56:48.24,0:56:50.47,Default,,0,0,0,,他们似乎有什么心事\NSomething has upset them.
+Dialogue: 0,0:56:51.90,0:56:54.17,Default,,0,0,0,,会是什么呢？\NWhat could it be?
+Dialogue: 0,0:56:54.31,0:56:56.44,Default,,0,0,0,,天气？\NThe weather?
+Dialogue: 0,0:56:56.58,0:56:58.55,Default,,0,0,0,,或许是空气中有什么异味？\NSomething in the air, perhaps?
+Dialogue: 0,0:57:00.54,0:57:03.42,Default,,0,0,0,,最好告诉琼今天让孩子们待在家里\NBest tell Joan to keep the children inside today.
+Dialogue: 0,0:59:53.69,0:59:55.38,Default,,0,0,0,,哈姆内特·朱迪思？\NHAMNET Judith?
+Dialogue: 0,1:00:00.03,1:00:01.79,Default,,0,0,0,,朱迪思？\NJudith?
+Dialogue: 0,1:00:01.92,1:00:03.06,Default,,0,0,0,,你在哪里？\NWhere are you?
+Dialogue: 0,1:00:06.66,1:00:07.90,Default,,0,0,0,,醒醒！\NWake up!
+Dialogue: 0,1:00:08.04,1:00:10.60,Default,,0,0,0,,面包师告诉我 她的猫生了小猫\NThe baker told me her cat had kittens.
+Dialogue: 0,1:00:10.74,1:00:12.56,Default,,0,0,0,,我们需要亲眼看看\NWe need to see them.
+Dialogue: 0,1:00:19.27,1:00:22.11,Default,,0,0,0,,有八个 朱迪思八个！\NThere's eight, Judith. Eight!
+Dialogue: 0,1:00:22.25,1:00:24.65,Default,,0,0,0,,我们得快点 要下雨了\NWe need to hurry. It's going to rain.
+Dialogue: 0,1:00:28.29,1:00:29.82,Default,,0,0,0,,朱迪思？\NJudith?
+Dialogue: 0,1:00:31.52,1:00:33.06,Default,,0,0,0,,裘德？\NJude?
+Dialogue: 0,1:00:36.06,1:00:37.77,Default,,0,0,0,,怎么了？\NWhat's wrong?
+Dialogue: 0,1:00:40.47,1:00:41.99,Default,,0,0,0,,朱迪思 你怎么了？\NWhat's wrong, Judith?
+Dialogue: 0,1:00:42.13,1:00:44.00,Default,,0,0,0,,朱迪思 回答我\NJudith, answer me.
+Dialogue: 0,1:00:45.41,1:00:46.93,Default,,0,0,0,,朱迪思 醒醒\NJudith, wake up.
+Dialogue: 0,1:00:47.07,1:00:48.84,Default,,0,0,0,,朱迪思 拜托了朱迪思\NJudith, please. Judith.
+Dialogue: 0,1:01:03.66,1:01:06.09,Default,,0,0,0,,- 是什么人？ - 是朱迪思\N- What is it? - It's Judith.
+Dialogue: 0,1:01:12.80,1:01:14.00,Default,,0,0,0,,她这样多久了？\NHow long has she been like this?
+Dialogue: 0,1:01:14.13,1:01:15.53,Default,,0,0,0,,自从我放学回来之后\NSince I returned from school.
+Dialogue: 0,1:01:19.14,1:01:20.17,Default,,0,0,0,,艾格尼丝：我的天哪\NAGNES Oh, my God.
+Dialogue: 0,1:01:20.30,1:01:22.07,Default,,0,0,0,,她明白了\NShe's got it.
+Dialogue: 0,1:01:22.20,1:01:23.97,Default,,0,0,0,,难道不是吗？\NHasn't she?
+Dialogue: 0,1:01:24.11,1:01:26.48,Default,,0,0,0,,她得了瘟疫\NShe's got the pestilence.
+Dialogue: 0,1:01:26.61,1:01:28.38,Default,,0,0,0,,对吧 妈妈？\NHasn't she, Mama?
+Dialogue: 0,1:01:28.52,1:01:29.71,Default,,0,0,0,,去找你奶奶\NGo find your grandmother.
+Dialogue: 0,1:01:29.85,1:01:31.22,Default,,0,0,0,,叫她过来\NBid her to come.
+Dialogue: 0,1:01:31.35,1:01:32.75,Default,,0,0,0,,现在！\NNow!
+Dialogue: 0,1:01:39.83,1:01:41.19,Default,,0,0,0,,她感觉浑身发热\NShe's burning up.
+Dialogue: 0,1:01:41.32,1:01:43.49,Default,,0,0,0,,我们需要 嗯 更多的水\NWe need, um, more water.
+Dialogue: 0,1:01:43.63,1:01:45.20,Default,,0,0,0,,把火烧得更大些 把水烧得更热些\NMake a bigger fire and heat up more water.
+Dialogue: 0,1:01:45.33,1:01:47.36,Default,,0,0,0,,我们需要热水——伊莱扎 再去打些水来\N- We need warm water. -Eliza, fetch more water
+Dialogue: 0,1:01:47.50,1:01:48.54,Default,,0,0,0,,把贝利斯从厨房端出来\Nand bring the Bellis from the kitchen.
+Dialogue: 0,1:01:48.67,1:01:50.20,Default,,0,0,0,,一排肉桂\NA row of cinnamon.
+Dialogue: 0,1:01:50.34,1:01:51.33,Default,,0,0,0,,肉桂有驱暑的功效\NCinnamon, that's good for drawing out the heat.
+Dialogue: 0,1:01:51.47,1:01:53.10,Default,,0,0,0,,松针草或芸香百里香 没错\NPineweed or a rue. Thyme, yes.
+Dialogue: 0,1:01:53.24,1:01:54.77,Default,,0,0,0,,你会在房间里找到它们\NYou'll find them in the room.
+Dialogue: 0,1:01:54.90,1:01:56.24,Default,,0,0,0,,妈妈嗯——另一张桌子另一边\NMama. Yeah. -The other table. The other side.
+Dialogue: 0,1:01:56.37,1:01:57.74,Default,,0,0,0,,是的 妈妈在这里 我的宝贝\NYeah, Mama's here, my love.
+Dialogue: 0,1:01:57.87,1:02:00.07,Default,,0,0,0,,来 喝这个这是迷迭香果冻做的\NHere, drink this. It's rosemary and jelly.
+Dialogue: 0,1:02:00.21,1:02:02.42,Default,,0,0,0,,一切都会好起来的 嗯？\NAll will be well, hmm?
+Dialogue: 0,1:02:02.55,1:02:04.08,Default,,0,0,0,,一切都会好起来的\NAll will be well.
+Dialogue: 0,1:02:04.21,1:02:06.15,Default,,0,0,0,,朱迪思 留下来\NJudith, stay with.
+Dialogue: 0,1:02:06.29,1:02:08.89,Default,,0,0,0,,妈妈在这里没事的妈妈在这里\NMama's here. It's okay. Mama's here.
+Dialogue: 0,1:02:09.02,1:02:10.72,Default,,0,0,0,,大黄我们需要大黄来清肠胃\NRhubarb. We need rhubarb to purge the stomach,
+Dialogue: 0,1:02:10.86,1:02:11.85,Default,,0,0,0,,驱除瘟疫\Ndrive out the pestilence.
+Dialogue: 0,1:02:11.99,1:02:14.00,Default,,0,0,0,,你能去拿一些吗？\NCan you go and fetch some?
+Dialogue: 0,1:02:14.13,1:02:16.23,Default,,0,0,0,,妈妈来了没事的朱迪思 我们都在这里\NMama's here. It's okay. Judith, we're all here.
+Dialogue: 0,1:02:16.36,1:02:17.77,Default,,0,0,0,,苏珊娜 你也去打些水\NSusanna, draw some water, too.
+Dialogue: 0,1:02:17.90,1:02:19.56,Default,,0,0,0,,哈姆内特和……还有玛丽和苏珊娜\NHamnet and... and Mary and Susanna.
+Dialogue: 0,1:02:19.69,1:02:21.36,Default,,0,0,0,,尽快取水\NDraw water as soon as you can.
+Dialogue: 0,1:02:21.50,1:02:23.37,Default,,0,0,0,,他为什么没来？\NWhy isn't he here?
+Dialogue: 0,1:02:24.54,1:02:27.27,Default,,0,0,0,,伊莱扎 去给你哥哥写信 让他过来\NEliza, go write to your brother and tell him to come.
+Dialogue: 0,1:02:29.34,1:02:31.75,Default,,0,0,0,,朱迪思\NJudith.
+Dialogue: 0,1:02:33.72,1:02:36.08,Default,,0,0,0,,张开嘴 朱迪思\NOpen your mouth, Judith.
+Dialogue: 0,1:02:36.22,1:02:39.29,Default,,0,0,0,,张开嘴妈妈来了就这样\NOpen your mouth. Mama's here. That's it.
+Dialogue: 0,1:02:39.42,1:02:41.08,Default,,0,0,0,,那挺好的\NThat's good.
+Dialogue: 0,1:02:41.22,1:02:42.92,Default,,0,0,0,,是的 你会安全的\NYes, you'll be safe.
+Dialogue: 0,1:02:43.06,1:02:45.23,Default,,0,0,0,,你张开嘴 把它喝下去\NYou'll open your mouth. Drink it down.
+Dialogue: 0,1:02:45.36,1:02:48.62,Default,,0,0,0,,咽下去妈妈在这里没事的 朱迪思\NSwallow it down. Mama's here. It's okay, Judith.
+Dialogue: 0,1:02:49.93,1:02:52.07,Default,,0,0,0,,妈妈来了 没事的\NMama's here. It's okay.
+Dialogue: 0,1:02:52.20,1:02:53.09,Default,,0,0,0,,好的\NOkay.
+Dialogue: 0,1:03:21.23,1:03:22.49,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,1:03:23.33,1:03:24.69,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,1:03:25.80,1:03:28.46,Default,,0,0,0,,你已经尽力了\NYou have done all that you can.
+Dialogue: 0,1:03:31.17,1:03:33.47,Default,,0,0,0,,我不会让她越界\NI will not let her cross over.
+Dialogue: 0,1:03:46.49,1:03:50.68,Default,,0,0,0,,奶奶 您有三个女儿 她们都被夺去了生命\NGrandmama, you had three daughters that were taken.
+Dialogue: 0,1:03:54.83,1:03:56.46,Default,,0,0,0,,他们是……\NWere they...
+Dialogue: 0,1:03:58.00,1:03:59.73,Default,,0,0,0,,她们像朱迪思吗？\NWere they like Judith?
+Dialogue: 0,1:04:03.26,1:04:05.07,Default,,0,0,0,,安妮七岁\NAnne was seven.
+Dialogue: 0,1:04:07.30,1:04:09.68,Default,,0,0,0,,另外两个还是婴儿\NThe other two were just babies.
+Dialogue: 0,1:04:09.81,1:04:12.51,Default,,0,0,0,,他们身上都有肿胀 而且……\NThey all had swellings and...
+Dialogue: 0,1:04:14.31,1:04:16.62,Default,,0,0,0,,像朱迪思一样发烧\N...fever like Judith.
+Dialogue: 0,1:04:16.75,1:04:19.18,Default,,0,0,0,,你妈妈想……\NYour mother's trying to...
+Dialogue: 0,1:04:19.32,1:04:21.52,Default,,0,0,0,,看好她的孩子\Nkeep a grip on her child.
+Dialogue: 0,1:04:22.35,1:04:24.22,Default,,0,0,0,,这行不通\NIt won't work.
+Dialogue: 0,1:04:27.53,1:04:30.93,Default,,0,0,0,,给予的东西随时可能被收回\NWhat is given may be taken away at any time.
+Dialogue: 0,1:04:33.63,1:04:36.20,Default,,0,0,0,,我们绝不能放松警惕\NWe must never let our guard down.
+Dialogue: 0,1:04:37.64,1:04:40.40,Default,,0,0,0,,永远不要把……视为理所当然\NNever take for granted...
+Dialogue: 0,1:04:42.51,1:04:44.97,Default,,0,0,0,,……我们孩子的心脏在跳动\N...that our children's hearts beat,
+Dialogue: 0,1:04:45.11,1:04:47.58,Default,,0,0,0,,它们呼吸着\Nthat they draw breath,
+Dialogue: 0,1:04:47.72,1:04:51.35,Default,,0,0,0,,他们行走、说话 而且……\Nthat they walk and speak and...
+Dialogue: 0,1:04:53.95,1:04:56.52,Default,,0,0,0,,……微笑、争论、玩耍\N...smile, argue, play.
+Dialogue: 0,1:05:00.05,1:05:04.03,Default,,0,0,0,,永远不要忘记 他们可能随时会离开\NNever forget for a moment that they may be gone.
+Dialogue: 0,1:05:11.04,1:05:12.94,Default,,0,0,0,,裘德\NJude.
+Dialogue: 0,1:05:55.45,1:05:56.74,Default,,0,0,0,,裘德\NJude.
+Dialogue: 0,1:06:08.29,1:06:10.16,Default,,0,0,0,,别难过\NDon't be sad.
+Dialogue: 0,1:06:12.10,1:06:14.40,Default,,0,0,0,,你会康复的\NYou shall be well.
+Dialogue: 0,1:06:15.56,1:06:17.50,Default,,0,0,0,,我不会\NI shall not.
+Dialogue: 0,1:06:18.30,1:06:20.33,Default,,0,0,0,,没有你 我做不到\NNot without you.
+Dialogue: 0,1:06:32.12,1:06:33.98,Default,,0,0,0,,它在这里\NIt's here.
+Dialogue: 0,1:06:34.12,1:06:35.72,Default,,0,0,0,,裘德 你看到了吗？\NDo you see it, Jude?
+Dialogue: 0,1:06:42.26,1:06:44.13,Default,,0,0,0,,它在监视我们\NIt's watching us.
+Dialogue: 0,1:06:45.46,1:06:47.43,Default,,0,0,0,,我会告诉它带我们俩一起去\NI'll tell it to take us both.
+Dialogue: 0,1:06:47.56,1:06:50.04,Default,,0,0,0,,我们一起去\NWe'll go together.
+Dialogue: 0,1:06:57.44,1:06:59.34,Default,,0,0,0,,转身离开\NTurn away.
+Dialogue: 0,1:06:59.47,1:07:01.31,Default,,0,0,0,,转身离开\NTurn away.
+Dialogue: 0,1:07:09.02,1:07:10.52,Default,,0,0,0,,它会犯错\NIt'll make a mistake.
+Dialogue: 0,1:07:12.13,1:07:14.02,Default,,0,0,0,,它无法区分我们\NIt can't tell us apart.
+Dialogue: 0,1:07:16.49,1:07:18.70,Default,,0,0,0,,朱迪思 跟我一起呼吸\NBreathe with me, Judith.
+Dialogue: 0,1:07:51.03,1:07:53.87,Default,,0,0,0,,我将我的生命献给你\NI give you my life.
+Dialogue: 0,1:07:54.00,1:07:56.23,Default,,0,0,0,,你会康复的\NYou shall be well.
+Dialogue: 0,1:07:56.37,1:07:59.27,Default,,0,0,0,,朱迪思 我愿将我的生命献给你\NI give you my life, Judith.
+Dialogue: 0,1:08:05.41,1:08:07.48,Default,,0,0,0,,我会勇敢的\NI'll be brave.
+Dialogue: 0,1:08:09.08,1:08:11.54,Default,,0,0,0,,父亲 我会勇敢的\NI'll be brave, Father.
+Dialogue: 0,1:08:11.68,1:08:13.48,Default,,0,0,0,,我会勇敢的\NI'll be brave.
+Dialogue: 0,1:08:16.73,1:08:18.36,Default,,0,0,0,,我会勇敢的\NI'll be brave.
+Dialogue: 0,1:08:19.59,1:08:20.96,Default,,0,0,0,,父亲 我会勇敢的\NI'll be brave, Father.
+Dialogue: 0,1:08:21.09,1:08:22.76,Default,,0,0,0,,我会勇敢的\NI'll be brave.
+Dialogue: 0,1:08:25.26,1:08:27.27,Default,,0,0,0,,我会勇敢的\NI'll be brave.
+Dialogue: 0,1:08:54.42,1:08:55.42,Default,,0,0,0,,哇\NWhoa.
+Dialogue: 0,1:08:57.23,1:08:58.86,Default,,0,0,0,,尽快\NQuick as you can.
+Dialogue: 0,1:09:44.87,1:09:46.35,Default,,0,0,0,,哈姆内特\NHamnet.
+Dialogue: 0,1:09:46.48,1:09:47.84,Default,,0,0,0,,哈姆内特 你不应该在这里\NHamnet, you're not supposed to be down here.
+Dialogue: 0,1:09:47.97,1:09:49.81,Default,,0,0,0,,我得扶你上床睡觉\NI need to take you up to bed.
+Dialogue: 0,1:09:55.96,1:09:57.39,Default,,0,0,0,,哈姆内特\NHamnet.
+Dialogue: 0,1:09:58.89,1:10:00.49,Default,,0,0,0,,哈姆内特？\NHamnet?
+Dialogue: 0,1:10:21.68,1:10:23.32,Default,,0,0,0,,妈妈\NMama.
+Dialogue: 0,1:10:26.48,1:10:28.08,Default,,0,0,0,,妈妈\NMama.
+Dialogue: 0,1:10:31.32,1:10:32.89,Default,,0,0,0,,妈妈\NMama.
+Dialogue: 0,1:11:20.38,1:11:22.14,Default,,0,0,0,,哈姆内特\NHamnet.
+Dialogue: 0,1:11:22.28,1:11:24.08,Default,,0,0,0,,你必须张开嘴\NYou must open your mouth.
+Dialogue: 0,1:11:25.55,1:11:26.87,Default,,0,0,0,,一切都会好起来的\NAll will be well.
+Dialogue: 0,1:11:37.45,1:11:39.05,Default,,0,0,0,,他着火了\NHe's burning.
+Dialogue: 0,1:11:39.19,1:11:40.59,Default,,0,0,0,,他快要烧起来了\NHe's burning up.
+Dialogue: 0,1:11:40.73,1:11:42.62,Default,,0,0,0,,它不会粘住——它不会粘住！\NIt will not sti-- It will not stick!
+Dialogue: 0,1:11:44.56,1:11:46.19,Default,,0,0,0,,一块石头那里有一块石头\NA stone. There's a stone.
+Dialogue: 0,1:11:46.33,1:11:47.66,Default,,0,0,0,,楼上有一块石头 中间有个洞\NThere's a stone upstairs with a hole in the middle of it.
+Dialogue: 0,1:11:47.80,1:11:49.93,Default,,0,0,0,,放在他床边拿下来我需要它\NBy his bedside. Bring it down. I need it.
+Dialogue: 0,1:11:50.06,1:11:51.97,Default,,0,0,0,,还有 嗯 呃 盐去拿盐\NAnd, um, uh, salt. Get salt.
+Dialogue: 0,1:11:52.11,1:11:53.71,Default,,0,0,0,,拿到手了你能送出去吗？\NGet it. Can you give it?
+Dialogue: 0,1:11:53.84,1:11:56.47,Default,,0,0,0,,你能帮我拿点盐来吗？有多少盐都行\NCan you f-fetch me some salt, as much salt as you have.
+Dialogue: 0,1:11:56.61,1:11:57.84,Default,,0,0,0,,水我们需要水\NWater. We need water.
+Dialogue: 0,1:11:57.97,1:11:59.77,Default,,0,0,0,,他……他太火辣了\NHe's... he's too hot.
+Dialogue: 0,1:11:59.91,1:12:01.31,Default,,0,0,0,,他着火了\NHe's burning.
+Dialogue: 0,1:12:01.44,1:12:03.48,Default,,0,0,0,,我的爱人妈妈来了\NMy love. Mama's here.
+Dialogue: 0,1:12:03.62,1:12:05.51,Default,,0,0,0,,一切都会好起来的一切都会好起来的\NAll will be well. All will be well.
+Dialogue: 0,1:12:05.65,1:12:07.21,Default,,0,0,0,,一切都会好起来的\NAll will be well.
+Dialogue: 0,1:12:10.78,1:12:12.49,Default,,0,0,0,,一切都会好起来的\NAll will be well.
+Dialogue: 0,1:12:15.89,1:12:19.03,Default,,0,0,0,,哈姆内特 别害怕\NHamnet, don't be scared.
+Dialogue: 0,1:12:19.17,1:12:20.76,Default,,0,0,0,,不必害怕\NNo need to be scared.
+Dialogue: 0,1:12:20.90,1:12:22.70,Default,,0,0,0,,一切都会好起来的妈妈在这里\NAll will be well. Mommy's here.
+Dialogue: 0,1:12:22.83,1:12:25.47,Default,,0,0,0,,妈妈在这里没事的\NMommy's here. It's okay.
+Dialogue: 0,1:12:25.60,1:12:26.83,Default,,0,0,0,,妈妈来了\NMommy's here.
+Dialogue: 0,1:12:26.97,1:12:28.67,Default,,0,0,0,,看我 妈妈在这里\NLook at me. Mommy's here.
+Dialogue: 0,1:12:28.81,1:12:31.64,Default,,0,0,0,,我永远、永远不会放你走\NI will never, ever let you go.
+Dialogue: 0,1:12:31.77,1:12:33.27,Default,,0,0,0,,你明白吗？\NYou understand?
+Dialogue: 0,1:12:33.41,1:12:35.95,Default,,0,0,0,,我永远、永远不会放你走\NI will never, ever let you go.
+Dialogue: 0,1:12:36.08,1:12:37.68,Default,,0,0,0,,我爱你\NI love you.
+Dialogue: 0,1:12:39.35,1:12:40.65,Default,,0,0,0,,我爱你\NI love you.
+Dialogue: 0,1:12:50.00,1:12:53.43,Default,,0,0,0,,伊莱扎 把朱迪丝带到厨房去 让她待在那里\NEliza, take Judith to the kitchen and keep her there.
+Dialogue: 0,1:12:53.56,1:12:54.93,Default,,0,0,0,,请！\NPlease!
+Dialogue: 0,1:12:56.80,1:12:59.04,Default,,0,0,0,,他需要我！——待在那儿\N- He needs me! -Stay there.
+Dialogue: 0,1:12:59.17,1:13:01.50,Default,,0,0,0,,他需要我！\NHe needs me!
+Dialogue: 0,1:13:01.64,1:13:03.07,Default,,0,0,0,,请！\NPlease!
+Dialogue: 0,1:13:08.18,1:13:09.85,Default,,0,0,0,,瓦莱里安……\NValerian...
+Dialogue: 0,1:13:11.38,1:13:13.92,Default,,0,0,0,,哈姆内特哈姆内特哈姆内特\NHamnet. Hamnet. Hamnet.
+Dialogue: 0,1:13:14.05,1:13:16.75,Default,,0,0,0,,哈姆内特 你必须留下哈姆内特 求你了\NHamnet, you have to stay. Hamnet, please.
+Dialogue: 0,1:13:16.89,1:13:18.82,Default,,0,0,0,,哈姆内特 求你了你必须留下来和我们在一起\NHamnet, please. You have to stay with us.
+Dialogue: 0,1:13:18.95,1:13:20.53,Default,,0,0,0,,妈妈需要你我们需要你\NMama needs you. We need you.
+Dialogue: 0,1:13:20.66,1:13:22.56,Default,,0,0,0,,停！够了！——留下来留下来 留下来\N-Stop! Enough! - Stay with us. Stay, stay.
+Dialogue: 0,1:13:22.70,1:13:23.99,Default,,0,0,0,,拜托了 哈姆内特哈姆内特 哈姆内特 哈姆内特\NPlease, Hamnet. Hamnet, Hamnet, Hamnet.
+Dialogue: 0,1:13:24.13,1:13:25.70,Default,,0,0,0,,放开他！哈姆内特 求你了！\N-Let him alone! - Hamnet, please!
+Dialogue: 0,1:13:25.83,1:13:28.93,Default,,0,0,0,,你难道看不出来对他来说已经太晚了吗！\NCan't you see that it's too late for him!
+Dialogue: 0,1:13:29.80,1:13:32.10,Default,,0,0,0,,求求你了\NPlease, please.
+Dialogue: 0,1:13:32.24,1:13:33.50,Default,,0,0,0,,哈姆内特？\NHamnet?
+Dialogue: 0,1:13:33.64,1:13:35.94,Default,,0,0,0,,哈姆内特哈姆内特\NHamnet. Hamnet.
+Dialogue: 0,1:14:21.08,1:14:23.38,Default,,0,0,0,,我的儿子走了\NMy son is gone.
+Dialogue: 0,1:14:25.96,1:14:27.26,Default,,0,0,0,,我的儿子\NMy son.
+Dialogue: 0,1:14:27.39,1:14:28.66,Default,,0,0,0,,我丢了我的……\NI've lost my...
+Dialogue: 0,1:15:36.46,1:15:39.73,Default,,0,0,0,,我看见了光 然后就睡不着了\NI saw the light, and I couldn't sleep.
+Dialogue: 0,1:15:47.20,1:15:48.91,Default,,0,0,0,,玛丽在此\NMARY Here.
+Dialogue: 0,1:16:08.83,1:16:10.39,Default,,0,0,0,,哦 孩子 不要\NOh, child, no.
+Dialogue: 0,1:16:10.53,1:16:13.13,Default,,0,0,0,,- 不 不 不去睡觉吧- 不 不 让她留下来吧\N- No, no, no. Go to bed. - No, no, let-let her stay.
+Dialogue: 0,1:16:16.40,1:16:17.93,Default,,0,0,0,,都是我的错 妈妈\NIt is my fault, Mama.
+Dialogue: 0,1:16:18.07,1:16:20.24,Default,,0,0,0,,是我的错——不 不\N- It is my fault. - No. No.
+Dialogue: 0,1:16:21.97,1:16:25.91,Default,,0,0,0,,朱迪思 这不是你的错\NIt is not your fault, Judith.
+Dialogue: 0,1:16:26.04,1:16:28.05,Default,,0,0,0,,但他和我交换了位置\NBut he changed places with me.
+Dialogue: 0,1:16:28.18,1:16:29.21,Default,,0,0,0,,他骗过了它\NHe tricked it.
+Dialogue: 0,1:16:29.35,1:16:30.84,Default,,0,0,0,,他骗了什么？\NHe tricked what?
+Dialogue: 0,1:16:30.98,1:16:31.92,Default,,0,0,0,,死亡\NDeath.
+Dialogue: 0,1:16:32.05,1:16:33.59,Default,,0,0,0,,朱迪思\NJudith.
+Dialogue: 0,1:16:33.72,1:16:36.22,Default,,0,0,0,,当他来抓我的时候 他也跟着走了\NIt took him when it came for me.
+Dialogue: 0,1:16:37.22,1:16:39.96,Default,,0,0,0,,永远不要再对任何人说这些话\NNever say those words to anyone ever again.
+Dialogue: 0,1:16:41.56,1:16:44.46,Default,,0,0,0,,你哥哥得了高烧 夺去了他的生命\NThe fever came for your brother, and it took him.
+Dialogue: 0,1:16:45.70,1:16:47.93,Default,,0,0,0,,你想见他吗？\NDo you wish to see him?
+Dialogue: 0,1:16:49.27,1:16:50.64,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,1:16:59.11,1:17:01.11,Default,,0,0,0,,继续往前走 你可以看到他\NGo on. You can see him.
+Dialogue: 0,1:17:12.99,1:17:14.96,Default,,0,0,0,,真的是他吗？\NIs it really him?
+Dialogue: 0,1:17:16.46,1:17:17.86,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,1:17:20.43,1:17:23.36,Default,,0,0,0,,它——它看起来不像他\NIt-it doesn't look like him.
+Dialogue: 0,1:17:26.60,1:17:27.94,Default,,0,0,0,,不\NNo.
+Dialogue: 0,1:17:34.81,1:17:36.94,Default,,0,0,0,,不是他\NIt's not him.
+Dialogue: 0,1:17:37.08,1:17:38.65,Default,,0,0,0,,它不是\NIt's not.
+Dialogue: 0,1:17:39.75,1:17:40.78,Default,,0,0,0,,不是他\NIt's not him.
+Dialogue: 0,1:17:43.63,1:17:45.09,Default,,0,0,0,,现在 现在 还没到早上呢\NIt-It's-it's not morning yet.
+Dialogue: 0,1:17:45.22,1:17:47.15,Default,,0,0,0,,我们没有让他做好充分的准备\NWe haven't prepared him properly.
+Dialogue: 0,1:17:48.83,1:17:50.76,Default,,0,0,0,,我来晚了吗？\NAm I too late?
+Dialogue: 0,1:17:57.27,1:17:58.20,Default,,0,0,0,,是你——父亲\N- It's you. -Father.
+Dialogue: 0,1:17:58.33,1:18:00.63,Default,,0,0,0,,是你\NIt's you.
+Dialogue: 0,1:18:06.55,1:18:07.68,Default,,0,0,0,,这就是我\NIt's me.
+Dialogue: 0,1:18:25.86,1:18:27.49,Default,,0,0,0,,他在哪儿？\NWhere is he?
+Dialogue: 0,1:18:30.37,1:18:31.87,Default,,0,0,0,,在哪里……\NWhere is...
+Dialogue: 0,1:18:36.44,1:18:37.81,Default,,0,0,0,,在哪里...\NWhere...
+Dialogue: 0,1:19:22.59,1:19:24.88,Default,,0,0,0,,是我儿子\NIt's my boy.
+Dialogue: 0,1:19:29.26,1:19:31.23,Default,,0,0,0,,是我儿子\NIt's my boy.
+Dialogue: 0,1:19:52.95,1:19:54.92,Default,,0,0,0,,我没看到\NI didn't see it.
+Dialogue: 0,1:20:01.79,1:20:04.10,Default,,0,0,0,,我应该更注意他的\NI should've paid him more attention.
+Dialogue: 0,1:20:04.23,1:20:06.13,Default,,0,0,0,,我一直以为被带走的是她\NI always thought she was the one to be taken away
+Dialogue: 0,1:20:06.26,1:20:08.59,Default,,0,0,0,,其实一直都是他\Nwhen all the while it was him.
+Dialogue: 0,1:20:09.44,1:20:11.17,Default,,0,0,0,,我真是个傻瓜\NI'm a fool.
+Dialogue: 0,1:20:11.31,1:20:14.50,Default,,0,0,0,,不 任何人都无法救他\NNo, there's nothing anyone could have done to save him.
+Dialogue: 0,1:20:14.63,1:20:16.80,Default,,0,0,0,,你已经尽力了\NYou did everything that you could.
+Dialogue: 0,1:20:16.94,1:20:18.51,Default,,0,0,0,,当然 我做了\NOf course I did.
+Dialogue: 0,1:20:19.98,1:20:21.54,Default,,0,0,0,,你当时不在\NYou weren't here.
+Dialogue: 0,1:20:21.68,1:20:23.31,Default,,0,0,0,,我愿意把我的心挖出来送给他\NI would have cut my heart out and given it to him.
+Dialogue: 0,1:20:23.45,1:20:24.89,Default,,0,0,0,,我愿意为他献出生命\NI would have laid my life down on the ground for him.
+Dialogue: 0,1:20:25.02,1:20:26.95,Default,,0,0,0,,我知道我知道——但没人会接受它\N- I-I know. I know. - And no one would take it.
+Dialogue: 0,1:20:27.09,1:20:29.68,Default,,0,0,0,,- 但是你…… - 不 你不知道\N- But you... - No, you don't know.
+Dialogue: 0,1:20:29.82,1:20:32.52,Default,,0,0,0,,你不知道你当时不在场\NYou don't know. You weren't here.
+Dialogue: 0,1:20:34.39,1:20:35.95,Default,,0,0,0,,他死时极度痛苦\NHe died in agony.
+Dialogue: 0,1:20:36.09,1:20:37.46,Default,,0,0,0,,我...\NI...
+Dialogue: 0,1:20:40.33,1:20:41.86,Default,,0,0,0,,他当时非常痛苦——艾格尼丝\N- He was in agony. - Agnes.
+Dialogue: 0,1:20:42.00,1:20:43.53,Default,,0,0,0,,他哭啊哭\NHe cried and he cried
+Dialogue: 0,1:20:43.67,1:20:45.20,Default,,0,0,0,,他哭啊哭啊哭——艾格尼丝 别哭了 别哭了\N- and he cried and he cried. - Agnes, stop, stop.
+Dialogue: 0,1:20:45.34,1:20:46.84,Default,,0,0,0,,他幼小的身体疼痛难忍\NAnd his little body was wracked in pain. -
+Dialogue: 0,1:20:46.97,1:20:48.27,Default,,0,0,0,,不 别让我安静\NNo, don't shush me.
+Dialogue: 0,1:20:48.40,1:20:49.71,Default,,0,0,0,,他吓坏了\NHe was so scared.
+Dialogue: 0,1:20:49.85,1:20:51.67,Default,,0,0,0,,——你当时不在——我知道\N- And you weren't here. - I know.
+Dialogue: 0,1:20:55.84,1:20:57.34,Default,,0,0,0,,我尽了一切努力\NI tried everything I could.
+Dialogue: 0,1:20:57.48,1:20:59.02,Default,,0,0,0,,我知道你做到了\NI know you did.
+Dialogue: 0,1:20:59.15,1:21:01.72,Default,,0,0,0,,我尽力了……——你已经竭尽所能了\NI tried... -You did everything that you could.
+Dialogue: 0,1:21:01.86,1:21:04.72,Default,,0,0,0,,你已经尽力了\NYou did everything that you could.
+Dialogue: 0,1:21:04.86,1:21:06.42,Default,,0,0,0,,一切\NEverything.
+Dialogue: 0,1:21:07.83,1:21:10.25,Default,,0,0,0,,一切\NEverything.
+Dialogue: 0,1:21:12.36,1:21:14.87,Default,,0,0,0,,艾格尼丝艾格尼丝\NAgnes. Agnes.
+Dialogue: 0,1:21:38.39,1:21:40.19,Default,,0,0,0,,我会捎信的 艾格尼丝\NI will send word, Agnes.
+Dialogue: 0,1:21:40.32,1:21:42.56,Default,,0,0,0,,你会传达消息吗？\NYou'll send word?
+Dialogue: 0,1:21:42.70,1:21:44.93,Default,,0,0,0,,——给谁？——给你\N- To whom? - To you.
+Dialogue: 0,1:21:52.81,1:21:54.77,Default,,0,0,0,,- 我在这里 - 嗯\N- I'm here. - Mm.
+Dialogue: 0,1:21:55.81,1:21:58.24,Default,,0,0,0,,我的意思是 我到达伦敦后会通知大家\NWhat I meant was that I shall send word when I reach London.
+Dialogue: 0,1:21:58.38,1:22:00.01,Default,,0,0,0,,伦敦？\NLondon?
+Dialogue: 0,1:22:01.58,1:22:03.38,Default,,0,0,0,,我必须离开了\NI must leave.
+Dialogue: 0,1:22:06.41,1:22:07.91,Default,,0,0,0,,离开？你怎么能离开？\NLeave? How can you leave?
+Dialogue: 0,1:22:08.05,1:22:11.39,Default,,0,0,0,,艾格尼丝 世界瞬息万变\NThe world does simply not stand still, Agnes.
+Dialogue: 0,1:22:14.62,1:22:16.49,Default,,0,0,0,,伦敦有人在等我\NThere are people waiting for me in London.
+Dialogue: 0,1:22:16.62,1:22:18.23,Default,,0,0,0,,赛季即将开始\NThe season is about to begin,
+Dialogue: 0,1:22:18.37,1:22:21.46,Default,,0,0,0,,我的公司应该很快就能从肯特郡返回了\Nand my company shall return from Kent any day now.
+Dialogue: 0,1:22:26.27,1:22:29.01,Default,,0,0,0,,我现在得走了\NI have to go now.
+Dialogue: 0,1:22:29.94,1:22:31.51,Default,,0,0,0,,现在？\NNow?
+Dialogue: 0,1:22:31.64,1:22:33.47,Default,,0,0,0,,今天有一支旅行团出发\NThere's a traveling party leaving today,
+Dialogue: 0,1:22:33.61,1:22:36.41,Default,,0,0,0,,他们还有一匹备用马 所以 是的\Nand they have a spare horse, so yeah.
+Dialogue: 0,1:22:38.11,1:22:40.21,Default,,0,0,0,,照顾好孩子们 我一会儿就回来——\NLook after the girls, and I will return to--
+Dialogue: 0,1:22:40.35,1:22:41.71,Default,,0,0,0,,停止\NStop.
+Dialogue: 0,1:22:42.56,1:22:44.78,Default,,0,0,0,,不\NDon't.
+Dialogue: 0,1:23:12.59,1:23:14.71,Default,,0,0,0,,走走\NGo. Go.
+Dialogue: 0,1:23:26.27,1:23:28.00,Default,,0,0,0,,当我数着时钟的时候\N"When I do count the clock
+Dialogue: 0,1:23:28.13,1:23:29.96,Default,,0,0,0,,“那是用来显示时间的\N"that tells the time,
+Dialogue: 0,1:23:30.10,1:23:34.17,Default,,0,0,0,,“看着勇敢的白昼沉入可怕的黑夜；\N"And see the brave day sunk in hideous night;
+Dialogue: 0,1:23:34.31,1:23:37.33,Default,,0,0,0,,“当我看到盛开已过的紫罗兰时\N"When I behold the violet past prime,
+Dialogue: 0,1:23:37.47,1:23:41.48,Default,,0,0,0,,“还有那银白色的黑色卷发；\N"And sable curls all silver'd o'er with white;
+Dialogue: 0,1:23:41.61,1:23:45.38,Default,,0,0,0,,当我看到高大的树木光秃秃的 叶子却不见了\N"When lofty trees I see barren of leaves
+Dialogue: 0,1:23:45.52,1:23:48.78,Default,,0,0,0,,“它曾为牛群遮挡烈日\N"Which erst from the heat did canopy the herd,
+Dialogue: 0,1:23:48.92,1:23:53.33,Default,,0,0,0,,“夏日的绿色都捆成了捆”\N"And summer's green all girded up in sheaves
+Dialogue: 0,1:23:53.46,1:23:58.33,Default,,0,0,0,,“抬着灵柩 长着白色而浓密的胡须；\N"Borne on the bier with white and bristly beard;
+Dialogue: 0,1:23:58.47,1:24:01.83,Default,,0,0,0,,那么 我该质疑你的美貌了\N"Then of thy beauty do I question make,
+Dialogue: 0,1:24:01.96,1:24:04.50,Default,,0,0,0,,“你必将遁入时间的荒芜之中\N"Thou among the wastes of time must go,
+Dialogue: 0,1:24:04.64,1:24:08.70,Default,,0,0,0,,“既然甜美和美丽本身就会消逝\N"Since sweets and beauties do themselves forsake
+Dialogue: 0,1:24:08.84,1:24:12.07,Default,,0,0,0,,“看着别人成长 他们却迅速死去；\N"And die as fast as they see others grow;
+Dialogue: 0,1:24:12.21,1:24:15.22,Default,,0,0,0,,“没有什么能抵挡时间的镰刀”\N"And nothing gainst Time's scythe can make defense
+Dialogue: 0,1:24:15.35,1:24:19.71,Default,,0,0,0,,留着后代 好在他带走你的时候勇敢面对他\NSave breed, to brave him when he takes thee hence."
+Dialogue: 0,1:24:20.71,1:24:22.72,Default,,0,0,0,,你会再读一遍吗？\NWill you read it again?
+Dialogue: 0,1:24:22.85,1:24:24.42,Default,,0,0,0,,不\NNo.
+Dialogue: 0,1:24:24.55,1:24:26.56,Default,,0,0,0,,我已经读过三遍了\NI've read it three times.
+Dialogue: 0,1:24:27.39,1:24:29.39,Default,,0,0,0,,够了\NThat's enough.
+Dialogue: 0,1:24:32.83,1:24:34.37,Default,,0,0,0,,我们互赠礼物吧？\NShall we do presents?
+Dialogue: 0,1:24:34.50,1:24:35.39,Default,,0,0,0,,来自伦敦的礼物\NPresents from London.
+Dialogue: 0,1:24:35.53,1:24:37.54,Default,,0,0,0,,朱迪 给你一把梳子\NA hair comb for you, Jude.
+Dialogue: 0,1:24:39.57,1:24:41.60,Default,,0,0,0,,不过 你得小心点\NMind you, you'll have to be careful.
+Dialogue: 0,1:24:47.88,1:24:49.38,Default,,0,0,0,,这是给你的 艾格尼丝\NThis is for you, Agnes.
+Dialogue: 0,1:24:58.89,1:25:01.03,Default,,0,0,0,,——是红宝石吗？——嗯\N- A ruby, is it? -Mm-hmm.
+Dialogue: 0,1:25:01.16,1:25:03.69,Default,,0,0,0,,这是我见过的最好的\NIt's the finest I've ever seen.
+Dialogue: 0,1:25:04.76,1:25:07.43,Default,,0,0,0,,大家都在谈论那栋新房子\NEveryone's talking about the new house.
+Dialogue: 0,1:25:07.56,1:25:09.24,Default,,0,0,0,,它是斯特拉特福德最大的\NIt's the biggest in Stratford.
+Dialogue: 0,1:25:09.37,1:25:12.11,Default,,0,0,0,,房间太多了 很容易迷路\NThere are so many rooms. One could get lost.
+Dialogue: 0,1:25:12.24,1:25:14.60,Default,,0,0,0,,苏珊娜 钥匙你保管好\NYou shall keep the keys, Susanna.
+Dialogue: 0,1:25:14.74,1:25:16.94,Default,,0,0,0,,你要好好管理家务\NYou shall manage the house well.
+Dialogue: 0,1:25:18.27,1:25:19.91,Default,,0,0,0,,妈妈 穿上它\NPut it on, Mama.
+Dialogue: 0,1:25:40.17,1:25:43.23,Default,,0,0,0,,巴塞洛缪带你看过新房子了吗？\NDid Bartholomew show you the new house?
+Dialogue: 0,1:25:43.37,1:25:44.80,Default,,0,0,0,,嗯\NMm-hmm.
+Dialogue: 0,1:25:47.10,1:25:48.80,Default,,0,0,0,,你喜欢它？\NDo you like it?
+Dialogue: 0,1:25:50.28,1:25:52.51,Default,,0,0,0,,你为什么不亲自带我去看？\NWhy didn't you show me yourself?
+Dialogue: 0,1:25:53.74,1:25:56.28,Default,,0,0,0,,你是不是怕我不走？\NWere you afraid I wouldn't leave?
+Dialogue: 0,1:25:58.45,1:26:00.98,Default,,0,0,0,,因为哈姆内特就死在这所房子里\N'Cause Hamnet died here in this house.
+Dialogue: 0,1:26:09.66,1:26:12.20,Default,,0,0,0,,你知道吗 我一直在想他在哪里\NYou know, I'm constantly wondering where he is.
+Dialogue: 0,1:26:14.33,1:26:16.34,Default,,0,0,0,,或者他去了哪里\NOr where he has gone.
+Dialogue: 0,1:26:17.97,1:26:21.80,Default,,0,0,0,,无论我在做什么 我都会想：“他在哪里？”\NWhatever I'm doing, I'm wondering, "Where is he?"
+Dialogue: 0,1:26:23.48,1:26:25.81,Default,,0,0,0,,我的意思是 他不可能凭空消失\NI mean, he can't have just vanished.
+Dialogue: 0,1:26:28.18,1:26:30.18,Default,,0,0,0,,他只需要我找到他\NAll he needs is for me to find him.
+Dialogue: 0,1:26:30.31,1:26:32.78,Default,,0,0,0,,他肯定在某个地方\NHe must be somewhere.
+Dialogue: 0,1:26:34.02,1:26:37.89,Default,,0,0,0,,即使一年过去了 我仍然担心我会因此而发疯\NI fear I may run mad with it, even now, a year on.
+Dialogue: 0,1:26:38.02,1:26:39.92,Default,,0,0,0,,一年不算什么\NA year is nothing.
+Dialogue: 0,1:26:44.00,1:26:45.06,Default,,0,0,0,,一年不算什么\NA year is nothing.
+Dialogue: 0,1:26:45.20,1:26:48.03,Default,,0,0,0,,每秒钟都是如此……\NIt's every second...
+Dialogue: 0,1:26:48.17,1:26:50.34,Default,,0,0,0,,每时每刻 每一天\Nevery minute, every day.
+Dialogue: 0,1:26:52.87,1:26:55.17,Default,,0,0,0,,我们可能永远不会停止寻找他\NWe may never stop looking for him.
+Dialogue: 0,1:26:57.64,1:26:59.68,Default,,0,0,0,,对不起 艾格尼丝\NI'm sorry, Agnes.
+Dialogue: 0,1:27:02.28,1:27:03.68,Default,,0,0,0,,你听到我说话了吗？我说过对不起 艾格尼丝\NDid you hear me? I said that I'm sorry, Agnes.
+Dialogue: 0,1:27:03.81,1:27:05.22,Default,,0,0,0,,——为了什么？——为了一切\N- For what? - For everything.
+Dialogue: 0,1:27:05.35,1:27:06.58,Default,,0,0,0,,你被那个地方困住了——因为……\N- You're caught by that place. - For...
+Dialogue: 0,1:27:06.72,1:27:08.39,Default,,0,0,0,,- 什么地方？ - 你脑海里的那个地方\N- What place? - That place in your head.
+Dialogue: 0,1:27:08.52,1:27:10.18,Default,,0,0,0,,现在 它对你来说比在任何其他地方都更加真实\NIt is now more real to you than anywhere else.
+Dialogue: 0,1:27:10.32,1:27:14.86,Default,,0,0,0,,即使我们的孩子去世 也无法阻止你这样做\NNot even the death of our child can keep you from it.
+Dialogue: 0,1:27:15.90,1:27:18.03,Default,,0,0,0,,哈姆内特死了\NHamnet died.
+Dialogue: 0,1:27:18.16,1:27:19.96,Default,,0,0,0,,死状极其惨烈\NA horrible death.
+Dialogue: 0,1:27:21.23,1:27:23.40,Default,,0,0,0,,你本应该在那里的\NAnd you should have been there.
+Dialogue: 0,1:27:24.40,1:27:26.44,Default,,0,0,0,,你本可以向他道别\NYou could have bid him farewell.
+Dialogue: 0,1:27:56.56,1:27:58.60,Default,,0,0,0,,你看到了什么？\NWhat do you see?
+Dialogue: 0,1:27:59.87,1:28:01.31,Default,,0,0,0,,唔？\NHmm?
+Dialogue: 0,1:28:05.88,1:28:07.45,Default,,0,0,0,,没有什么\NNothing.
+Dialogue: 0,1:28:12.05,1:28:13.65,Default,,0,0,0,,没有什么？\NNothing?
+Dialogue: 0,1:28:15.75,1:28:17.62,Default,,0,0,0,,什么也没有\NNothing at all.
+Dialogue: 0,1:28:17.75,1:28:19.43,Default,,0,0,0,,那好吧\NOh, well.
+Dialogue: 0,1:28:24.17,1:28:26.47,Default,,0,0,0,,你应该回伦敦\NYou should go back to London.
+Dialogue: 0,1:28:27.83,1:28:31.16,Default,,0,0,0,,您不必为我们操心\NYou need not concern yourself with us.
+Dialogue: 0,1:28:32.97,1:28:35.34,Default,,0,0,0,,没有你 我们也能过得很好\NGet along just fine without you.
+Dialogue: 0,1:28:38.98,1:28:40.84,Default,,0,0,0,,这有时是一个悖论\NThis was sometime a paradox,
+Dialogue: 0,1:28:40.98,1:28:43.64,Default,,0,0,0,,但现在时间证明了这一点\Nbut now the time gives it proof.
+Dialogue: 0,1:28:43.78,1:28:46.01,Default,,0,0,0,,我曾经爱过你\NI did love you once.
+Dialogue: 0,1:28:46.15,1:28:49.95,Default,,0,0,0,,大人 您确实让我相信了这一点\NIndeed, my lord, you made me believe so.
+Dialogue: 0,1:28:50.09,1:28:53.28,Default,,0,0,0,,你不该相信我\NYou should not have believed me,
+Dialogue: 0,1:28:53.42,1:28:58.26,Default,,0,0,0,,因为美德无法使我们的旧血统免受侵害……\Nfor virtue cannot so inoculate our old stock for...
+Dialogue: 0,1:28:59.96,1:29:01.63,Default,,0,0,0,,你不该相信我\NYou should not have believed me,
+Dialogue: 0,1:29:01.77,1:29:04.47,Default,,0,0,0,,因为美德无法如此彻底地改变我们古老的血统\Nfor virtue cannot so inoculate our old stock
+Dialogue: 0,1:29:04.60,1:29:06.70,Default,,0,0,0,,但我们会好好享受这一切\Nbut we shall relish of it.
+Dialogue: 0,1:29:08.50,1:29:10.34,Default,,0,0,0,,我并不爱你\NI loved you not.
+Dialogue: 0,1:29:11.51,1:29:13.71,Default,,0,0,0,,我才是被欺骗的那个人\NI was the more deceived.
+Dialogue: 0,1:29:15.14,1:29:17.52,Default,,0,0,0,,去修道院吧\NGet thee to a nunnery.
+Dialogue: 0,1:29:17.65,1:29:20.85,Default,,0,0,0,,你为何要成为罪人的养育者？\NWhy wouldst thou be a breeder of sinners?
+Dialogue: 0,1:29:20.98,1:29:23.39,Default,,0,0,0,,我本人为人冷漠诚实\NI am myself indifferent honest,
+Dialogue: 0,1:29:23.52,1:29:25.32,Default,,0,0,0,,但我却可以指责我做这样的事\Nbut yet I could accuse me of such things
+Dialogue: 0,1:29:25.46,1:29:27.32,Default,,0,0,0,,或许最好是……\Nthat it were better to...
+Dialogue: 0,1:29:27.46,1:29:29.32,Default,,0,0,0,,再次\NAgain.
+Dialogue: 0,1:29:30.20,1:29:32.19,Default,,0,0,0,,去修道院吧\NGet thee to a nunnery.
+Dialogue: 0,1:29:33.16,1:29:35.86,Default,,0,0,0,,你为何要成为罪人的养育者？\NWhy wouldst thou be a breeder of sinners?
+Dialogue: 0,1:29:36.00,1:29:38.20,Default,,0,0,0,,我本人为人坦诚冷漠 但是……\NI am myself indifferent honest, but...
+Dialogue: 0,1:29:38.33,1:29:40.57,Default,,0,0,0,,再说一遍“我本人是冷漠的诚实”再说一遍\NAgain. "I am myself indifferent honest." Again.
+Dialogue: 0,1:29:40.70,1:29:42.50,Default,,0,0,0,,我本人为人冷漠诚实\NI am myself indifferent honest,
+Dialogue: 0,1:29:42.64,1:29:44.87,Default,,0,0,0,,但是 我却可以指责我做这样的事 这样反而更好\Nbut yet I could accuse me of such things that it were better
+Dialogue: 0,1:29:45.01,1:29:47.38,Default,,0,0,0,,我的母亲并没有生我——再说一遍\N- my mother had not borne me. - Again.
+Dialogue: 0,1:29:48.71,1:29:51.18,Default,,0,0,0,,我本人……\NI, myself...
+Dialogue: 0,1:29:51.32,1:29:53.19,Default,,0,0,0,,再次\NAgain.
+Dialogue: 0,1:29:53.32,1:29:54.92,Default,,0,0,0,,我本人则漠不关心……\NI, myself, am indifferent...
+Dialogue: 0,1:29:55.06,1:29:56.55,Default,,0,0,0,,我就是我\N"I am myself."
+Dialogue: 0,1:29:56.69,1:29:59.42,Default,,0,0,0,,我本人为人冷漠诚实\NI am myself indifferent honest,
+Dialogue: 0,1:29:59.55,1:30:02.83,Default,,0,0,0,,但我却可以指责我做了那样的事……\Nbut yet I could accuse me of such things that it were...
+Dialogue: 0,1:30:02.96,1:30:04.55,Default,,0,0,0,,再次\NAgain.
+Dialogue: 0,1:30:04.69,1:30:05.86,Default,,0,0,0,,但我却可以指责我做了那样的事……\NBut yet I could accuse me of such things that it were...
+Dialogue: 0,1:30:06.00,1:30:07.17,Default,,0,0,0,,再次！\NAgain!
+Dialogue: 0,1:30:07.30,1:30:08.50,Default,,0,0,0,,我本人为人冷漠诚实\NI am myself indifferent honest,
+Dialogue: 0,1:30:08.64,1:30:09.86,Default,,0,0,0,,但我却可以指责我犯下这样的错误……\Nbut yet I could accuse me of such...
+Dialogue: 0,1:30:10.00,1:30:12.60,Default,,0,0,0,,你只是在重复这些词而已！\NYou are simply mouthing the words!
+Dialogue: 0,1:30:15.24,1:30:18.35,Default,,0,0,0,,我本人为人冷漠诚实\NI am myself indifferent honest,
+Dialogue: 0,1:30:18.48,1:30:20.58,Default,,0,0,0,,但我却可以指责我做这样的事\Nbut yet I could accuse me of such things
+Dialogue: 0,1:30:20.72,1:30:23.88,Default,,0,0,0,,真希望我母亲当初没生我\Nthat it were better my mother had not borne me.
+Dialogue: 0,1:30:25.38,1:30:28.29,Default,,0,0,0,,我非常骄傲、充满复仇心、野心勃勃\NI am very proud, revengeful, ambitious,
+Dialogue: 0,1:30:28.42,1:30:29.98,Default,,0,0,0,,更多犯罪机会摆在我面前\Nwith more offenses at my beck
+Dialogue: 0,1:30:30.12,1:30:33.73,Default,,0,0,0,,我有很多想法想把它们放进去\Nthan I have thoughts to put them in,
+Dialogue: 0,1:30:33.86,1:30:38.26,Default,,0,0,0,,发挥想象力赋予它们形状 或者给它们时间去演绎它们\Nimagination to give them shape or time to act them in.
+Dialogue: 0,1:30:39.09,1:30:40.63,Default,,0,0,0,,那么 像我这样的人该怎么办呢？\NNow, what should such fellows as I do
+Dialogue: 0,1:30:40.77,1:30:42.46,Default,,0,0,0,,在天地之间爬行？\Ncrawling between heaven and earth?
+Dialogue: 0,1:30:42.60,1:30:43.93,Default,,0,0,0,,我们都是彻头彻尾的恶棍\NWe are arrant knaves all.
+Dialogue: 0,1:30:44.06,1:30:46.44,Default,,0,0,0,,不要相信我们任何人\NBelieve none of us.
+Dialogue: 0,1:30:46.57,1:30:49.30,Default,,0,0,0,,去修道院吧再一次\NGo thy ways to a nunnery. Again.
+Dialogue: 0,1:31:33.32,1:31:34.32,Default,,0,0,0,,成为……\NTo be...
+Dialogue: 0,1:31:39.99,1:31:41.96,Default,,0,0,0,,……或者不……\N...or not to be...
+Dialogue: 0,1:31:49.67,1:31:51.70,Default,,0,0,0,,……这就是问题所在：\N...that is the question:
+Dialogue: 0,1:31:59.28,1:32:03.71,Default,,0,0,0,,无论从精神层面来说 忍受是否更高尚\NWhether 'tis nobler in the mind to... suffer
+Dialogue: 0,1:32:03.85,1:32:06.48,Default,,0,0,0,,种种攻击和伤害……\NThe slings and arrows of...
+Dialogue: 0,1:32:09.52,1:32:11.79,Default,,0,0,0,,……惊人的财富……\N...outrageous fortune...
+Dialogue: 0,1:32:15.00,1:32:16.63,Default,,0,0,0,,...或者...\N...Or...
+Dialogue: 0,1:32:18.66,1:32:21.19,Default,,0,0,0,,……拿起武器反抗……\N...to take arms against a...
+Dialogue: 0,1:32:23.34,1:32:25.53,Default,,0,0,0,,……苦难之海\N...sea of troubles,
+Dialogue: 0,1:32:25.67,1:32:28.07,Default,,0,0,0,,而通过反对……\NAnd by opposing...
+Dialogue: 0,1:32:30.18,1:32:31.74,Default,,0,0,0,,……结束他们\N...end them.
+Dialogue: 0,1:33:33.74,1:33:37.07,Default,,0,0,0,,♪ 我祈祷那些树 ♪\N♪ I pray that those trees ♪
+Dialogue: 0,1:33:37.20,1:33:39.74,Default,,0,0,0,,♪ 我会把我的孩子还给我 ♪\N♪ Will return my boy ♪
+Dialogue: 0,1:33:39.87,1:33:42.35,Default,,0,0,0,,♪ 为了 ♪\N♪ For ♪
+Dialogue: 0,1:33:42.48,1:33:45.11,Default,,0,0,0,,♪ 可爱的小知更鸟 ♪\N♪ Sweet bonny Robin ♪
+Dialogue: 0,1:33:45.24,1:33:49.42,Default,,0,0,0,,♪ 这就是我所有的快乐♪\N♪ Is all my joy. ♪
+Dialogue: 0,1:33:57.09,1:33:58.96,Default,,0,0,0,,艾格尼丝？\NAgnes?
+Dialogue: 0,1:34:00.47,1:34:02.43,Default,,0,0,0,,我……我当时在城里 而且……\NI... I was in town, and I...
+Dialogue: 0,1:34:02.56,1:34:04.80,Default,,0,0,0,,我想来拜访你\NI thought I would pay you a visit.
+Dialogue: 0,1:34:06.37,1:34:09.80,Default,,0,0,0,,听到约翰去世的消息 我感到非常难过\NI was very sorry to hear about John's passing.
+Dialogue: 0,1:34:09.94,1:34:11.84,Default,,0,0,0,,你丈夫怎么样了？\NHow's your husband?
+Dialogue: 0,1:34:11.97,1:34:13.97,Default,,0,0,0,,失去父亲是一件……是一件非常可怕的事情\NIt's a... it's a terrible thing to lose one's father.
+Dialogue: 0,1:34:14.11,1:34:15.68,Default,,0,0,0,,他很好\NHe's well.
+Dialogue: 0,1:34:15.82,1:34:18.11,Default,,0,0,0,,他很忙 正在筹备一部喜剧\NHe's very busy. He's preparing a comedy.
+Dialogue: 0,1:34:18.25,1:34:21.02,Default,,0,0,0,,他的新剧不是喜剧\NHis new play is not a comedy.
+Dialogue: 0,1:34:22.08,1:34:24.11,Default,,0,0,0,,真是一场悲剧\NIt's a tragedy.
+Dialogue: 0,1:34:24.25,1:34:26.59,Default,,0,0,0,,但你知道这一点\NBut you knew that.
+Dialogue: 0,1:34:26.73,1:34:29.49,Default,,0,0,0,,全镇的人都在谈论这件事\NEveryone in town is talking about it.
+Dialogue: 0,1:34:39.53,1:34:41.71,Default,,0,0,0,,我早就警告过你不要嫁给他\NI did warn you about marrying him.
+Dialogue: 0,1:34:41.84,1:34:44.17,Default,,0,0,0,,别假装你关心我\NDon't pretend that you care for me.
+Dialogue: 0,1:34:45.98,1:34:49.54,Default,,0,0,0,,你不是我的母亲 也从来都不是\NYou are not my mother, and you never were.
+Dialogue: 0,1:34:59.56,1:35:01.42,Default,,0,0,0,,你好 艾格尼丝\NGood day, Agnes.
+Dialogue: 0,1:35:06.69,1:35:08.13,Default,,0,0,0,,他已经好几个月没跟我们说话了\NHe's not spoken to us for months.
+Dialogue: 0,1:35:08.27,1:35:09.50,Default,,0,0,0,,他怎么能……\NHow could he...
+Dialogue: 0,1:35:09.64,1:35:11.16,Default,,0,0,0,,他怎么可能不告诉我们呢？\NHow could he not tell us?
+Dialogue: 0,1:35:11.30,1:35:13.87,Default,,0,0,0,,你难道不好奇里面装的是什么吗？\NDo you not wonder what is in it?
+Dialogue: 0,1:35:15.47,1:35:17.17,Default,,0,0,0,,在什么方面？\NIn what?
+Dialogue: 0,1:35:17.30,1:35:18.98,Default,,0,0,0,,这部剧\NThe play.
+Dialogue: 0,1:36:33.79,1:36:35.82,Default,,0,0,0,,你在找谁？\NWho are you looking for?
+Dialogue: 0,1:36:35.95,1:36:38.48,Default,,0,0,0,,威廉·莎士比亚\NWilliam Shakespeare.
+Dialogue: 0,1:36:38.62,1:36:40.32,Default,,0,0,0,,我们是他来自斯特拉特福德的家人\NWe're his family from Stratford.
+Dialogue: 0,1:36:40.46,1:36:42.99,Default,,0,0,0,,上楼去他住在阁楼里\NGo up the stairs. He lives in the attic.
+Dialogue: 0,1:36:59.74,1:37:02.14,Default,,0,0,0,,为什么斯特拉特福德拥有最大房子的人会这样做呢？\NWhy would the man with the largest house in Stratford
+Dialogue: 0,1:37:02.27,1:37:04.38,Default,,0,0,0,,住在这里吗？\Nbe living here?
+Dialogue: 0,1:37:14.96,1:37:17.66,Default,,0,0,0,,我不明白\NI don't understand.
+Dialogue: 0,1:37:19.06,1:37:20.69,Default,,0,0,0,,我当时想……\NI thought...
+Dialogue: 0,1:37:22.10,1:37:23.63,Default,,0,0,0,,我以为他……\NI thought he...
+Dialogue: 0,1:37:30.33,1:37:32.47,Default,,0,0,0,,我该怎么办？\NWhat shall I do?
+Dialogue: 0,1:37:35.58,1:37:37.31,Default,,0,0,0,,保持开放的心态\NKeep your heart open.
+Dialogue: 0,1:39:34.70,1:39:36.10,Default,,0,0,0,,谁在那儿？——不 回答我：\N-Who's there? -Nay, answer me:
+Dialogue: 0,1:39:36.23,1:39:37.33,Default,,0,0,0,,站起来 展现自我！\Nstand and unfold yourself!
+Dialogue: 0,1:39:37.47,1:39:39.00,Default,,0,0,0,,国王万岁！\NLong live the king!
+Dialogue: 0,1:39:39.14,1:39:40.57,Default,,0,0,0,,贝尔纳多？\NBernardo?
+Dialogue: 0,1:39:40.70,1:39:42.34,Default,,0,0,0,,如果你真的遇到了霍雷肖和马塞勒斯\NIf you do meet Horatio and Marcellus,
+Dialogue: 0,1:39:42.47,1:39:45.50,Default,,0,0,0,,我的竞争对手们 让他们赶紧行动吧\NThe rivals to my watch, bid them make haste.
+Dialogue: 0,1:39:45.64,1:39:48.11,Default,,0,0,0,,我好像听到了他们的声音站起来！\NI think I hear them. Stand, ho!
+Dialogue: 0,1:39:48.24,1:39:49.81,Default,,0,0,0,,谁在那儿？\NWho's there?
+Dialogue: 0,1:39:51.45,1:39:54.35,Default,,0,0,0,,这东西今晚又出现了吗？\NHas this thing appeared again tonight?
+Dialogue: 0,1:39:54.49,1:39:56.48,Default,,0,0,0,,我什么也没看见——霍雷肖说……\N- I have seen nothing. -Horatio says...
+Dialogue: 0,1:39:56.62,1:39:58.15,Default,,0,0,0,,他们在谈论什么？\NWhat are they talking about?
+Dialogue: 0,1:40:00.43,1:40:03.46,Default,,0,0,0,,这一切跟我儿子有什么关系？\NWhat has any of this to do with my son? -
+Dialogue: 0,1:40:03.59,1:40:05.19,Default,,0,0,0,,这些人很害怕\NThese men are frightened.
+Dialogue: 0,1:40:05.32,1:40:06.69,Default,,0,0,0,,什么？\NOf what?
+Dialogue: 0,1:40:07.70,1:40:09.66,Default,,0,0,0,,他们警惕着鬼魂\NThey watch for a ghost.
+Dialogue: 0,1:40:12.47,1:40:13.53,Default,,0,0,0,,鬼？\NGhost?
+Dialogue: 0,1:40:13.67,1:40:14.97,Default,,0,0,0,,……然后铃声响起……\N...The bell then beating one...
+Dialogue: 0,1:40:15.11,1:40:17.97,Default,,0,0,0,,和平 断绝关系！\NPeace, break thee off!
+Dialogue: 0,1:40:18.11,1:40:19.71,Default,,0,0,0,,瞧瞧它又出现了！\NLook where it comes again!
+Dialogue: 0,1:40:19.84,1:40:22.94,Default,,0,0,0,,就像那位已故的国王一样\NIn the same figure, like the king that's dead.
+Dialogue: 0,1:40:28.65,1:40:30.05,Default,,0,0,0,,看 它悄悄溜走了！\NSee, it stalks away!
+Dialogue: 0,1:40:30.19,1:40:31.55,Default,,0,0,0,,那是他\NThat was him.
+Dialogue: 0,1:40:33.29,1:40:35.79,Default,,0,0,0,,那是威尔\NThat was Will.
+Dialogue: 0,1:40:35.92,1:40:37.22,Default,,0,0,0,,他没参演——不 不\N- He's not in the play. - No, no.
+Dialogue: 0,1:40:37.36,1:40:39.20,Default,,0,0,0,,那是威尔的鬼魂\NIt was Will as a ghost.
+Dialogue: 0,1:40:39.33,1:40:41.73,Default,,0,0,0,,我们最后的国王 他的形象此刻才显现在我们面前\NOur last king, Whose image but now appeared to us,
+Dialogue: 0,1:40:41.86,1:40:45.40,Default,,0,0,0,,被迫应战；我们英勇的哈姆雷特……\NWas dared to the combat; our valiant Hamlet...
+Dialogue: 0,1:40:45.54,1:40:47.50,Default,,0,0,0,,村庄\NHamlet.
+Dialogue: 0,1:40:48.24,1:40:49.60,Default,,0,0,0,,你听到了吗……你听到了吗？\NDid you hear... did you hear that?
+Dialogue: 0,1:40:49.74,1:40:51.04,Default,,0,0,0,,是的\NYes.
+Dialogue: 0,1:40:51.18,1:40:52.88,Default,,0,0,0,,他们喊出了他的名字\NThey said his-- they said his name.
+Dialogue: 0,1:40:53.01,1:40:54.34,Default,,0,0,0,,艾格尼丝\NAgnes.
+Dialogue: 0,1:40:54.48,1:40:56.72,Default,,0,0,0,,艾格尼丝 等等——让开！\N- Agnes, wait. - Out of my way!
+Dialogue: 0,1:40:56.85,1:40:58.45,Default,,0,0,0,,请安静\NPlease be quiet.
+Dialogue: 0,1:40:58.58,1:41:01.02,Default,,0,0,0,,等等 他们刚才提到他的名字了吗？嗯？\NWait, did they say his name? Huh?
+Dialogue: 0,1:41:01.16,1:41:03.09,Default,,0,0,0,,不要让自己难过\NDo not upset yourself.
+Dialogue: 0,1:41:03.22,1:41:04.92,Default,,0,0,0,,为什么——他为什么要用自己的名字？\NWhy is-- Why did he use his name?
+Dialogue: 0,1:41:05.05,1:41:06.86,Default,,0,0,0,,我不认识他——男：安静\N- I don't know him. - -MAN: Quiet.
+Dialogue: 0,1:41:06.99,1:41:08.26,Default,,0,0,0,,……并且根据我的建议\N...and by my advice,
+Dialogue: 0,1:41:08.39,1:41:09.39,Default,,0,0,0,,让我们把今晚所见所闻分享出来\NLet us impart what we have seen tonight
+Dialogue: 0,1:41:09.52,1:41:10.95,Default,,0,0,0,,致年轻的王子……\NUnto the young prince...
+Dialogue: 0,1:41:11.09,1:41:12.86,Default,,0,0,0,,你敢念我儿子的名字试试！\NDon't you dare pronounce my son's name!
+Dialogue: 0,1:41:12.99,1:41:14.43,Default,,0,0,0,,安静的！\NQuiet!
+Dialogue: 0,1:41:14.57,1:41:17.20,Default,,0,0,0,,……对我们来说很愚蠢 我会和他谈谈\N...dumb to us, will speak to him.
+Dialogue: 0,1:41:24.14,1:41:27.01,Default,,0,0,0,,虽然我们亲爱的兄弟去世的消息尚未公布\NThough yet of our dear brother's death,
+Dialogue: 0,1:41:27.14,1:41:28.58,Default,,0,0,0,,记忆是绿色的\NThe memory be green,
+Dialogue: 0,1:41:28.71,1:41:32.25,Default,,0,0,0,,然而 迄今为止 谨慎与自然的斗争仍在继续\NYet so far hath discretion fought with nature
+Dialogue: 0,1:41:32.39,1:41:35.58,Default,,0,0,0,,愿我们以最深切的悲痛缅怀他\NThat we with wisest sorrow think on him,
+Dialogue: 0,1:41:35.72,1:41:37.62,Default,,0,0,0,,与我们对自身的记忆一同存在\NTogether with remembrance of ourselves.
+Dialogue: 0,1:41:37.76,1:41:39.79,Default,,0,0,0,,我一分钟也不想再待下去参与这场闹剧了\NI will not stay a minute longer to be a part of this jest.
+Dialogue: 0,1:41:39.93,1:41:41.56,Default,,0,0,0,,等一下稍等片刻——不\N- Wait. One moment. - No.
+Dialogue: 0,1:41:41.69,1:41:43.63,Default,,0,0,0,,我想回家——我的表兄哈姆雷特\N- I want to go home. -...my cousin Hamlet,
+Dialogue: 0,1:41:43.76,1:41:45.63,Default,,0,0,0,,还有我的儿子……\Nand my son...
+Dialogue: 0,1:41:49.57,1:41:52.10,Default,,0,0,0,,为什么乌云依然笼罩着你？\NHow is it that the clouds still hang on you?
+Dialogue: 0,1:41:52.23,1:41:55.40,Default,,0,0,0,,善良的哈姆雷特 褪去你那阴郁的色彩吧\NGood Hamlet, cast thy nighted color off.
+Dialogue: 0,1:41:55.54,1:41:58.44,Default,,0,0,0,,不要永远用你那蒙着面纱的双眼\NDo not for ever with thy vailed lids
+Dialogue: 0,1:41:58.58,1:42:01.85,Default,,0,0,0,,在尘土中寻找你高贵的父亲\NSeek for thy noble father in the dust.
+Dialogue: 0,1:42:01.98,1:42:04.64,Default,,0,0,0,,凡有生命的 终将消亡\NAll that lives must die,
+Dialogue: 0,1:42:04.78,1:42:07.85,Default,,0,0,0,,穿越自然 通往永恒\NPassing through nature to eternity.
+Dialogue: 0,1:42:07.99,1:42:10.59,Default,,0,0,0,,哎呀 夫人 这很常见\NAy, madam, it is common.
+Dialogue: 0,1:42:11.72,1:42:14.43,Default,,0,0,0,,但我内心深处有一些东西可以证明这一点\NBut I have that within which passes show.
+Dialogue: 0,1:42:14.56,1:42:17.36,Default,,0,0,0,,这些不过是苦难的外在表现和伪装\NThese are but the trappings and the suits of woe.
+Dialogue: 0,1:42:17.50,1:42:20.59,Default,,0,0,0,,坚持不懈地表达顽固的哀悼\NTo persevere In obstinate condolement
+Dialogue: 0,1:42:20.73,1:42:23.80,Default,,0,0,0,,这是一种不敬神的顽固行为\Nis a course of impious stubbornness.
+Dialogue: 0,1:42:23.94,1:42:26.44,Default,,0,0,0,,这是不男子汉的悲伤\N'Tis unmanly grief.
+Dialogue: 0,1:42:26.57,1:42:29.57,Default,,0,0,0,,它展现了一种通往天堂最错误的意志\NIt shows a will most incorrect to heaven.
+Dialogue: 0,1:42:49.62,1:42:51.30,Default,,0,0,0,,哦\NOh.
+Dialogue: 0,1:42:54.30,1:42:59.40,Default,,0,0,0,,这也太硬了 肉体也会融化\NThis too, too solid flesh would melt,
+Dialogue: 0,1:42:59.54,1:43:02.70,Default,,0,0,0,,融化并凝结成露水\NThaw and resolve itself into a dew.
+Dialogue: 0,1:43:03.67,1:43:05.37,Default,,0,0,0,,或者说 永恒者并未定下这个结论\NOr that the Everlasting had not fixed
+Dialogue: 0,1:43:05.51,1:43:07.81,Default,,0,0,0,,他反对自杀的教条\NHis canon gainst self-slaughter.
+Dialogue: 0,1:43:09.65,1:43:12.35,Default,,0,0,0,,这是一个没有除草的花园 却长出了种子；\N'Tis an unweeded garden That grows to seed;
+Dialogue: 0,1:43:12.49,1:43:16.26,Default,,0,0,0,,事物本性卑劣肮脏 仅仅拥有它\Nthings rank and gross in nature Possess it merely.
+Dialogue: 0,1:43:17.82,1:43:20.39,Default,,0,0,0,,事情竟然会发展到这种地步\NThat it should come to this.
+Dialogue: 0,1:43:23.03,1:43:25.06,Default,,0,0,0,,但两个月过去了——\NBut two months dead--
+Dialogue: 0,1:43:25.20,1:43:27.50,Default,,0,0,0,,不 没那么多 不到两个——\Nnay, not so much, not two--
+Dialogue: 0,1:43:27.63,1:43:30.56,Default,,0,0,0,,如此杰出的国王 真是令人敬佩\NSo excellent a king, that was to this
+Dialogue: 0,1:43:30.70,1:43:34.37,Default,,0,0,0,,许珀里翁变成了……一个萨提尔\NHyperion to a... a satyr.
+Dialogue: 0,1:43:41.64,1:43:43.71,Default,,0,0,0,,你将引领我到哪里去？\NWhither wilt thou lead me?
+Dialogue: 0,1:43:43.84,1:43:46.55,Default,,0,0,0,,说吧我不会再往前走了\NSpeak. I'll go no further.
+Dialogue: 0,1:43:47.85,1:43:50.21,Default,,0,0,0,,我是你父亲的灵\NI am thy father's spirit,
+Dialogue: 0,1:43:50.35,1:43:52.65,Default,,0,0,0,,注定要在某个期限内行走于黑夜之中\NDoomed for a certain term to walk the night,
+Dialogue: 0,1:43:52.79,1:43:56.13,Default,,0,0,0,,而这一天 他只能在火中禁食\NAnd for the day confined to fast in fires.
+Dialogue: 0,1:43:56.26,1:43:58.02,Default,,0,0,0,,我的时间快到了\NMy hour is almost come
+Dialogue: 0,1:43:58.16,1:44:00.26,Default,,0,0,0,,当我坠入硫磺灼热的火焰中\NWhen I to sulfurous and tormenting flames
+Dialogue: 0,1:44:00.40,1:44:01.73,Default,,0,0,0,,我必须亲自上阵\NMust render up myself.
+Dialogue: 0,1:44:01.86,1:44:04.63,Default,,0,0,0,,唉 可怜的鬼魂不 别同情我……\N- Alas, poor ghost. - No, pity me not...
+Dialogue: 0,1:44:06.10,1:44:09.20,Default,,0,0,0,,但请认真聆听我将要讲述的内容\N...but lend thy serious hearing To what I shall unfold.
+Dialogue: 0,1:44:09.34,1:44:10.94,Default,,0,0,0,,列表\NList.
+Dialogue: 0,1:44:12.18,1:44:13.44,Default,,0,0,0,,清单 哦 清单\NList, oh, list.
+Dialogue: 0,1:44:13.58,1:44:15.64,Default,,0,0,0,,如果你曾经爱你的父亲……\NIf thou didst ever thy father love...
+Dialogue: 0,1:44:15.77,1:44:17.14,Default,,0,0,0,,我的天哪\NOh, God.
+Dialogue: 0,1:44:17.28,1:44:19.42,Default,,0,0,0,,但很柔和 我觉得我闻到了清晨空气的气息\NBut soft, methinks I scent the morning air.
+Dialogue: 0,1:44:19.55,1:44:23.45,Default,,0,0,0,,让我独自待一会儿我在果园里安睡\NBrief let me be. Sleeping within my orchard.
+Dialogue: 0,1:44:23.59,1:44:26.92,Default,,0,0,0,,在我安稳的时刻 你叔叔偷走了\NUpon my secure hour, thy uncle stole
+Dialogue: 0,1:44:27.05,1:44:28.95,Default,,0,0,0,,用小瓶盛着被诅咒的赫波娜汁液\NWith juice of cursed hebona in a vile,
+Dialogue: 0,1:44:29.09,1:44:31.72,Default,,0,0,0,,倾泻而入我的耳畔\NWithin the porches of my ears did pour
+Dialogue: 0,1:44:31.86,1:44:34.09,Default,,0,0,0,,麻风病蒸馏液……\NThe leprous distillment...
+Dialogue: 0,1:44:36.10,1:44:39.80,Default,,0,0,0,,……其影响与人类的鲜血有着如此深重的仇恨\N...whose effect Holds such an enmity with blood of man
+Dialogue: 0,1:44:39.94,1:44:43.64,Default,,0,0,0,,它像水银一样迅速地流淌\NThat swift as quicksilver it courses through
+Dialogue: 0,1:44:43.77,1:44:47.61,Default,,0,0,0,,身体的天然通道和通道\NThe natural gates and alleys of the body.
+Dialogue: 0,1:44:49.75,1:44:51.74,Default,,0,0,0,,它突然变得旺盛起来\NAnd with a sudden vigor it doth posset
+Dialogue: 0,1:44:51.88,1:44:53.44,Default,,0,0,0,,还有凝乳 就像……\NAnd curd, like...
+Dialogue: 0,1:44:55.01,1:44:56.45,Default,,0,0,0,,…急切地将粪便排入牛奶中\N...eager droppings into milk,
+Dialogue: 0,1:44:56.59,1:44:58.76,Default,,0,0,0,,清澈而健康的血液\NThe thin and wholesome blood.
+Dialogue: 0,1:44:58.89,1:45:00.42,Default,,0,0,0,,我的也是\NSo did it mine.
+Dialogue: 0,1:45:03.25,1:45:06.30,Default,,0,0,0,,一只最快吠叫起来的狗……\NA most instant tetter barked about...
+Dialogue: 0,1:45:07.77,1:45:11.87,Default,,0,0,0,,……最像拉扎尔 有令人作呕的硬皮\N...Most lazar-like, with vile and loathsome crust,
+Dialogue: 0,1:45:12.01,1:45:14.60,Default,,0,0,0,,我全身光滑\NAll my smooth body.
+Dialogue: 0,1:45:19.24,1:45:22.45,Default,,0,0,0,,哦 太糟糕了\NOh, horrible.
+Dialogue: 0,1:45:25.08,1:45:27.28,Default,,0,0,0,,哦 太可怕了简直太可怕了\NOh, horrible. Most horrible.
+Dialogue: 0,1:45:27.41,1:45:30.01,Default,,0,0,0,,如果你天性如此 就不要容忍它……\NIf thou hast nature in thee, bear it not...
+Dialogue: 0,1:45:30.15,1:45:32.66,Default,,0,0,0,,他和我们的儿子互换了位置\NHe has swapped places with our son.
+Dialogue: 0,1:45:35.56,1:45:37.43,Default,,0,0,0,,看着我\NLook at me.
+Dialogue: 0,1:45:44.00,1:45:45.83,Default,,0,0,0,,看着我\NLook at me.
+Dialogue: 0,1:46:23.88,1:46:28.37,Default,,0,0,0,,萤火虫表明晨曦即将到来\NThe... the glowworm shows the matin to be near,
+Dialogue: 0,1:46:28.51,1:46:32.14,Default,,0,0,0,,于是 他那无力的火焰开始黯淡下来\NAnd 'gins to pale his uneffectual fires.
+Dialogue: 0,1:46:52.90,1:46:54.77,Default,,0,0,0,,我的孩子\NMy boy.
+Dialogue: 0,1:47:01.21,1:47:02.81,Default,,0,0,0,,再见\NAdieu.
+Dialogue: 0,1:47:07.95,1:47:09.55,Default,,0,0,0,,再见\NAdieu.
+Dialogue: 0,1:47:14.19,1:47:15.43,Default,,0,0,0,,再见\NAdieu.
+Dialogue: 0,1:47:25.41,1:47:26.94,Default,,0,0,0,,记住账号\NRemember me.
+Dialogue: 0,1:48:38.30,1:48:41.38,Default,,0,0,0,,生存还是毁灭\NTo be, or not to be,
+Dialogue: 0,1:48:41.51,1:48:43.78,Default,,0,0,0,,这是个问题\Nthat is the question.
+Dialogue: 0,1:48:43.92,1:48:45.34,Default,,0,0,0,,苦难是否在精神层面上更高尚\NWhether 'tis nobler in the mind to suffer
+Dialogue: 0,1:48:45.48,1:48:48.15,Default,,0,0,0,,命运的无情捉弄\NThe slings and arrows of outrageous fortune,
+Dialogue: 0,1:48:48.28,1:48:50.72,Default,,0,0,0,,或者拿起武器对抗重重困难\NOr to take arms against a sea of troubles
+Dialogue: 0,1:48:50.85,1:48:53.15,Default,,0,0,0,,通过反对 终结它们\NAnd, by opposing, end them.
+Dialogue: 0,1:48:54.08,1:48:56.72,Default,,0,0,0,,死亡 睡眠\NTo die, to sleep,
+Dialogue: 0,1:48:56.85,1:48:58.05,Default,,0,0,0,,不再\NNo more.
+Dialogue: 0,1:48:58.19,1:49:00.29,Default,,0,0,0,,以睡眠来结束\NAnd by a sleep, to say we end
+Dialogue: 0,1:49:00.43,1:49:02.73,Default,,0,0,0,,心痛和千百次自然冲击\NThe heartache and the thousand natural shocks
+Dialogue: 0,1:49:02.87,1:49:05.53,Default,,0,0,0,,那肉体是——的继承者 这是圆满的\NThat flesh is heir to-- 'tis a consummation
+Dialogue: 0,1:49:05.67,1:49:07.71,Default,,0,0,0,,虔诚地祈愿\NDevoutly to be wished.
+Dialogue: 0,1:49:09.83,1:49:11.20,Default,,0,0,0,,死亡\NTo die,
+Dialogue: 0,1:49:11.34,1:49:13.04,Default,,0,0,0,,入睡 或许会做梦\NTo sleep, perchance to dream.
+Dialogue: 0,1:49:13.17,1:49:15.24,Default,,0,0,0,,哎 问题就在这里\NAy, there's the rub.
+Dialogue: 0,1:49:15.38,1:49:17.75,Default,,0,0,0,,因为在那死亡的沉睡中 会有哪些梦境降临？\NFor in that sleep of death, what dreams may come
+Dialogue: 0,1:49:17.88,1:49:19.88,Default,,0,0,0,,当我们离开这尘世的轮回之时\NWhen we have shuffled off this mortal coil
+Dialogue: 0,1:49:20.01,1:49:22.58,Default,,0,0,0,,这值得我们深思\NMust give us pause.
+Dialogue: 0,1:49:22.72,1:49:23.92,Default,,0,0,0,,尊重是存在的\NThere's the respect
+Dialogue: 0,1:49:24.05,1:49:28.06,Default,,0,0,0,,长寿就是一场灾难\NThat makes calamity of so long life.
+Dialogue: 0,1:49:28.19,1:49:30.92,Default,,0,0,0,,谁愿承受时光的鞭笞和嘲弄？\NWho would bear the whips and scorns of time,
+Dialogue: 0,1:49:31.06,1:49:32.46,Default,,0,0,0,,压迫者错了\NThe oppressor's wrong,
+Dialogue: 0,1:49:32.59,1:49:34.77,Default,,0,0,0,,骄傲之人的蔑视\Nthe proud man's contumely,
+Dialogue: 0,1:49:34.90,1:49:39.16,Default,,0,0,0,,被鄙视的爱情带来的痛苦 法律的拖延\NThe pangs of despised love, the law's delay,
+Dialogue: 0,1:49:39.30,1:49:41.07,Default,,0,0,0,,官职的傲慢和蔑视\NThe insolence of office, and the spurns
+Dialogue: 0,1:49:41.20,1:49:43.43,Default,,0,0,0,,那份对不值得接受的人的耐心和价值\NThat patient merit of the unworthy take,
+Dialogue: 0,1:49:43.57,1:49:45.57,Default,,0,0,0,,当他自己能够安息的时候\NWhen he himself might his quietus make
+Dialogue: 0,1:49:45.71,1:49:46.74,Default,,0,0,0,,用裸露的锥子？\NWith a bare bodkin?
+Dialogue: 0,1:49:46.87,1:49:48.40,Default,,0,0,0,,谁会承担包袱？\NWho would fardels bear,
+Dialogue: 0,1:49:48.54,1:49:50.88,Default,,0,0,0,,在疲惫的生活下呻吟流汗\NTo grunt and sweat under a weary life,
+Dialogue: 0,1:49:51.02,1:49:53.85,Default,,0,0,0,,但那是对死后事物的恐惧\NBut that the dread of something after death,
+Dialogue: 0,1:49:53.98,1:49:56.02,Default,,0,0,0,,未被发现的国度 其起源\NThe undiscovered country from whose bourn
+Dialogue: 0,1:49:56.15,1:49:58.92,Default,,0,0,0,,没有旅行者返回 这令遗嘱感到困惑\NNo traveler returns, puzzles the will,
+Dialogue: 0,1:49:59.06,1:50:01.29,Default,,0,0,0,,这使我们宁愿忍受这些苦难……\NAnd makes us rather bear those ills...
+Dialogue: 0,1:50:17.10,1:50:18.68,Default,,0,0,0,,警惕！\NEn garde!
+Dialogue: 0,1:50:42.57,1:50:43.73,Default,,0,0,0,,一！\NOne!
+Dialogue: 0,1:50:43.87,1:50:46.23,Default,,0,0,0,,不不！\NNo! No!
+Dialogue: 0,1:50:47.71,1:50:49.57,Default,,0,0,0,,大获成功 实至名归！\NA hit, a palpable hit!
+Dialogue: 0,1:50:49.71,1:50:52.17,Default,,0,0,0,,我们的儿子一定会赢！\NOur son shall win!
+Dialogue: 0,1:50:52.30,1:50:53.48,Default,,0,0,0,,又来了！\NWell, again!
+Dialogue: 0,1:50:53.61,1:50:55.08,Default,,0,0,0,,格特鲁德 不要喝酒\NGertrude, do not drink.
+Dialogue: 0,1:51:14.53,1:51:16.70,Default,,0,0,0,,又一首热门歌曲！你们觉得呢？\NAnother hit! What say you?
+Dialogue: 0,1:51:25.11,1:51:27.81,Default,,0,0,0,,现在就来吧！\NHave at you now!
+Dialogue: 0,1:51:55.20,1:51:57.87,Default,,0,0,0,,女王怎么样？\NHow does the queen?
+Dialogue: 0,1:51:58.01,1:51:59.37,Default,,0,0,0,,她看到他们流血就晕倒了\NShe swoons to see them bleed.
+Dialogue: 0,1:51:59.50,1:52:03.04,Default,,0,0,0,,不 不 是饮料 是饮料！\NNo, no, the drink, the drink!
+Dialogue: 0,1:52:03.18,1:52:05.25,Default,,0,0,0,,哦 我亲爱的哈姆雷特\NOh, my dear Hamlet.
+Dialogue: 0,1:52:05.39,1:52:06.91,Default,,0,0,0,,我中毒了\NI am poisoned.
+Dialogue: 0,1:52:08.52,1:52:11.49,Default,,0,0,0,,哦 邪恶！\NOh, villainy!
+Dialogue: 0,1:52:11.62,1:52:14.22,Default,,0,0,0,,嚯 把门锁上！\NHo, let the door be locked!
+Dialogue: 0,1:52:14.35,1:52:16.25,Default,,0,0,0,,背叛！去寻找它！\NTreachery! Seek it out!
+Dialogue: 0,1:52:16.39,1:52:17.72,Default,,0,0,0,,就在这里 哈姆雷特\NIt is here, Hamlet.
+Dialogue: 0,1:52:20.23,1:52:22.13,Default,,0,0,0,,哈姆雷特 你被杀了\NHamlet, thou art slain.
+Dialogue: 0,1:52:22.27,1:52:24.56,Default,,0,0,0,,世界上没有任何药物能治好你\NNo medicine in the world can do thee good.
+Dialogue: 0,1:52:24.70,1:52:27.03,Default,,0,0,0,,你里面连半小时的生命都没有\NIn thee, there is not half an hour's life.
+Dialogue: 0,1:52:27.17,1:52:28.57,Default,,0,0,0,,都怪国王！\NThe king's to blame!
+Dialogue: 0,1:52:31.88,1:52:33.41,Default,,0,0,0,,伤口也中毒了吗？\NThe point envenomed, too?
+Dialogue: 0,1:52:33.55,1:52:35.28,Default,,0,0,0,,那么 毒液 开始你的工作吧！\NThen, venom, to thy work!
+Dialogue: 0,1:52:46.16,1:52:51.86,Default,,0,0,0,,来吧 你这乱伦、杀人、该死的丹麦人！\NHere, thou incestuous, murderous, damned Dane!
+Dialogue: 0,1:52:53.87,1:52:55.47,Default,,0,0,0,,喝...\NDrink...
+Dialogue: 0,1:52:55.60,1:52:57.93,Default,,0,0,0,,把这药水喝下去！\NDrink off this potion!
+Dialogue: 0,1:53:00.03,1:53:01.74,Default,,0,0,0,,你的联盟在这里吗？\NIs thy union here?
+Dialogue: 0,1:53:01.87,1:53:05.04,Default,,0,0,0,,跟着我妈妈\NFollow my mother.
+Dialogue: 0,1:53:31.93,1:53:33.26,Default,,0,0,0,,我死了\NI am dead.
+Dialogue: 0,1:53:36.67,1:53:38.27,Default,,0,0,0,,你活着\NThou livest.
+Dialogue: 0,1:53:39.41,1:53:41.48,Default,,0,0,0,,举报我和我的案情\NReport me and my cause aright
+Dialogue: 0,1:53:41.61,1:53:43.48,Default,,0,0,0,,致那些不满现状的人\NTo the unsatisfied.
+Dialogue: 0,1:53:43.61,1:53:45.44,Default,,0,0,0,,如果你曾将我放在心上\NIf thou didst ever hold me in thy heart,
+Dialogue: 0,1:53:45.58,1:53:47.82,Default,,0,0,0,,暂时离开幸福\NAbsent thee from felicity awhile,
+Dialogue: 0,1:53:47.96,1:53:52.02,Default,,0,0,0,,在这残酷的世界里 痛苦地喘息吧\NAnd in this harsh world draw thy breath in pain
+Dialogue: 0,1:53:52.15,1:53:54.19,Default,,0,0,0,,讲述我的故事\NTo tell my story.
+Dialogue: 0,1:54:12.14,1:54:15.18,Default,,0,0,0,,我死了！\NI die!
+Dialogue: 0,1:54:23.88,1:54:27.85,Default,,0,0,0,,这剧毒彻底吞噬了我的灵魂\NThe potent poison quite o'ercrows my spirit.
+Dialogue: 0,1:55:45.24,1:55:48.01,Default,,0,0,0,,其余时间一片寂静\NThe rest is silence.
+Dialogue: 0,2:01:24.34,2:01:31.04,Default,,0,0,0,,♪我的知更鸟将飞向绿林♪\N♪ My Robin to the greenwood will go ♪
+Dialogue: 0,2:01:31.17,2:01:34.35,Default,,0,0,0,,♪橡树和白蜡树所在的地方♪\N♪ Where the oak and the ash ♪
+Dialogue: 0,2:01:34.48,2:01:37.81,Default,,0,0,0,,♪ 荆棘丛生 ♪\N♪ And the briars do grow ♪
+Dialogue: 0,2:01:37.95,2:01:41.16,Default,,0,0,0,,♪我的爱人境况如何？♪\N♪ How fares my love ♪
+Dialogue: 0,2:01:41.29,2:01:44.99,Default,,0,0,0,,♪ 夜幕降临 ♪\N♪ As the darkness falls ♪
+Dialogue: 0,2:01:45.13,2:01:47.69,Default,,0,0,0,,♪ 就在那里 ♪\N♪ There within ♪
+Dialogue: 0,2:01:47.83,2:01:51.00,Default,,0,0,0,,♪ 那些错综复杂的墙壁？ ♪\N♪ Those tangled walls? ♪
+Dialogue: 0,2:01:51.14,2:01:54.44,Default,,0,0,0,,♪我的爱人境况如何？♪\N♪ How fares my love ♪
+Dialogue: 0,2:01:54.57,2:01:58.34,Default,,0,0,0,,♪ 夜幕降临 ♪\N♪ As the darkness falls ♪
+Dialogue: 0,2:01:58.47,2:02:01.11,Default,,0,0,0,,♪ 就在那里 ♪\N♪ There within ♪
+Dialogue: 0,2:02:01.25,2:02:04.85,Default,,0,0,0,,♪ 那些错综复杂的墙壁？ ♪\N♪ Those tangled walls? ♪
+Dialogue: 0,2:02:11.32,2:02:14.42,Default,,0,0,0,,♪ 绿林就在附近 ♪\N♪ The greenwood is near ♪
+Dialogue: 0,2:02:14.56,2:02:17.85,Default,,0,0,0,,♪ 而绿林很远 ♪\N♪ And the greenwood is far ♪
+Dialogue: 0,2:02:17.99,2:02:21.66,Default,,0,0,0,,♪ 以及诸多危险 ♪\N♪ And many a danger ♪
+Dialogue: 0,2:02:21.79,2:02:24.47,Default,,0,0,0,,♪ 那里发生了一件人事 ♪\N♪ Befalls a man there ♪
+Dialogue: 0,2:02:24.60,2:02:27.86,Default,,0,0,0,,♪ 我祈祷那些树 ♪\N♪ I pray that those trees ♪
+Dialogue: 0,2:02:28.00,2:02:31.03,Default,,0,0,0,,♪ 我会把我的孩子还给我 ♪\N♪ Will return my boy ♪
+Dialogue: 0,2:02:31.17,2:02:34.54,Default,,0,0,0,,♪ 献给甜美可爱的罗宾 ♪\N♪ For sweet bonny Robin ♪
+Dialogue: 0,2:02:34.68,2:02:37.91,Default,,0,0,0,,♪ 这就是我所有的快乐 ♪\N♪ Is all my joy ♪
+Dialogue: 0,2:02:38.04,2:02:41.09,Default,,0,0,0,,♪ 我祈祷那些树 ♪\N♪ I pray that those trees ♪
+Dialogue: 0,2:02:41.22,2:02:44.55,Default,,0,0,0,,♪ 我会把我的孩子还给我 ♪\N♪ Will return my boy ♪
+Dialogue: 0,2:02:44.69,2:02:47.82,Default,,0,0,0,,♪ 献给甜美可爱的罗宾 ♪\N♪ For sweet bonny Robin ♪
+Dialogue: 0,2:02:47.95,2:02:51.52,Default,,0,0,0,,♪ 这就是我所有的快乐♪\N♪ Is all my joy. ♪
