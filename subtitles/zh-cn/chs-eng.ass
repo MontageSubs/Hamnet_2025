@@ -309,9 +309,9 @@ Dialogue: 0,0:22:40.43,0:22:41.83,Default,,0,0,0,,玛丽\NMary.
 Dialogue: 0,0:22:42.79,0:22:44.76,Default,,0,0,0,,不必这样\NThere's no need for that.
 Dialogue: 0,0:22:45.19,0:22:48.55,Default,,0,0,0,,既然他们情投意合 这事好解决\NI have no doubt we can come to an arrangement.
 Dialogue: 0,0:22:48.56,0:22:50.40,Default,,0,0,0,,- 约翰 - 安静 女人\N- John. - Hush, woman.
-Dialogue: 0,0:22:52.27,0:22:54.26,Default,,0,0,0,,你一定想在教堂里\NI am certain you are eager
+Dialogue: 0,0:22:52.27,0:22:54.26,Default,,0,0,0,,你肯定想在教堂里\NI am certain you are eager
 Dialogue: 0,0:22:54.28,0:22:56.82,Default,,0,0,0,,看到你妹妹出嫁吧\Nto see your sister before the altar.
-Dialogue: 0,0:22:58.41,0:23:00.51,Default,,0,0,0,,我现在一定要\NI'm certain you'd rather not see your boy
+Dialogue: 0,0:22:58.41,0:23:00.51,Default,,0,0,0,,我现在肯定要\NI'm certain you'd rather not see your boy
 Dialogue: 0,0:23:00.52,0:23:02.36,Default,,0,0,0,,控告你儿子奸淫\Ndragged before the bawdy court.
 Dialogue: 0,0:23:02.38,0:23:04.52,Default,,0,0,0,,没必要闹成那样\NThere's no need for that.
 Dialogue: 0,0:23:04.53,0:23:07.03,Default,,0,0,0,,他们两厢情愿 已经私定了\NThey said they are handfasted.
@@ -588,48 +588,51 @@ Dialogue: 0,0:44:00.34,0:44:02.67,Default,,0,0,0,,太好了 太好了 太好了\
 Dialogue: 0,0:44:11.72,0:44:13.81,Default,,0,0,0,,你会活下去\NYou will live.
 Dialogue: 0,0:44:15.56,0:44:17.52,Default,,0,0,0,,你会活下去\NYou will live.
 Dialogue: 0,0:44:18.53,0:44:23.40,Default,,0,0,0,,我会保护你到底 绝不放手\NI will make sure nothing ever takes you away.
-Dialogue: 0,0:44:44.94,0:44:47.22,Default,,0,0,0,,我实在找不到\NI actually couldn't find it.
-Dialogue: 0,0:44:56.09,0:44:57.52,Default,,0,0,0,,唔\NHmm.
-Dialogue: 0,0:45:00.39,0:45:01.86,Default,,0,0,0,,这里\NHere.
-Dialogue: 0,0:45:02.86,0:45:04.23,Default,,0,0,0,,完美的\NPerfect.
-Dialogue: 0,0:45:05.06,0:45:06.89,Default,,0,0,0,,我找到我的帽子了\NI found my hat.
-Dialogue: 0,0:45:13.57,0:45:15.77,Default,,0,0,0,,好的是的\NOkay. Yes.
-Dialogue: 0,0:45:20.48,0:45:22.68,Default,,0,0,0,,好 就站在那边站在那边\NOkay, take that side. Take that side.
-Dialogue: 0,0:45:22.82,0:45:24.12,Default,,0,0,0,,是的\NYeah.
-Dialogue: 0,0:45:24.25,0:45:27.45,Default,,0,0,0,,把它放在这附近\NAnd put it around here.
-Dialogue: 0,0:45:28.35,0:45:29.92,Default,,0,0,0,,完美的\NPerfect.
-Dialogue: 0,0:45:33.30,0:45:35.59,Default,,0,0,0,,哦 对不起让我来帮你吧\N- Ooh. Sorry. - Let me help you.
-Dialogue: 0,0:45:41.53,0:45:43.54,Default,,0,0,0,,它顺着我的脸流下来了\NIt's down my face.
-Dialogue: 0,0:45:51.14,0:45:54.11,Default,,0,0,0,,我是哈姆内特 我是哈姆内特\N- I'm Hamnet. - I'm Hamnet.
-Dialogue: 0,0:45:55.18,0:45:58.82,Default,,0,0,0,,我是朱迪思 我是朱迪思\N- I'm Judith. - I'm Judith.
-Dialogue: 0,0:46:00.32,0:46:02.19,Default,,0,0,0,,这栋房子里不许跑步\NThere will be no running in this house.
-Dialogue: 0,0:46:02.33,0:46:05.99,Default,,0,0,0,,请各位举止得体……\NConduct yourselves, please, as...
-Dialogue: 0,0:46:06.13,0:46:08.49,Default,,0,0,0,,女士们和先生们\Ngentlewomen and gentlemen.
-Dialogue: 0,0:46:10.93,0:46:12.70,Default,,0,0,0,,你要去哪里？\NWhere are you going?
-Dialogue: 0,0:46:12.83,0:46:15.30,Default,,0,0,0,,是啊 他……他来了 他来了\NYeah. He's-he's coming. He's coming.
-Dialogue: 0,0:46:18.60,0:46:19.66,Default,,0,0,0,,你好\NHello.
-Dialogue: 0,0:46:19.80,0:46:21.24,Default,,0,0,0,,你好\NHello.
-Dialogue: 0,0:46:21.38,0:46:23.38,Default,,0,0,0,,我们都知道他们交换过衣服\NWe all know they've swapped clothes.
-Dialogue: 0,0:46:23.51,0:46:25.41,Default,,0,0,0,,我们还要假装不知道多久？\NHow long are we going to pretend we don't?
-Dialogue: 0,0:46:25.54,0:46:27.48,Default,,0,0,0,,只要他们还认为自己是一样的 我们就会一直假装\NWe'll pretend for as long as they think they're the same.
-Dialogue: 0,0:46:29.79,0:46:31.35,Default,,0,0,0,,你好\NHi.
-Dialogue: 0,0:46:36.32,0:46:38.06,Default,,0,0,0,,父亲 您能帮我研读这段希腊文吗？\NFather, will you help me with the Greek passage
-Dialogue: 0,0:46:38.19,0:46:39.89,Default,,0,0,0,,昨天课上讲的？\Nfrom yesterday's lesson?
-Dialogue: 0,0:46:40.02,0:46:42.19,Default,,0,0,0,,哈姆内特 我还以为你已经学会了呢\NHamnet, I thought you'd already learnt it.
-Dialogue: 0,0:46:42.33,0:46:45.03,Default,,0,0,0,,我没带 因为我把入门教材落在学校了\NI didn't because I left my primer at school.
-Dialogue: 0,0:46:45.17,0:46:46.43,Default,,0,0,0,,哈姆内特\NWell, Hamnet,
-Dialogue: 0,0:46:46.57,0:46:48.06,Default,,0,0,0,,你需要认真对待学业\Nyou need to take your studies seriously.
-Dialogue: 0,0:46:48.20,0:46:49.43,Default,,0,0,0,,如果你不……你又怎能指望进步呢？\NHow do you expect to improve if you're not...
-Dialogue: 0,0:46:59.57,0:47:00.94,Default,,0,0,0,,你们这些坏家伙\NYou rascals.
-Dialogue: 0,0:47:01.08,0:47:03.42,Default,,0,0,0,,- 我们骗了你吗？ - 当然骗了\N- Did we trick you? - Of course you did.
-Dialogue: 0,0:47:03.55,0:47:05.58,Default,,0,0,0,,你又跟我换了身份来骗我\NYou swapped places to hoodwink me again.
-Dialogue: 0,0:47:09.69,0:47:10.89,Default,,0,0,0,,苏珊娜 过来一下\NSusanna, come here.
-Dialogue: 0,0:47:11.03,0:47:12.99,Default,,0,0,0,,过来\NCome here.
-Dialogue: 0,0:47:16.13,0:47:17.30,Default,,0,0,0,,现在 你还记得那件事吗？\NNow, do you remember the thing
-Dialogue: 0,0:47:17.43,0:47:18.96,Default,,0,0,0,,我们原本打算为你母亲做什么？\Nwe were going to do for your mother?
-Dialogue: 0,0:47:19.10,0:47:20.59,Default,,0,0,0,,是啊——你还记得吗？你准备好了吗？——是的\NYeah. -You remember? You ready to do it? -Yeah.
-Dialogue: 0,0:47:20.73,0:47:22.60,Default,,0,0,0,,好的快出去\NOkay. Go outside quickly.
-Dialogue: 0,0:47:22.74,0:47:25.80,Default,,0,0,0,,走 走 走 走 走 走 走 走 走 走 走 走\NGo, go, go, go, go, go, go, go, go, go, go, go.
+Dialogue: 0,0:44:44.63,0:44:46.91,Default,,0,0,0,,我怎么都找不到\NI actually couldn't find it.
+Dialogue: 0,0:44:56.00,0:44:57.43,Default,,0,0,0,,没有\NHmm.
+Dialogue: 0,0:45:00.24,0:45:01.71,Default,,0,0,0,,找到了\NHere.
+Dialogue: 0,0:45:02.61,0:45:03.98,Default,,0,0,0,,太好了\NPerfect.
+Dialogue: 0,0:45:04.85,0:45:06.68,Default,,0,0,0,,找到帽子了\NI found my hat.
+Dialogue: 0,0:45:13.18,0:45:15.38,Default,,0,0,0,,来 对\NOkay. Yes.
+Dialogue: 0,0:45:20.47,0:45:22.67,Default,,0,0,0,,来 转过去 转过去\NOkay, take that side. Take that side.
+Dialogue: 0,0:45:22.70,0:45:24.00,Default,,0,0,0,,好\NYeah.
+Dialogue: 0,0:45:24.14,0:45:26.52,Default,,0,0,0,,然后系好\NAnd put it around here.
+Dialogue: 0,0:45:28.55,0:45:30.12,Default,,0,0,0,,完美\NPerfect.
+Dialogue: 0,0:45:33.25,0:45:35.54,Default,,0,0,0,,- 哎呀 - 我来吧\N- Ooh. Sorry. - Let me help you.
+Dialogue: 0,0:45:41.43,0:45:43.44,Default,,0,0,0,,挡到我脸了\NIt's down my face.
+Dialogue: 0,0:45:51.09,0:45:54.06,Default,,0,0,0,,- 跟我学我是哈姆奈特 - 我是哈姆奈特\N- I'm Hamnet. - I'm Hamnet.
+Dialogue: 0,0:45:55.13,0:45:58.77,Default,,0,0,0,,- 我是珠迪丝 - 我是珠迪丝\N- I'm Judith. - I'm Judith.
+Dialogue: 0,0:45:59.81,0:46:01.68,Default,,0,0,0,,屋里不准跑\NThere will be no running in this house.
+Dialogue: 0,0:46:02.39,0:46:06.05,Default,,0,0,0,,你们要举止端正 要像...\NConduct yourselves, please, as...
+Dialogue: 0,0:46:06.13,0:46:08.49,Default,,0,0,0,,淑女与绅士\Ngentlewomen and gentlemen.
+Dialogue: 0,0:46:11.39,0:46:12.81,Default,,0,0,0,,你们要去哪儿？\NWhere are you going?
+Dialogue: 0,0:46:12.82,0:46:15.72,Default,,0,0,0,,对 他来了 他来了\NYeah. He's-he's coming. He's coming.
+Dialogue: 0,0:46:18.50,0:46:19.58,Default,,0,0,0,,回来了\NHello.
+Dialogue: 0,0:46:19.59,0:46:21.03,Default,,0,0,0,,你回来了\NHello.
+Dialogue: 0,0:46:21.57,0:46:23.61,Default,,0,0,0,,明摆着他俩对调了衣服\NWe all know they've swapped clothes.
+Dialogue: 0,0:46:23.63,0:46:25.41,Default,,0,0,0,,咱们什么时候揭穿？\NHow long are we going to pretend we don't?
+Dialogue: 0,0:46:25.42,0:46:27.51,Default,,0,0,0,,只要他们继续演 咱们就不揭穿\NWe'll pretend for as long as they think they're the same.
+Dialogue: 0,0:46:29.59,0:46:30.82,Default,,0,0,0,,你好\NHi.
+Dialogue: 0,0:46:36.25,0:46:38.07,Default,,0,0,0,,爹 你能再教下我\NFather, will you help me with the Greek passage
+Dialogue: 0,0:46:38.08,0:46:39.75,Default,,0,0,0,,昨天那段希腊文吗？\Nfrom yesterday's lesson?
+Dialogue: 0,0:46:39.77,0:46:42.27,Default,,0,0,0,,哈姆奈特 你不是会背了吗？\NHamnet, I thought you'd already learnt it.
+Dialogue: 0,0:46:42.28,0:46:44.94,Default,,0,0,0,,我忘了 因为把课本落学堂了\NI didn't because I left my primer at school.
+Dialogue: 0,0:46:44.95,0:46:46.43,Default,,0,0,0,,好吧 哈姆奈特\NWell, Hamnet,
+Dialogue: 0,0:46:46.45,0:46:47.75,Default,,0,0,0,,你要用心学\Nyou need to take your studies seriously.
+Dialogue: 0,0:46:47.77,0:46:49.14,Default,,0,0,0,,不努力怎么会进步呢...\NHow do you expect to improve if you're not...
+Dialogue: 0,0:46:49.15,0:46:53.52,Default,,0,0,0,,（希腊语）吾不肯苟且而生 不甘平庸而逝
+Dialogue: 0,0:46:49.15,0:46:53.57,Note,,0,0,0,,{\an8}【译注: 正在朗读荷马《伊利亚特》第22卷】
+Dialogue: 0,0:46:53.57,0:46:58.60,Default,,0,0,0,,（希腊语）愿成就丰功伟绩 令后世永传吾名
+Dialogue: 0,0:46:53.57,0:46:58.61,Note,,0,0,0,,{\an8}【《伊利亚特》: 荷马(古希腊诗人)史诗 论英雄 战争与命运】
+Dialogue: 0,0:46:59.38,0:47:00.80,Default,,0,0,0,,你们这群小淘气\NYou rascals.
+Dialogue: 0,0:47:00.82,0:47:03.54,Default,,0,0,0,,- 我们耍到你了吗？ - 当然了\N- Did we trick you? - Of course you did.
+Dialogue: 0,0:47:03.55,0:47:06.10,Default,,0,0,0,,你们又互换来耍我\NYou swapped places to hoodwink me again.
+Dialogue: 0,0:47:09.80,0:47:11.13,Default,,0,0,0,,苏珊娜 过来\NSusanna, come here.
+Dialogue: 0,0:47:11.14,0:47:13.10,Default,,0,0,0,,快过来\NCome here.
+Dialogue: 0,0:47:16.25,0:47:19.09,Default,,0,0,0,,你们还记得要给你娘准备的那件事吗？\NNow, do you remember the thing we were going to do for your mother?
+Dialogue: 0,0:47:19.10,0:47:20.59,Default,,0,0,0,,- 嗯 - 都记得吗？准备好了吗？\N- Yeah. - You remember? You ready to do it?
+Dialogue: 0,0:47:20.61,0:47:22.37,Default,,0,0,0,,- 嗯 - 好 快去 快去准备\N- Yeah. - Okay. Go outside quickly.
+Dialogue: 0,0:47:22.39,0:47:25.45,Default,,0,0,0,,快去 快去 快去\NGo, go, go, go, go.
 Dialogue: 0,0:47:27.07,0:47:28.70,Default,,0,0,0,,- 朝那边走一步…… - 等等\N- Just step toward... - Wait.
 Dialogue: 0,0:47:28.84,0:47:30.94,Default,,0,0,0,,一——向右走迈步\NOne st-- Come to your right. Step.
 Dialogue: 0,0:47:31.07,0:47:33.38,Default,,0,0,0,,再走一步\NStep. One more.
