@@ -1,0 +1,65 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Source Han Sans SC,100,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Screen,Source Han Serif SC,95,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Screen2,SimHei,60,&H00F5F5F5,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,0,0,2,5,5,0,1
+Style: Default2,Source Han Sans SC,100,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 新建,Arial,20,&H00050505,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.92,0:00:01.99,Screen,,0,0,0,,{\pos(960,740)\org(960,700)\b1\fscx99\fscy99\alpha&HCC&\t(0,400,\alpha&H00&)\t(0,1031,\fscx100\fscy100)}杰西·巴克利\N{\b0\fs70}领衔主演
+Dialogue: 0,0:00:02.78,0:00:03.78,Screen,,0,0,0,,{\pos(960,745)\org(960,700)\b1\fscx99\fscy99\alpha&HFF&\t(0,250,\alpha&H00&)\t(0,1031,\fscx100\fscy100)}保罗·麦斯卡\N{\b0\fs70}领衔主演
+Dialogue: 0,0:00:05.00,0:00:06.98,Screen,,0,0,0,,{\pos(960,470)\b1\fs150}《哈姆奈特》
+Dialogue: 0,0:00:05.93,0:00:06.98,Screen,,0,0,0,,{\pos(955,720)\fs70\i1\alpha&HFF&\t(0,550,\alpha&H00&)}中文预告
+Dialogue: 0,0:00:11.46,0:00:12.46,Default,,0,0,0,,讲个故事吧
+Dialogue: 0,0:00:13.29,0:00:14.38,Default,,0,0,0,,你想听什么故事？
+Dialogue: 0,0:00:14.91,0:00:16.77,Default,,0,0,0,,讲个能打动你自己的故事
+Dialogue: 0,0:00:16.78,0:00:17.90,Screen2,,0,0,0,,{\an2\fsp10\fs100\pos(960,871)\c&H0FADEF&}{\alpha&HFF&\t(0,500,\alpha&H00&)}焦{\blur4\alpha&HFF&\t(0,500,\alpha&H00&)}点{\blur0\alpha&HFF&\t(0，500,\alpha&H00&)}影{\alpha&HFF&\t(0,500,\alpha&H00&)}业
+Comment: 0,0:00:16.78,0:00:19.16,Screen,,0,0,0,,{\an2}（蒙太奇字幕组 原创译制）
+Dialogue: 0,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an6\fs140\fsp55\t(0,567,\alpha&H00&)\t(0,567,\1c&H402310&)\t(0,567,\3c&H402310&)\t(0,567,\fsp20)\bord4\blur3\pos(1180,275)}安培林
+Dialogue: 0,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an4\fs80\fsp31\t(0,567,\alpha&H00&)\t(0,567,\1c&H0A2030&)\t(0,567,\3c&H0A2030&)\t(0,567,\fsp5)\bord2\blur2\pos(1220,300)}娱乐
+Dialogue: 1,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an6\fs140\fsp55\t(0,567,\alpha&H00&)\t(0,567,\1c&HC3880F&)\t(0,567,\3c&H5F371E&)\t(0,567,\fsp20)\bord4\pos(1175,270)}安培林
+Dialogue: 1,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an5\1c&HDCBE82&\bord0\shad1\4c&H000000&\blur2\fscy0\t(0,567,\fscy100)\p1\pos(1175,325)}m -2 -50 l 2 -50 l 2 50 l -2 50{\p0}
+Dialogue: 1,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an5\1c&H2D98C8&\bord0\shad1\4c&H000000&\blur2\fscy0\t(0,567,\fscy100)\p1\pos(1200,325)}m -8 -50 l 8 -50 l 8 50 l -8 50{\p0}
+Dialogue: 2,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an6\fs140\fsp55\t(0,567,\alpha&H00&)\t(0,567,\1c&HC58E34&)\t(0,567,\3c&H000000&)\t(0,567,\fsp20)\bord0\blur6\pos(1175,264)}安培林
+Dialogue: 0,0:00:17.90,0:00:19.16,Default2,,0,0,0,,{\fad(1320,160)\an4\fs80\fsp31\t(0,567,\alpha&H00&)\t(0,567,\1c&H4795CC&)\t(0,567,\3c&H2D618A&)\t(0,567,\fsp5)\bord1\4c&H000000&\shad2\blur2\pos(1217,297)}娱乐
+Dialogue: 0,0:00:19.73,0:00:21.49,Default,,0,0,0,,你真的能靠摸一个人的手
+Dialogue: 0,0:00:21.50,0:00:23.13,Default,,0,0,0,,看透一切吗？
+Dialogue: 0,0:00:24.17,0:00:26.26,Screen,,0,0,0,,{\pos(960,780)\org(960,700)\fscx99\fscy99\alpha&HFF&\t(0,800,\alpha&H00&)\t(0,1031,\fscx100\fscy100)\fs70\i1}来自奥斯卡获奖导演\N{\b1\fs100\i0}赵婷
+Dialogue: 0,0:00:25.16,0:00:26.26,Default,,0,0,0,,并非全部
+Dialogue: 0,0:00:30.82,0:00:32.70,Screen,,0,0,0,,{\pos(960,980)\org(960,700)\alpha&HFF&\t(0,800,\alpha&H00&)\fs70\i1}制片人\N{\b1\fs100\i0}史蒂文·斯皮尔伯格\N萨姆·门德斯\N{\b0\fs70\i1}
+Dialogue: 0,0:00:33.86,0:00:35.64,Default,,0,0,0,,你摸我时你看到了什么？
+Dialogue: 0,0:00:36.90,0:00:38.44,Default,,0,0,0,,我看见了一幅画面
+Dialogue: 0,0:00:39.03,0:00:40.73,Default,,0,0,0,,- 一幅画？\N- 嗯
+Dialogue: 0,0:00:41.59,0:00:42.91,Default,,0,0,0,,空洞
+Dialogue: 0,0:00:43.79,0:00:45.08,Default,,0,0,0,,黑洞
+Dialogue: 0,0:00:45.69,0:00:47.81,Default,,0,0,0,,暗道和深海
+Dialogue: 0,0:00:48.51,0:00:50.45,Default,,0,0,0,,未知的国度
+Dialogue: 0,0:00:51.04,0:00:53.06,Default,,0,0,0,,- 是男子汉吗？\N- 是
+Dialogue: 0,0:00:53.39,0:00:55.05,Default,,0,0,0,,是男子汉吗？
+Dialogue: 0,0:00:57.49,0:00:59.87,Default,,0,0,0,,深不见底 一片漆黑的虚空
+Dialogue: 0,0:01:00.93,0:01:02.29,Default,,0,0,0,,我是男子汉
+Dialogue: 0,0:01:03.58,0:01:05.61,Screen,,0,0,0,,{\pos(960,775)\org(960,600)\fscx98\fscy98\alpha&HFF&\t(0,750,\alpha&H00&)\t(0,1031,\fscx100\fscy100)\fs70\b0\i1}基于畅销小说改编\N{\b1\fs100\i0}《哈姆奈特》
+Dialogue: 0,0:01:06.82,0:01:08.27,Screen,,0,0,0,,{\pos(960,675)\org(960,600)\fscx99\fscy99\alpha&HFF&\t(0,150,\alpha&H00&)\t(0,1031,\fscx100\fscy100)\b1}蒙太奇字幕组\N{\fs70\b0\i1}原创译制
+Dialogue: 0,0:01:09.94,0:01:12.03,Screen,,0,0,0,,{\pos(960,765)\org(960,700)\fscx99\fscy99\alpha&HFF&\t(0,1050,\alpha&H00&)\t(0,1031,\fscx100\fscy100)\fs70\b0\i1\t(1672,1881,\alpha&H80&)\t(1881,2090,\alpha&HFF&)}一段\N{\b1\fs100\i0}不为人知的爱情故事
+Dialogue: 0,0:01:14.93,0:01:17.35,Screen,,0,0,0,,{\pos(960,820)\org(960,700)\fscx99\fscy99\alpha&HFF&\t(0,740,\alpha&H00&)\t(0,1031,\fscx100\fscy100)\fs70\b0\i1\t(2082,2505,\alpha&H80&)\t(2081,2505,\alpha&HFF&)}激发了\N{\b1\fs100\i0}莎士比亚创作最伟大的杰作
+Dialogue: 0,0:01:17.79,0:01:18.72,Screen,,0,0,0,,{\pos(1135,700)\frz-36.0\an8\c&H1B1511&\b1}《哈姆雷特》
+Dialogue: 0,0:01:18.72,0:01:19.84,Screen,,0,0,0,,{\pos(960,675)\org(960,600)\fscx98\fscy98\t(0,1031,\fscx100\fscy100)\b1}杰西·巴克利
+Dialogue: 0,0:01:20.79,0:01:21.93,Screen,,0,0,0,,{\pos(960,675)\org(960,600)\fscx98\fscy98\t(0,1031,\fscx100\fscy100)\b1}保罗·麦斯卡
+Dialogue: 0,0:01:25.78,0:01:27.26,Default,,0,0,0,,你看到了什么？
+Dialogue: 0,0:01:32.66,0:01:33.84,Default,,0,0,0,,你看到了什么？
+Dialogue: 0,0:01:36.20,0:01:37.64,Default,,0,0,0,,你会活下去的
+Dialogue: 0,0:01:38.43,0:01:40.94,Screen,,0,0,0,,{\pos(960,720)\b1\fs130\alpha&HFF&\t(0,850,\alpha&H00&)}《哈姆奈特》
+Dialogue: 0,0:01:40.94,0:01:43.11,Screen,,0,0,0,,{\pos(960,290)\fs70\b0\i1}导演\N{\b1\fs100\i0}赵婷
+Dialogue: 0,0:01:40.94,0:01:43.11,Screen,,0,0,0,,{\pos(960,930)\fs70\b0\i1}编剧\N{\b1\fs100\i0}赵婷 {\fs70}与{\fs100} 玛吉·奥法雷尔
+Dialogue: 0,0:01:43.11,0:01:44.32,Default,,0,0,0,,{\pos(960,90)\an8\fs50\b1\c&HE8F1EB&}蒙太奇字幕组 (MontageSubs)\N{\fs40}用爱发电 {\c&H211EE8&}♥{\c&HE8F1EB&} Powered by Love
