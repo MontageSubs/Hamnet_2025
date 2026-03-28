@@ -1226,7 +1226,7 @@ Dialogue: 0,1:37:35.79,1:37:37.52,Default,,0,0,0,,敞开心扉\NKeep your heart 
 Dialogue: 0,1:37:43.82,1:37:48.65,Screen,,0,0,0,,（天下皆为舞台）
 Dialogue: 0,1:37:43.82,1:37:48.65,Note,,0,0,0,,{\an8}【拉丁格言‘天下皆为舞台 人人都是演员’ 莎士比亚《皆大欢喜》亦用此意象】
 Dialogue: 0,1:38:26.22,1:38:29.26,Note,,0,0,0,,{\an8}【译注: 都铎晚期剧场分为站票 看台 包厢等级】
-Dialogue: 0,1:39:08.80,1:39:10.90,Note,,0,0,0,,{\an8}（《哈姆奈特的悲剧》）
+Dialogue: 0,1:39:08.80,1:39:10.90,Screen,,0,0,0,,{\an8}（《哈姆奈特的悲剧》）
 Dialogue: 0,1:39:34.10,1:39:36.74,Default,,0,0,0,,谁在那儿？——不 回答我：\N- Who's there? - Nay, answer me:
 Dialogue: 0,1:39:36.76,1:39:37.86,Default,,0,0,0,,站起来 展现自我！\Nstand and unfold yourself!
 Dialogue: 0,1:39:37.87,1:39:39.40,Default,,0,0,0,,国王万岁！\NLong live the king!
