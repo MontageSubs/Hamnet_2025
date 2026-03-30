@@ -1194,7 +1194,7 @@ Dialogue: 0,1:33:33.95,1:33:37.15,Default,,0,0,0,,♪ 我祈求那些树啊 ♪\
 Dialogue: 0,1:33:37.17,1:33:40.32,Default,,0,0,0,,♪ 还我男孩来 ♪\N♪ Will return my boy ♪
 Dialogue: 0,1:33:40.34,1:33:42.57,Default,,0,0,0,,♪ 只因... ♪\N♪ For ♪
 Dialogue: 0,1:33:42.59,1:33:45.84,Default,,0,0,0,,♪ 那只温柔的知更鸟 ♪\N♪ Sweet bonny Robin ♪
-Dialogue: 0,1:33:45.85,1:33:49.51,Default,,0,0,0,,♪ 是我仅有的欢乐 ♪\N♪ Is all my joy. ♪
+Dialogue: 0,1:33:45.85,1:33:49.51,Default,,0,0,0,,♪ 是我仅有的幸福 ♪\N♪ Is all my joy. ♪
 Dialogue: 0,1:33:45.85,1:33:52.76,Note,,0,0,0,,{\an8}【《我那去了绿林的知更鸟》: 英国民谣 绿林象征来世 知更鸟象征逝者】
 Dialogue: 0,1:33:57.28,1:33:59.15,Default,,0,0,0,,安妮丝？\NAgnes?
 Dialogue: 0,1:34:00.68,1:34:02.64,Default,,0,0,0,,我 我碰巧来镇上\NI... I was in town, and I...
@@ -1470,26 +1470,28 @@ Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an9\move(950,1177,950,-836)\f
 Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an7\move(970,1177,970,-836)\fs35\b1\fnSource Han Serif SC}小p\NNickCollect
 Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an8\move(960,1277,960,-736)\fs35\b1\fnSource Han Serif SC}特别感谢\N\N朱生豪, 卞之琳, 梁实秋\N傅光明, 党晟, 孙大雨\h\h{\i1}等翻译家{\i0}\N{\i1}莎士比亚学家{\i0}\h\h\hStephen Greenblatt\N{\i1}语言学家{\i0}\h\h\hJoseph S. Hopkins\N多个在线研究项目\N{\i1}以及{\i0}\N《哈姆奈特》电影和小说的所有参与者
 Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an8\move(960,1609,960,-404)\fs35\b1\fnSource Han Serif SC}本故事是对莎士比亚文学遗产的多层致敬。 \N草药意象直接呼应《哈姆雷特》中欧菲莉亚的悲剧台词；\N男孩女孩的换装设定则致敬了《威尼斯商人》《皆大欢喜》和《第十二夜》中的经典桥段；\N而安妮丝列出的多个意象（空间、洞穴、悬崖、隧道、大海、虚空与未知国度）\N亦呼应了莎翁多部作品中常见的主题。\N\N本作的翻译与注释专注于剧情走向，未能深入莎翁文学宇宙的更广泛关联。\N这是为了在维护影片情感结构的前提下，尊重导演的故事铺垫与叙事手法。敬请见谅。\N\N在社交媒体上关注 @MontageSubs @蒙太奇字幕组\N\N字幕许可 CC BY-NC-SA 4.0
-Dialogue: 0,2:01:31.57,2:01:34.75,Default,,0,0,0,,♪橡树和白蜡树所在的地方♪\N♪ Where the oak and the ash ♪
-Dialogue: 0,2:01:34.88,2:01:38.21,Default,,0,0,0,,♪ 荆棘丛生 ♪\N♪ And the briars do grow ♪
-Dialogue: 0,2:01:38.35,2:01:41.56,Default,,0,0,0,,♪我的爱人境况如何？♪\N♪ How fares my love ♪
-Dialogue: 0,2:01:41.69,2:01:45.39,Default,,0,0,0,,♪ 夜幕降临 ♪\N♪ As the darkness falls ♪
-Dialogue: 0,2:01:45.53,2:01:48.09,Default,,0,0,0,,♪ 就在那里 ♪\N♪ There within ♪
-Dialogue: 0,2:01:48.23,2:01:51.40,Default,,0,0,0,,♪ 那些错综复杂的墙壁？ ♪\N♪ Those tangled walls? ♪
-Dialogue: 0,2:01:51.54,2:01:54.84,Default,,0,0,0,,♪我的爱人境况如何？♪\N♪ How fares my love ♪
-Dialogue: 0,2:01:54.97,2:01:58.74,Default,,0,0,0,,♪ 夜幕降临 ♪\N♪ As the darkness falls ♪
-Dialogue: 0,2:01:58.87,2:02:01.51,Default,,0,0,0,,♪ 就在那里 ♪\N♪ There within ♪
-Dialogue: 0,2:02:01.65,2:02:05.25,Default,,0,0,0,,♪ 那些错综复杂的墙壁？ ♪\N♪ Those tangled walls? ♪
-Dialogue: 0,2:02:11.72,2:02:14.82,Default,,0,0,0,,♪ 绿林就在附近 ♪\N♪ The greenwood is near ♪
-Dialogue: 0,2:02:14.96,2:02:18.25,Default,,0,0,0,,♪ 而绿林很远 ♪\N♪ And the greenwood is far ♪
-Dialogue: 0,2:02:18.39,2:02:22.06,Default,,0,0,0,,♪ 以及诸多危险 ♪\N♪ And many a danger ♪
-Dialogue: 0,2:02:22.19,2:02:24.87,Default,,0,0,0,,♪ 那里发生了一件人事 ♪\N♪ Befalls a man there ♪
-Dialogue: 0,2:02:25.00,2:02:28.26,Default,,0,0,0,,♪ 我祈祷那些树 ♪\N♪ I pray that those trees ♪
-Dialogue: 0,2:02:28.40,2:02:31.43,Default,,0,0,0,,♪ 我会把我的孩子还给我 ♪\N♪ Will return my boy ♪
-Dialogue: 0,2:02:31.57,2:02:34.94,Default,,0,0,0,,♪ 献给甜美可爱的罗宾 ♪\N♪ For sweet bonny Robin ♪
-Dialogue: 0,2:02:35.08,2:02:38.31,Default,,0,0,0,,♪ 这就是我所有的快乐 ♪\N♪ Is all my joy ♪
-Dialogue: 0,2:02:38.44,2:02:41.49,Default,,0,0,0,,♪ 我祈祷那些树 ♪\N♪ I pray that those trees ♪
-Dialogue: 0,2:02:41.62,2:02:44.95,Default,,0,0,0,,♪ 我会把我的孩子还给我 ♪\N♪ Will return my boy ♪
-Dialogue: 0,2:02:45.09,2:02:48.22,Default,,0,0,0,,♪ 献给甜美可爱的罗宾 ♪\N♪ For sweet bonny Robin ♪
-Dialogue: 0,2:02:48.35,2:02:51.92,Default,,0,0,0,,♪ 这就是我所有的快乐♪\N♪ Is all my joy. ♪
+Dialogue: 0,2:01:24.39,2:01:31.09,Default,,0,0,0,,♪ 我的知更鸟啊 飞向了那绿林 ♪\N♪ My Robin to the greenwood will go ♪
+Dialogue: 0,2:01:31.18,2:01:34.36,Default,,0,0,0,,♪ 那里有橡树也有白蜡 ♪\N♪ Where the oak and the ash ♪
+Dialogue: 0,2:01:34.43,2:01:37.76,Default,,0,0,0,,♪ 还有那尖刺的荆棘 ♪\N♪ And the briars do grow ♪
+Dialogue: 0,2:01:37.82,2:01:41.03,Default,,0,0,0,,♪ 爱人啊 你可好啊 ♪\N♪ How fares my love ♪
+Dialogue: 0,2:01:41.18,2:01:44.88,Default,,0,0,0,,♪ 夜幕吞噬了森林 ♪\N♪ As the darkness falls ♪
+Dialogue: 0,2:01:45.16,2:01:47.89,Default,,0,0,0,,♪ 深陷那幽闭的树影里 ♪\N♪ There within ♪
+Dialogue: 0,2:01:47.91,2:01:51.08,Default,,0,0,0,,♪ 你可好啊 ♪\N♪ Those tangled walls? ♪
+Dialogue: 0,2:01:51.27,2:01:54.57,Default,,0,0,0,,♪ 爱人啊 你可好啊 ♪\N♪ How fares my love ♪
+Dialogue: 0,2:01:54.58,2:01:58.35,Default,,0,0,0,,♪ 夜幕吞噬了森林 ♪\N♪ As the darkness falls ♪
+Dialogue: 0,2:01:58.46,2:02:01.64,Default,,0,0,0,,♪ 深陷那幽闭的树影里 ♪\N♪ There within ♪
+Dialogue: 0,2:02:01.65,2:02:05.25,Default,,0,0,0,,♪ 你可好啊 ♪\N♪ Those tangled walls? ♪
+Dialogue: 0,2:02:11.26,2:02:14.36,Default,,0,0,0,,♪ 绿林啊 近在咫尺 ♪\N♪ The greenwood is near ♪
+Dialogue: 0,2:02:14.48,2:02:17.77,Default,,0,0,0,,♪ 绿林啊 又远在天边 ♪\N♪ And the greenwood is far ♪
+Dialogue: 0,2:02:17.91,2:02:21.58,Default,,0,0,0,,♪ 无数的危险啊 ♪\N♪ And many a danger ♪
+Dialogue: 0,2:02:21.79,2:02:24.47,Default,,0,0,0,,♪ 潜伏在那里 ♪\N♪ Befalls a man there ♪
+Dialogue: 0,2:02:24.55,2:02:27.81,Default,,0,0,0,,♪ 我祈求那些树啊 ♪\N♪ I pray that those trees ♪
+Dialogue: 0,2:02:27.93,2:02:31.31,Default,,0,0,0,,♪ 还我男孩来 ♪\N♪ Will return my boy ♪
+Dialogue: 0,2:02:31.32,2:02:34.89,Default,,0,0,0,,♪ 只因那只温柔的知更鸟 ♪\N♪ For sweet bonny Robin ♪
+Dialogue: 0,2:02:34.91,2:02:38.08,Default,,0,0,0,,♪ 是我仅有的幸福 ♪\N♪ Is all my joy ♪
+Dialogue: 0,2:02:38.10,2:02:41.15,Default,,0,0,0,,♪ 我祈求那些树啊 ♪\N♪ I pray that those trees ♪
+Dialogue: 0,2:02:41.34,2:02:44.67,Default,,0,0,0,,♪ 还我男孩来 ♪\N♪ Will return my boy ♪
+Dialogue: 0,2:02:44.68,2:02:48.24,Default,,0,0,0,,♪ 只因那只温柔的知更鸟 ♪\N♪ For sweet bonny Robin ♪
+Dialogue: 0,2:02:48.25,2:02:51.82,Default,,0,0,0,,♪ 是我仅有的幸福 ♪\N♪ Is all my joy. ♪
 Dialogue: 0,2:05:39.05,2:05:42.85,Credit,,0,0,0,,{\fad(400,400)\pos(960,945)\fs100\fsp17}焦{\blur4}点{\blur0\c&HE7E7E8&}影业
+Dialogue: 0,2:05:39.05,2:05:43.94,Credit,,0,0,0,,{\pos(960,100)\b1\fs45}蒙太奇字幕组 (MontageSubs)\N{\b0\fs36}用爱发电 {\c&H211EE8&}♥{\c&HE8F1EB&} Powered by Love
