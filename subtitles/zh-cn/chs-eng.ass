@@ -1465,14 +1465,11 @@ Dialogue: 0,2:00:20.40,2:00:23.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han
 Dialogue: 0,2:00:24.41,2:00:27.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,625)}主演\N\N\N\N\N\N\N\N\N\N{\fs80\i0\b1}路易莎·哈兰德\h\h{\fs50\i1}饰\h\h安妮丝生母罗文\N{\fs80\i0\b1}弗蕾亚·汉南-米尔斯\h\h{\fs50\i1}饰\h\h莎士比亚妹妹伊莱莎\N{\fs80\i0\b1}波德希·雷·布雷斯纳赫\h\h{\fs50\i1}饰\h\h大女儿苏珊娜
 Dialogue: 0,2:00:28.41,2:00:31.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}诺亚·尤佩\N{\fs50\i1}饰《哈姆雷特的悲剧》戏中哈姆雷特王子
 Dialogue: 0,2:00:33.16,2:00:36.63,Credit,,0,0,0,,{\an5\fad(440,300)\fnSource Han Serif SC\fs75\b1\i0\pos(960,615)}赵婷{\fs50\i1\b0}\h\h导演作品
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1028,960,-624)\fs40\b1\fnSource Han Serif SC}字幕译制{\fs35}\N\N蒙太奇字幕组
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an9\move(950,1130,950,-522)\fs35\b1\fnSource Han Serif SC\i1}翻译/校对/时间轴/后期\N后期
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an7\move(970,1130,970,-522)\fs35\b1\fnSource Han Serif SC}小p\NNickCollect
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1230,960,-422)\fs35\b1\fnSource Han Serif SC}特别感谢\N\N朱生豪, 卞之琳, 梁实秋\N傅光明, 党晟, 孙大雨\h\h{\i1}等翻译家{\i0}\N{\i1}莎士比亚学家{\i0}\h\h\hStephen Greenblatt\N{\i1}语言学家{\i0}\h\h\hJoseph S. Hopkins\N多个在线研究项目\N{\i1}以及{\i0}\N《哈姆奈特》电影和小说的所有参与者
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1562,960,-90)\fs35\b1\fnSource Han Serif SC}本故事是对莎士比亚文学遗产的多层致敬。 \N草药意象直接呼应《哈姆雷特》中欧菲莉亚的悲剧台词；\N男孩女孩的换装设定则致敬了《威尼斯商人》《皆大欢喜》和《第十二夜》中的经典桥段；\N而安妮丝列出的多个自然幻象（空间、洞穴、悬崖、隧道、大海、虚空与未知国度）\N更是莎翁多部作品中反复出现的主题，通过自然与精神意象的交织探索人性的本质。\N\N本作的翻译与注释专注于剧情走向，未能深入莎翁文学宇宙的更广泛关联。\N这是为了在维护影片情感结构的前提下，尊重导演的故事铺垫与叙事手法。敬请见谅。
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1850,960,198)\fs35\b1\fnSource Han Serif SC}在社交媒体上关注 @MontageSubs @蒙太奇字幕组
-Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1910,960,258)\fs35\b1\fnSource Han Serif SC}字幕许可 CC BY-NC-SA 4.0
-Dialogue: 0,2:01:24.74,2:01:31.44,Default,,0,0,0,,♪我的知更鸟将飞向绿林♪\N♪ My Robin to the greenwood will go ♪
+Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an8\move(960,1075,960,-938)\fs40\b1\fnSource Han Serif SC}字幕译制{\fs35}\N\N蒙太奇字幕组
+Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an9\move(950,1177,950,-836)\fs35\b1\fnSource Han Serif SC\i1}翻译/校对/时间轴/后期\N后期
+Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an7\move(970,1177,970,-836)\fs35\b1\fnSource Han Serif SC}小p\NNickCollect
+Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an8\move(960,1277,960,-736)\fs35\b1\fnSource Han Serif SC}特别感谢\N\N朱生豪, 卞之琳, 梁实秋\N傅光明, 党晟, 孙大雨\h\h{\i1}等翻译家{\i0}\N{\i1}莎士比亚学家{\i0}\h\h\hStephen Greenblatt\N{\i1}语言学家{\i0}\h\h\hJoseph S. Hopkins\N多个在线研究项目\N{\i1}以及{\i0}\N《哈姆奈特》电影和小说的所有参与者
+Dialogue: 0,2:00:40.92,2:01:09.73,Credit,,0,0,0,,{\an8\move(960,1609,960,-404)\fs35\b1\fnSource Han Serif SC}本故事是对莎士比亚文学遗产的多层致敬。 \N草药意象直接呼应《哈姆雷特》中欧菲莉亚的悲剧台词；\N男孩女孩的换装设定则致敬了《威尼斯商人》《皆大欢喜》和《第十二夜》中的经典桥段；\N而安妮丝列出的多个意象（空间、洞穴、悬崖、隧道、大海、虚空与未知国度）\N亦呼应了莎翁多部作品中常见的主题。\N\N本作的翻译与注释专注于剧情走向，未能深入莎翁文学宇宙的更广泛关联。\N这是为了在维护影片情感结构的前提下，尊重导演的故事铺垫与叙事手法。敬请见谅。\N\N在社交媒体上关注 @MontageSubs @蒙太奇字幕组\N\N字幕许可 CC BY-NC-SA 4.0
 Dialogue: 0,2:01:31.57,2:01:34.75,Default,,0,0,0,,♪橡树和白蜡树所在的地方♪\N♪ Where the oak and the ash ♪
 Dialogue: 0,2:01:34.88,2:01:38.21,Default,,0,0,0,,♪ 荆棘丛生 ♪\N♪ And the briars do grow ♪
 Dialogue: 0,2:01:38.35,2:01:41.56,Default,,0,0,0,,♪我的爱人境况如何？♪\N♪ How fares my love ♪
