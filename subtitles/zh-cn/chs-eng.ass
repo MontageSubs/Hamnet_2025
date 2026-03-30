@@ -28,7 +28,7 @@ Dialogue: 1,0:00:43.21,0:00:45.96,Credit,,0,0,0,,{\fad(1320,160)\an5\1c&H2D98C8&
 Dialogue: 2,0:00:43.21,0:00:45.96,Credit,,0,0,0,,{\fad(1320,160)\an6\fs140\fsp55\t(0,1320,\fsp20)\1c&HC58E34&\3c&H00000000&\bord0\alpha&H80&\blur6\pos(1380,258)}安培林
 Dialogue: 0,0:00:43.21,0:00:45.96,Credit,,0,0,0,,{\fad(1320,160)\an4\fs80\fsp31\t(0,1320,\fsp5)\1c&H4795CC&\3c&H2D618A&\bord1\4c&H000000&\shad2\blur2\pos(1422,291)}娱乐
 Dialogue: 0,0:00:47.07,0:00:50.49,Screen,,0,0,0,,{\fad(320,320)\pos(960,653)\fnSource Han Serif SC\b1\fs80}\h焦点影业\h\h\h{\fs50\i1\b0}出品
-Dialogue: 0,0:00:51.11,0:00:54.45,Screen,,0,0,0,,{\fad(320,320)\fs50\i1\pos(1237,784)\fnSource Han Serif SC}制作
+Dialogue: 0,0:00:51.11,0:00:54.45,Screen,,0,0,0,,{\fad(320,320)\fs50\i1\pos(1210,783)\fnSource Han Serif SC}制作
 Dialogue: 0,0:00:51.11,0:00:54.45,Screen,,0,0,0,,{\fad(320,320)\pos(960,874)\fnSource Han Serif SC\b1\fs80}赫拉影业\N尼尔街制作公司\N安培林娱乐
 Dialogue: 0,0:00:55.08,0:00:58.50,Screen,,0,0,0,,{\fad(320,320)\pos(960,706)\fs50\c&HE7E7E8&\fnSource Han Serif SC\i1}联合制作\N{\fs60\i0\b1\fs80}暗影之书
 Dialogue: 0,0:01:00.87,0:01:04.25,Screen,,0,0,0,,{\an5\fad(320,320)\pos(960,633)\c&HE7E7E8&\fnSource Han Serif SC\fs100\b01}哈姆奈特
@@ -331,7 +331,7 @@ Dialogue: 0,0:23:33.82,0:23:35.60,Default,,0,0,0,,他们家\NThat house.
 Dialogue: 0,0:23:35.74,0:23:39.64,Default,,0,0,0,,记得我们害怕迷茫时 娘怎么劝咱的吗？\NWhat would our mother say to us if we were afraid or uncertain?
 Dialogue: 0,0:23:40.63,0:23:43.57,Default,,0,0,0,,我们要敞开心扉\NTo live with our hearts open.
 Dialogue: 0,0:23:44.80,0:23:47.98,Default,,0,0,0,,别叫它躲在黑暗里\NTo shut it not in the dark
-Dialogue: 0,0:23:48.12,0:23:51.26,Default,,0,0,0,,要走向太阳 去拥抱那温暖\Nbut to turn it to the sun.
+Dialogue: 0,0:23:48.12,0:23:51.26,Default,,0,0,0,,要转向太阳 去拥抱那温暖\Nbut to turn it to the sun.
 Dialogue: 0,0:23:51.55,0:23:55.83,Default,,0,0,0,,他爱的是我本色 不图我变成谁\NHe loves me for what I am, not what I ought to be.
 Dialogue: 0,0:23:57.83,0:23:59.99,Default,,0,0,0,,那就嫁给他吧\NThen marry him you shall.
 Dialogue: 0,0:24:05.02,0:24:06.19,Default,,0,0,0,,谢谢\NThank you.
@@ -1195,7 +1195,7 @@ Dialogue: 0,1:33:37.17,1:33:40.32,Default,,0,0,0,,♪ 还我男孩来 ♪\N♪ W
 Dialogue: 0,1:33:40.34,1:33:42.57,Default,,0,0,0,,♪ 只因... ♪\N♪ For ♪
 Dialogue: 0,1:33:42.59,1:33:45.84,Default,,0,0,0,,♪ 那只温柔的知更鸟 ♪\N♪ Sweet bonny Robin ♪
 Dialogue: 0,1:33:45.85,1:33:49.51,Default,,0,0,0,,♪ 是我仅有的欢乐 ♪\N♪ Is all my joy. ♪
-Dialogue: 0,1:33:45.85,1:33:52.76,Note,,0,0,0,,{\an8}【《我那去了绿林的知更鸟》: 英国民谣 绿林象征来世 知更鸟象征逝者 】
+Dialogue: 0,1:33:45.85,1:33:52.76,Note,,0,0,0,,{\an8}【《我那去了绿林的知更鸟》: 英国民谣 绿林象征来世 知更鸟象征逝者】
 Dialogue: 0,1:33:57.28,1:33:59.15,Default,,0,0,0,,安妮丝？\NAgnes?
 Dialogue: 0,1:34:00.68,1:34:02.64,Default,,0,0,0,,我 我碰巧来镇上\NI... I was in town, and I...
 Dialogue: 0,1:34:02.77,1:34:05.01,Default,,0,0,0,,就想顺路来看下你\NI thought I would pay you a visit.
@@ -1231,7 +1231,7 @@ Dialogue: 0,1:37:22.34,1:37:23.87,Default,,0,0,0,,我以为他...\NI thought he.
 Dialogue: 0,1:37:30.70,1:37:32.84,Default,,0,0,0,,我该怎么办？\NWhat shall I do?
 Dialogue: 0,1:37:35.79,1:37:37.52,Default,,0,0,0,,敞开心扉\NKeep your heart open.
 Dialogue: 0,1:37:43.60,1:37:48.66,Screen,,0,0,0,,{\pos(948,276)\frx48.0\frz0.5\fay0.04\an8\b1\fs90\1c&H6F7480&\3c&&H2F2D66&\bord6\shad0\alpha&HFF&\t(0,550,\alpha&H00&)}天下皆为舞{\alpha&HFF&\t(500,2700,{\alpha&H00&}台
-Dialogue: 0,1:37:43.60,1:37:48.66,Note,,0,0,0,,{\an8}【拉丁格言‘天下皆为舞台 人人都是演员’ 莎士比亚《皆大欢喜》亦用此意象】
+Dialogue: 0,1:37:43.60,1:37:48.66,Note,,0,0,0,,{\an8}【拉丁格言"天下皆为舞台 人人都是演员" 莎士比亚《皆大欢喜》亦用此意象】
 Dialogue: 0,1:37:48.66,1:37:56.33,Screen,,0,0,0,,{\pos(965,512)\an8\b1\fs12\1c&H4B525C\3c&&H2F2D66&\bord0.1\shad0\fscx95\fscy95\t(0,7666,\fscx100\fscy100)}天下皆为舞台
 Dialogue: 0,1:37:56.33,1:38:00.30,Screen,,0,0,0,,{\move(974,274,974,244,0,3959)\frx-50.0\an8\b1\fs50\1c&H4B525C\3c&&H2F2D66&\bord1\shad0\fscx95\fscy95\t(0,1,\fscx100\fscy100)}天下皆为舞台
 Dialogue: 0,1:38:23.59,1:38:26.78,Note,,0,0,0,,{\an8}【译注: 当时剧场分为站票 看台 包厢等级】
@@ -1442,40 +1442,36 @@ Dialogue: 0,1:53:52.34,1:53:54.38,Default,,0,0,0,,去把我的故事讲清\NTo t
 Dialogue: 0,1:54:12.34,1:54:15.38,Default,,0,0,0,,啊 我要死了\NAh, I die!
 Dialogue: 0,1:54:24.17,1:54:28.14,Default,,0,0,0,,这剧毒正夺去我的意志\NThe potent poison quite o'ercrows my spirit.
 Dialogue: 0,1:55:45.89,1:55:48.66,Default,,0,0,0,,余下的只有沉寂\NThe rest is silence.
-Dialogue: 0,1:59:01.82,1:59:05.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(894,645)}执导\h{\fs60\i0}赵婷
-Dialogue: 0,1:59:05.79,1:59:09.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,743)}编剧\N{\fs60\i0}赵婷 &\N玛吉·奥法雷尔
-Dialogue: 0,1:59:09.75,1:59:13.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,733)}改编自小说{\fs60\i0}《哈姆内特》\N{\fs40\i1}作者\h{\fs60\i0}玛吉·奥法雷尔
-Dialogue: 0,1:59:13.79,1:59:17.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,794)}制片人\N{\fs60\i0}丽莎·马歇尔\N皮帕·哈里斯\N尼古拉斯·贡达
-Dialogue: 0,1:59:17.80,1:59:21.26,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,733)}制片人\N{\fs60\i0}史蒂文·斯皮尔伯格\N萨姆·门德斯
-Dialogue: 0,1:59:21.80,1:59:25.26,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,803)}执行制片人\N{\fs60\i0}克里斯蒂·马科斯科·克里格\N赵婷\N劳里·博格
-Dialogue: 0,1:59:25.81,1:59:29.27,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,733)}联合制片人\N{\fs60\i0}玛吉·奥法雷尔\N卡罗琳·雷诺兹
-Dialogue: 0,1:59:29.81,1:59:33.27,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}摄影指导 {\fs60\i0}乌卡什·扎尔
-Dialogue: 0,1:59:33.81,1:59:37.27,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}艺术指导 {\fs60\i0}菲奥娜·克龙比
-Dialogue: 0,1:59:37.82,1:59:41.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,733)}剪辑\N{\fs60\i0}赵婷\N阿方索·贡萨尔维斯
-Dialogue: 0,1:59:41.82,1:59:45.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}服装设计 {\fs60\i0}马尔戈西亚·图尔赞斯卡
-Dialogue: 0,1:59:45.83,1:59:49.29,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,665)}声音设计\N{\fs60\i0}约翰尼·伯恩
-Dialogue: 0,1:59:49.87,1:59:53.33,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}作曲 {\fs60\i0}马克斯·里希特
-Dialogue: 0,1:59:53.87,1:59:57.34,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}选角指导 {\fs60\i0}妮娜·戈尔德
-Dialogue: 0,2:00:00.21,2:00:03.68,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,645)}杰西·巴克利 {\fs40\i1}饰 阿格尼丝
-Dialogue: 0,2:00:04.22,2:00:07.68,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,645)}保罗·麦斯卡 {\fs40\i1}饰 威尔
-Dialogue: 0,2:00:08.39,2:00:11.85,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,645)}艾米丽·沃森 {\fs40\i1}饰 玛丽
-Dialogue: 0,2:00:12.39,2:00:15.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,645)}乔·阿尔文 {\fs40\i1}饰 巴塞洛缪
-Dialogue: 0,2:00:16.40,2:00:19.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,685)}雅各比·朱佩 {\fs40\i1}饰 哈姆内特\N{\fs60\i0}奥利维亚·莱恩斯 {\fs40\i1}饰 朱迪思
-Dialogue: 0,2:00:20.40,2:00:23.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,685)}贾斯汀·米切尔 {\fs40\i1}饰 乔安\N{\fs60\i0}大卫·威尔莫特 {\fs40\i1}饰 约翰
-Dialogue: 0,2:00:24.41,2:00:27.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs60\i0\pos(960,745)}路易莎·哈兰德 {\fs40\i1}饰 罗文\N{\fs60\i0}弗蕾亚·汉南-米尔斯 {\fs40\i1}饰 伊莉莎\N{\fs60\i0}波德希·雷·布雷斯纳赫 {\fs40\i1}饰 苏珊娜
-Dialogue: 0,2:00:28.41,2:00:31.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}{\fs60\i0}诺亚·朱佩 {\fs40\i1}饰 哈姆雷特
-Dialogue: 0,2:00:33.16,2:00:36.63,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs40\i1\pos(960,645)}导演 {\fs60\i0}赵婷
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an8\move(1505,1058,1505,-594)\fs30\fnSource Han Serif SC}字 幕 译 制\N{\b0}蒙太奇字幕组
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an9\move(1480,1150,1480,-502)\fs30\fnSource Han Serif SC}翻译/校对/时间轴\N后期/翻译/时间轴\N校对\N校对/技术支持\N校对
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an7\move(1530,1150,1530,-502)\fs30\fnSource Han Serif SC\b0}XX\NXX\NXX\NXX\NXX
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an8\move(1505,1362,1505,-290)\fs30\fnSource Han Serif SC}社 群
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an9\move(1480,1412,1480,-240)\fs30\fnSource Han Serif SC\b0}Telegram/IRC
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an7\move(1530,1412,1530,-240)\fs30\fnSource Han Serif SC\b0}MontageSubs
-Dialogue: 0,2:00:39.30,2:01:02.73,Credit,,0,0,0,,{\an8\move(1505,1480,1505,-172)\fs30\fnSource Han Serif SC}字 幕 许 可\N{\b0}CC BY-NC-SA 4.0
-Comment: 0,2:00:39.30,2:01:00.73,Credit,,0,0,0,,{\an7\move(1320,1058,1320,-453)\fs30\b0}\h\h\h\h\h\h\h\h\h字 幕 译 制\N\N{\b0\fsp1}\h\h\h\h\h\h蒙太奇字幕组\N{\b0\fs17}翻译/校对/时间轴{\fs30}\h\hXX\N{\fs17}后期/翻译/时间轴{\fs30}\h\hXX\N{\fs17}\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h校对{\fs30}\h\hXX\N{\fs17}\h\h\h\h校对/技术支持{\fs30}\h\hXX\N{\fs17}\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h校对{\fs30}\h\hXX\N\N{\fs30}\h\h\h\h\h\h\h\h\h\h\h\h社 群\N\N{\b0\fs17}\h\h\h\hTelegram/IRC{\fs30}\h\hMontageSubs\N\N{\fs30}\h\h\h\h\h\h\h\h字 幕 许 可\N\N{\b0\fs30}\h\h\hCC BY‑NC‑SA 4.0
-Dialogue: 0,2:00:55.81,2:01:36.66,Credit,,0,0,0,,{\an8\move(1505,1058,1505,-1822)\fs30\fnSource Han Serif SC}演员表
-Dialogue: 0,2:00:55.81,2:01:36.66,Credit,,0,0,0,,{\an9\move(1495,1120,1495,-1760)\fs25\b0\fnSource Han Serif SC}杰西·巴克利 饰\N保罗·麦斯卡 饰\N扎克·维沙特 饰\N詹姆斯·林特恩 饰\N乔·阿尔文 饰\N贾斯汀·米切尔 饰\N伊娃·维沙特 饰\N艾菲·林嫩 饰\N艾米丽·沃森 饰\N大卫·威尔莫特 饰\N弗蕾亚·汉南-米尔斯 饰\N丹顿·安德森 饰\N詹姆斯·斯金纳 饰\N路易莎·哈兰德 饰\N艾略特·巴克斯特 饰\N费斯·德莱尼 饰\N斯迈利·布拉德威尔 饰\N劳拉·格斯特 饰\N约翰·麦凯 饰\N雅各比·朱佩 饰\N奥利维亚·莱恩斯 饰\N波德希·雷·布雷斯纳赫 饰\N阿尔伯特·麦考密克 饰\N伊利亚·阿恩斯特杰纳 饰\N爱德华·安德森 饰\N诺亚·朱佩 饰\N艾尔·西蒙斯 饰\N山姆·伍夫 饰\N赫拉·吉布森 饰\N杰克·沙鲁 饰\N拉斐尔·古尔德 饰\N肖恩·梅森 饰\N马修·坦尼森 饰\N克莱·米尔纳·拉塞尔 饰\N哈维尔·马尔赞 饰
-Dialogue: 0,2:00:55.81,2:01:36.66,Credit,,0,0,0,,{\an7\move(1515,1120,1515,-1760)\fs25\b0\fnSource Han Serif SC\i1}阿格尼丝\N威尔\N乔安的长子\N乔安的次子\N巴塞洛缪\N乔安\N乔安的长女\N乔安的次女\N玛丽\N约翰\N伊莉莎\N埃德蒙\N吉尔伯特\N罗文\N理查德\N少女阿格尼丝\N少年巴塞洛缪\N接生婆\N牧师\N哈姆内特\N朱迪思\N苏珊娜\N窗边的男孩\N鼓手\N笛手\N哈姆雷特\N奥菲莉亚\N贝尔纳多\N弗朗西斯科\N马塞勒斯\N霍拉旭\N克劳狄斯\N乔特鲁德\N雷欧提斯\N弄臣
+Dialogue: 0,1:59:01.82,1:59:05.28,Credit,,0,0,0,,{\an5\fad(440,300)\fnSource Han Serif SC\fs50\i1\pos(960,615)}导演{\fs75\i0\b1}\h\h赵婷
+Dialogue: 0,1:59:05.79,1:59:09.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,743)}编剧\N{\fs75\i0\b1}赵婷\N玛吉·奥法雷尔
+Dialogue: 0,1:59:09.75,1:59:13.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,743)}改编自\N{\fs75\i0\b1}玛吉·奥法雷尔\h{\fs50\i1\b0}同名小说\N{\fs75\i0\b1}《哈姆内特》
+Dialogue: 0,1:59:13.79,1:59:17.25,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,805)}制片人\N{\fs75\i0\b1}丽莎·马歇尔\N皮帕·哈里斯\N尼古拉斯·贡达
+Dialogue: 0,1:59:17.80,1:59:21.26,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,740)}制片人\N{\fs75\i0\b1}史蒂文·斯皮尔伯格\N萨姆·门德斯
+Dialogue: 0,1:59:21.80,1:59:25.26,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,803)}执行制片人\N{\fs75\i0\b1}克里斯蒂·马科斯科·克里格\N赵婷\N劳里·博格
+Dialogue: 0,1:59:25.81,1:59:29.27,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,733)}联合制片人\N{\fs75\i0\b1}玛吉·奥法雷尔\N卡罗琳·雷诺兹
+Dialogue: 0,1:59:29.81,1:59:33.27,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,615)}摄影指导\h\h{\fs75\i0\b1}乌卡什·扎尔
+Dialogue: 0,1:59:33.82,1:59:37.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,615)}艺术指导\h\h{\fs75\i0\b1}菲奥娜·克龙比
+Dialogue: 0,1:59:37.82,1:59:41.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,735)}剪辑\N{\fs75\i0\b1}赵婷\N阿方索·贡萨尔维斯
+Dialogue: 0,1:59:41.82,1:59:45.28,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,615)}服装设计\h\h{\fs75\i0\b1}马尔戈西亚·图尔赞斯卡
+Dialogue: 0,1:59:45.83,1:59:49.29,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,660)}音效\N{\fs75\i0\b1}约翰尼·伯恩
+Dialogue: 0,1:59:49.87,1:59:53.33,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,615)}配乐\h\h{\fs75\i0\b1}马克斯·李希特
+Dialogue: 0,1:59:53.87,1:59:57.34,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,615)}选角指导\h\h{\fs75\i0\b1}妮娜·戈尔德
+Dialogue: 0,2:00:00.22,2:00:03.69,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}杰西·巴克利\N{\fs50\i1}饰\h\h莎士比亚妻子安妮丝
+Dialogue: 0,2:00:04.23,2:00:07.69,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}保罗·麦斯卡\N{\fs50\i1}饰\h\h安妮丝丈夫威廉·莎士比亚
+Dialogue: 0,2:00:08.39,2:00:11.85,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}艾米丽·沃森\N{\fs50\i1}饰\h\h莎士比亚母亲玛丽
+Dialogue: 0,2:00:12.39,2:00:15.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}乔·阿尔文\N{\fs50\i1}饰\h\h安妮丝哥哥巴塞洛缪
+Dialogue: 0,2:00:16.40,2:00:19.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,585)}主演\N\N\N\N\N\N\N\N{\fs80\i0\b1}雅各比·朱佩\h\h{\fs50\i1}饰\h\h儿子哈姆奈特\N{\fs80\i0\b1}奥利维娅·莱恩斯\h\h{\fs50\i1}饰\h\h小女儿珠迪丝
+Dialogue: 0,2:00:20.40,2:00:23.86,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,585)}主演\N\N\N\N\N\N\N\N{\fs80\i0\b1}贾斯汀·米切尔\h\h{\fs50\i1}饰\h\h安妮丝继母琼\N{\fs80\i0\b1}大卫·威尔莫特\h\h{\fs50\i1}饰\h\h威廉父亲约翰
+Dialogue: 0,2:00:24.41,2:00:27.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,625)}主演\N\N\N\N\N\N\N\N\N\N{\fs80\i0\b1}路易莎·哈兰德\h\h{\fs50\i1}饰\h\h安妮丝生母罗文\N{\fs80\i0\b1}弗蕾亚·汉南-米尔斯\h\h{\fs50\i1}饰\h\h莎士比亚妹妹伊莱莎\N{\fs80\i0\b1}波德希·雷·布雷斯纳赫\h\h{\fs50\i1}饰\h\h大女儿苏珊娜
+Dialogue: 0,2:00:28.41,2:00:31.87,Credit,,0,0,0,,{\an5\fad(440,320)\fnSource Han Serif SC\fs50\i1\pos(960,570)}主演\N\N\N\N\N{\fs80\i0\b1}诺亚·尤佩\N{\fs50\i1}饰《哈姆雷特的悲剧》戏中哈姆雷特王子
+Dialogue: 0,2:00:33.16,2:00:36.63,Credit,,0,0,0,,{\an5\fad(440,300)\fnSource Han Serif SC\fs75\b1\i0\pos(960,615)}赵婷{\fs50\i1\b0}\h\h导演作品
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1028,960,-624)\fs40\b1\fnSource Han Serif SC}字幕译制{\fs35}\N\N蒙太奇字幕组
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an9\move(950,1130,950,-522)\fs35\b1\fnSource Han Serif SC\i1}翻译/校对/时间轴/后期\N后期
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an7\move(970,1130,970,-522)\fs35\b1\fnSource Han Serif SC}小p\NNickCollect
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1230,960,-422)\fs35\b1\fnSource Han Serif SC}特别感谢\N\N朱生豪, 卞之琳, 梁实秋\N傅光明, 党晟, 孙大雨\h\h{\i1}等翻译家{\i0}\N{\i1}莎士比亚学家{\i0}\h\h\hStephen Greenblatt\N{\i1}语言学家{\i0}\h\h\hJoseph S. Hopkins\N多个在线研究项目\N{\i1}以及{\i0}\N《哈姆奈特》电影和小说的所有参与者
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1562,960,-90)\fs35\b1\fnSource Han Serif SC}本故事是对莎士比亚文学遗产的多层致敬。 \N草药意象直接呼应《哈姆雷特》中欧菲莉亚的悲剧台词；\N男孩女孩的换装设定则致敬了《威尼斯商人》《皆大欢喜》和《第十二夜》中的经典桥段；\N而安妮丝列出的多个自然幻象（空间、洞穴、悬崖、隧道、大海、虚空与未知国度）\N更是莎翁多部作品中反复出现的主题，通过自然与精神意象的交织探索人性的本质。\N\N本作的翻译与注释专注于剧情走向，未能深入莎翁文学宇宙的更广泛关联。\N这是为了在维护影片情感结构的前提下，尊重导演的故事铺垫与叙事手法。敬请见谅。
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1850,960,198)\fs35\b1\fnSource Han Serif SC}在社交媒体上关注 @MontageSubs @蒙太奇字幕组
+Dialogue: 0,2:00:42.10,2:01:05.53,Credit,,0,0,0,,{\an8\move(960,1910,960,258)\fs35\b1\fnSource Han Serif SC}字幕许可 CC BY-NC-SA 4.0
 Dialogue: 0,2:01:24.74,2:01:31.44,Default,,0,0,0,,♪我的知更鸟将飞向绿林♪\N♪ My Robin to the greenwood will go ♪
 Dialogue: 0,2:01:31.57,2:01:34.75,Default,,0,0,0,,♪橡树和白蜡树所在的地方♪\N♪ Where the oak and the ash ♪
 Dialogue: 0,2:01:34.88,2:01:38.21,Default,,0,0,0,,♪ 荆棘丛生 ♪\N♪ And the briars do grow ♪
